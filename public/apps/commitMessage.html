@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Commit Message</title>
+</head>
+<body>
+	<h1>CAS Commit Message Formatter</h1>
+	<form>
+		<label for="defect-number">Defect Number:</label>
+		<input type="number" id="defect-number" name="defect-number"><br><br>
+
+		<label for="defect">Defect:</label>
+		<input type="text" id="defect" name="defect" size="35"><br><br>
+
+		<label for="message1">Message 1:</label>
+		<input type="text" id="message1" name="message1" size="50"><br><br>
+
+		<label for="message2">Message 2:</label>
+		<input type="text" id="message2" name="message2" size="50"><br><br>
+
+		<label for="message3">Message 3:</label>
+		<input type="text" id="message3" name="message3" size="50"><br><br>
+
+		<label for="message4">Message 4:</label>
+		<input type="text" id="message4" name="message4" size="50"><br><br>
+
+		<label for="message5">Message 5:</label>
+		<input type="text" id="message5" name="message5" size="50"><br><br>
+
+		<label for="message6">Message 6:</label>
+		<input type="text" id="message6" name="message6" size="50"><br><br>
+
+		<label for="message7">Message 7:</label>
+		<input type="text" id="message7" name="message7" size="50"><br><br>
+
+		<label for="message8">Message 8:</label>
+		<input type="text" id="message8" name="message8" size="50"><br><br>
+
+		<label for="reviewed-by">Reviewed by:</label>
+		<input type="text" id="reviewed-by" name="reviewed-by"><br><br>
+
+		<label for="modules">Modules:</label>
+		<input type="text" id="modules" name="modules"><br><br>
+
+		<input type="button" value="Submit" onclick="clicked()">
+		<button onclick="copyToClipboard()">Copy to Clipboard</button>
+	</form>
+
+	<br>
+
+	<textarea id="commit-message" rows="20" cols="100"></textarea>
+
+	<script>
+		function clicked() {
+			var dNum = document.getElementById("defect-number").value;
+			var dName = document.getElementById("defect").value;
+			var msg1 = document.getElementById("message1").value;
+			var msg2 = document.getElementById("message2").value;
+			var msg3 = document.getElementById("message3").value;
+			var msg4 = document.getElementById("message4").value;
+			var msg5 = document.getElementById("message5").value;
+			var msg6 = document.getElementById("message6").value;
+			var msg7 = document.getElementById("message7").value;
+			var msg8 = document.getElementById("message8").value;
+			var reviewed = document.getElementById("reviewed-by").value;
+			var modules = document.getElementById("modules").value;
+
+			var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+			var tmp = 'DE ' + dNum + ': ' + dName + '\n';
+			tmp += alphabet[parseInt(dNum.toString()[0]) + 3] + dNum.toString().slice(1) + ': \n o ' + msg1 + '\n';
+			if (msg2.length > 0) tmp += ' o ' + msg2 + '\n';
+			if (msg3.length > 0) tmp += ' o ' + msg3 + '\n';
+			if (msg4.length > 0) tmp += ' o ' + msg4 + '\n';
+			if (msg5.length > 0) tmp += ' o ' + msg5 + '\n';
+			if (msg6.length > 0) tmp += ' o ' + msg6 + '\n';
+			if (msg7.length > 0) tmp += ' o ' + msg7 + '\n';
+			if (msg8.length > 0) tmp += ' o ' + msg8 + '\n';
+			tmp += '\n Reviewed by ' + reviewed + '\n\n';
+			tmp += 'Modules: ' + modules + '\n';
+			var commitMessage = document.getElementById("commit-message");
+			commitMessage.value = tmp;
+	}
+	function copyToClipboard() {
+		var commitMessage = document.getElementById("commit-message");
+		commitMessage.select();
+		document.execCommand("copy");
+	}
+</script>
+</body>
+</html>

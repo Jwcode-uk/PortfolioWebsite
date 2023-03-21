@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import About from './About';
 import Home from './Home';
 import Projects from './Projects.js';

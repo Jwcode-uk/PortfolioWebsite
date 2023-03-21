@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useRef } from 'react'
+import React from 'react'
 import SearchableCardList from './CardList';
 function Projects() {
     return (

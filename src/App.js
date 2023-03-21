@@ -9,17 +9,16 @@ import Card from './components/Card';
 
 function App() {
   const [showAbout, setShowAbout] = useState(0);
-  const homeOnClickRef = useRef(null);
 
   return (
     <div style={{ overflow: 'auto' }}>
       <div class="navbar"  >
         <div class="navbar-item">
-          <a href="#" onClick={() => setShowAbout(0)}>Home</a>
-          <a href="#" onClick={() => setShowAbout(1)}>About</a>
-          <a href="#" onClick={() => setShowAbout(2)}>Projects</a>
-          <a href="#" onClick={() => setShowAbout(3)}>Blogs</a>
-          <a href="#" onClick={() => setShowAbout(4)}>Apps</a>
+          <a  onClick={() => setShowAbout(0)}>Home</a>
+          <a  onClick={() => setShowAbout(1)}>About</a>
+          <a  onClick={() => setShowAbout(2)}>Projects</a>
+          <a  onClick={() => setShowAbout(3)}>Blogs</a>
+          <a  onClick={() => setShowAbout(4)}>Apps</a>
 
         </div>
       </div>

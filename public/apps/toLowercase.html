@@ -1,0 +1,73 @@
+<div>
+  <textarea id="textInput" style="width: 100%; height: 150px;"></textarea>
+  <br>
+  <button id="lowerCaseBtn">Lowercase</button>
+  <button id="upperCaseBtn">Uppercase</button>
+  <button id="sentenceCaseBtn">Sentence case</button>
+  <button id="capitalizedCaseBtn">Capitalized case</button>
+  <button id="removeExtraSpacesBtn">Remove extra spaces</button>
+  <input type="button" value="Clear" onclick="javascript:eraseText();"> 
+  <br>
+  <br>
+  <b>Character count:</b> <span id="characterCount">0</span>
+  <br>
+  <b>Word count:</b> <span id="wordCount">0</span>
+  <br>
+  <b>Line count:</b> <span id="lineCount">0</span>
+</div>
+<script>
+  const textInput = document.getElementById("textInput");
+  const lowerCaseBtn = document.getElementById("lowerCaseBtn");
+  const upperCaseBtn = document.getElementById("upperCaseBtn");
+  const sentenceCaseBtn = document.getElementById("sentenceCaseBtn");
+  const capitalizedCaseBtn = document.getElementById("capitalizedCaseBtn");
+  const removeExtraSpacesBtn = document.getElementById("removeExtraSpacesBtn");
+const characterCountSpan = document.getElementById("characterCount");
+const wordCountSpan = document.getElementById("wordCount");
+const lineCountSpan = document.getElementById("lineCount");
+
+  textInput.addEventListener("input", () => {
+    updateCounts();
+  });
+  lowerCaseBtn.addEventListener("click", () => {
+    textInput.value = textInput.value.toLowerCase();
+  });
+
+  upperCaseBtn.addEventListener("click", () => {
+    textInput.value = textInput.value.toUpperCase();
+  });
+
+  sentenceCaseBtn.addEventListener("click", () => {
+    let sentence = textInput.value.toLowerCase().split(".");
+    for (let i = 0; i < sentence.length; i++) {
+      sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
+    }
+    textInput.value = sentence.join(".");
+  });
+
+  capitalizedCaseBtn.addEventListener("click", () => {
+    let words = textInput.value.toLowerCase().split(" ");
+    for (let i = 0; i < words.length; i++) {
+      words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+    }
+    textInput.value = words.join(" ");
+  });
+
+	removeExtraSpacesBtn.addEventListener("click", () => {
+	textInput.value = textInput.value.replace(/\s+/g, " ").trim().replace(/\r\n|\r|\n/g, "");
+	updateCounts();
+	});
+  
+  function updateCounts() {
+	characterCountSpan.innerHTML = textInput.value.length;
+	wordCountSpan.innerHTML = textInput.value.trim().split(/\s+/).length;
+	lineCountSpan.innerHTML = textInput.value.split(/\r\n|\r|\n/).length;
+	}
+	
+	function eraseText() {
+    document.getElementById("textInput").value = "";
+	updateCounts();
+	}
+</script>
+
+</div>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Conversion Tool</title>
+  <script>
+    function convertText() {
+      const inputText = document.getElementById('inputText').value;
+      const inputType = document.getElementById('inputType').value;
+      const outputType = document.getElementById('outputType').value;
+      let result = '';
+
+      function textToBinary(text) {
+        return text.split('').map(char => char.charCodeAt(0).toString(2).padStart(8, '0')).join(' ');
+      }
+
+      function binaryToText(binary) {
+        return binary.split(' ').map(num => String.fromCharCode(parseInt(num, 2))).join('');
+      }
+
+      function textToHex(text) {
+        return text.split('').map(char => char.charCodeAt(0).toString(16).padStart(2, '0')).join(' ');
+      }
+
+      function hexToText(hex) {
+        return hex.split(' ').map(num => String.fromCharCode(parseInt(num, 16))).join('');
+      }
+
+      function decimalToBinary(decimal) {
+        return parseInt(decimal).toString(2);
+      }
+
+      function binaryToDecimal(binary) {
+        return parseInt(binary, 2).toString(10);
+      }
+
+      function decimalToHex(decimal) {
+        return parseInt(decimal).toString(16);
+      }
+
+      function hexToDecimal(hex) {
+        return parseInt(hex, 16).toString(10);
+      }
+
+      if (inputType === 'text' && outputType === 'binary') {
+        result = textToBinary(inputText);
+      } else if (inputType === 'text' && outputType === 'hex') {
+        result = textToHex(inputText);
+      } else if (inputType === 'binary' && outputType === 'text') {
+        result = binaryToText(inputText);
+      } else if (inputType === 'binary' && outputType === 'decimal') {
+        result = binaryToDecimal(inputText);
+      } else if (inputType === 'binary' && outputType === 'hex') {
+        result = decimalToHex(binaryToDecimal(inputText));
+      } else if (inputType === 'decimal' && outputType === 'binary') {
+        result = decimalToBinary(inputText);
+      } else if (inputType === 'decimal' && outputType === 'text') {
+        result = String.fromCharCode(parseInt(inputText, 10));
+      } else if (inputType === 'decimal' && outputType === 'hex') {
+        result = decimalToHex(inputText);
+      } else if (inputType === 'hex' && outputType === 'text') {
+        result = hexToText(inputText);
+      } else if (inputType === 'hex' && outputType === 'binary') {
+        result = decimalToBinary(hexToDecimal(inputText));
+      } else if (inputType === 'hex' && outputType === 'decimal') {
+        result = hexToDecimal(inputText);
+      }
+
+      document.getElementById('result').innerText = result;
+    }
+  </script>
+</head>
+<body>
+  <h1>Text Conversion Tool</h1>
+  <p>Enter the text to convert:</p>
+  <input type="text" id="inputText">
+  <p>Select input type:</p>
+  <select id="inputType">
+    <option value="text">Text</option>
+    <option value="binary">Binary</option>
+    <option value="decimal">Decimal</option>
+    <option value="hex">Hexadecimal</option>
+  </select>
+  <p>Select output type:</p>
+  <select id="outputType">
+    <option value="text">Text</option>
+    <option value="binary">Binary</option>
+    <option value="decimal">Decimal</option>
+    <option value="hex">Hexadecimal</option>
+  </select>
+  <br><br>
+  <button onclick="convertText()">Convert</button>
+  <br><br>
+  <p>Result:</p>
+  <pre id="result"></pre>
+</body>
+</html>

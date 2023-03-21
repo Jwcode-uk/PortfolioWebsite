@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Fuel Cost Calculator</title>
+    <script>
+        function calculateFuelCost() {
+            const distance = parseFloat(document.getElementById('distance').value); // in km
+            const fuelPrice = parseFloat(document.getElementById('fuelPrice').value); // per liter
+            const fuelConsumption = parseFloat(document.getElementById('fuelConsumption').value); // in mpg
+            const numberOfPeople = parseInt(document.getElementById('numberOfPeople').value);
+            
+            if (isNaN(distance) || isNaN(fuelPrice) || isNaN(fuelConsumption) || isNaN(numberOfPeople)) {
+                alert("Please enter valid numeric values.");
+                return;
+            }
+
+            const kmPerLiter = 0.425143707; // 1 mile per gallon (mpg) to kilometers per liter (km/l)
+            const distanceInMiles = distance * 0.621371; // convert kilometers to miles
+            const fuelConsumptionKmPerLiter = fuelConsumption * kmPerLiter; // convert mpg to km/l
+
+            const totalFuelCost = (distance / fuelConsumptionKmPerLiter) * fuelPrice;
+            const costPerPerson = totalFuelCost / numberOfPeople;
+
+            document.getElementById('totalFuelCost').innerText = totalFuelCost.toFixed(2);
+            document.getElementById('costPerPerson').innerText = costPerPerson.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Car Fuel Cost Calculator</h1>
+    <p>Distance (km): <input type="text" id="distance"></p>
+    <p>Fuel Price (per liter): <input type="text" id="fuelPrice"></p>
+    <p>Fuel Consumption (mpg): <input type="text" id="fuelConsumption"></p>
+    <p>Number of People: <input type="text" id="numberOfPeople"></p>
+    <button onclick="calculateFuelCost()">Calculate</button>
+    <br><br>
+    <h2>Results</h2>
+    <p>Total Fuel Cost: £<span id="totalFuelCost">0.00</span></p>
+    <p>Cost Per Person: £<span id="costPerPerson">0.00</span></p>
+</body>
+</html>

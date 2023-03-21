@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Validator</title>
+    <style>
+      #json-input {
+        width: 750px;
+        padding: 10px;
+        font-family: monospace;
+        font-size: 14px;
+        border: 1px solid gray;
+        resize: none;
+        overflow: hidden;
+        word-wrap: break-word;
+        outline: none;
+        border-radius: 5px;
+        margin: 0;
+        line-height: 18px;
+      }
+
+      .highlight-error {
+        background-color: yellow;
+      }
+
+      .line-numbers {
+        float: left;
+        width: 50px;
+        height: 100%;
+        text-align: right;
+        padding-right: 10px;
+        border-right: 1px solid gray;
+        background-color: #eee;
+        word-wrap: break-word;
+        white-space: pre;
+        overflow: hidden;
+        outline: none;
+        border-radius: 5px 0 0 5px;
+        margin: 2px;
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 10px;
+      }
+
+      .line-numbers div {
+        height: 18px;
+      }
+
+    </style>
+    <script>
+      function jsonValidator(jsonString) {
+        let html = '';
+        try {
+          JSON.parse(jsonString);
+          html = `<div style="color: green">Valid JSON</div><pre>${jsonString}</pre>`;
+        } catch (error) {
+          let errorLine = error.message.match(/at line (\d+) column (\d+)/);
+          if (errorLine) {
+            errorLine = errorLine[1];
+          } else {
+            errorLine = 'unknown';
+          }
+          html = `<div style="color: red">Invalid JSON</div><div>Error: ${error.message} (line ${errorLine})</div>`;
+        }
+        return html;
+      }
+
+      function updateLineNumbers() {
+        const lineNumbers = document.getElementById("line-numbers");
+        lineNumbers.innerHTML = '';
+        const lines = document.getElementById("json-input").value.split("\n");
+        for (let i = 0; i < lines.length; i++) {
+          lineNumbers.innerHTML += `<div id="line-${i + 1}" class="line-number">${i + 1}</div>`;
+        }
+        document.getElementById("json-input").style.height = "1px";
+        document.getElementById("json-input").style.height = `${25 + document.getElementById("json-input").scrollHeight}px`;
+      }
+
+      function validate() {
+        const jsonString = document.getElementById("json-input").value;
+        const result = jsonValidator(jsonString);
+        document.getElementById("result").innerHTML = result;
+
+        let errorLine = result.match(/\(line (\d+)\)/);
+        if (errorLine) {
+          errorLine = errorLine[1];
+          document.getElementById(`line-${errorLine}`).classList.add("highlight-error");
+        }
+      }
+    </script>
+  </head>
+  <body onload="updateLineNumbers()">
+    <h2>JSON Validator</h2>
+    <div style="display: flex;">
+      <div class="line-numbers" id="line-numbers"></div>
+      <textarea id="json-input" oninput="updateLineNumbers()"></textarea>
+    </div>
+    <br />
+    <button onclick="validate()">Validate</button>
+    <br />
+    <br />
+    <div id="result"></div>
+  </body>
+</html>

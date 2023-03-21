@@ -1,0 +1,93 @@
+.terminal {
+    width: 30rem;
+    height: 500px;
+    background-color: black;
+    color: white;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    padding: 0px;
+    border-radius: 10px;
+    overflow: auto;
+  }
+  
+  .terminal-output {
+    white-space: pre-wrap;
+    padding-left: 10px;
+
+  }
+  
+  .input-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0px;
+  }
+  
+
+
+
+
+  .dollar-sign {
+    margin-right: 10px;
+  }
+  
+  .blinking {
+    animation: blinking 1s linear infinite;
+  }
+  input:focus {
+    border: 1px solid lightgrey;
+    outline: none;
+  }
+  input{
+    padding: 0;
+    margin: 0;
+  }
+  @keyframes blinking {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }  
+
+  .header-bar {
+    height: 1.3rem;
+    background-color: rgba(245, 245, 245, 0.785);
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    padding-top: 5px;    left: 0;
+    text-align: center;
+    }
+    
+    .status-indicator {
+      width: 1rem;
+      height: 1rem;
+      float: right;
+      align-self: center;
+      border-radius: 50%;
+      top: 0.25rem;
+      left: 1rem;
+      margin-right: 0.5rem;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .green {
+    background-color: green;
+    }
+    
+    .yellow {
+    background-color: yellow;
+    }
+    
+    .red {
+    background-color: red;
+    }

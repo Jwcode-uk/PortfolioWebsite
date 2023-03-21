@@ -13,14 +13,14 @@ function App() {
 
   return (
     <div style={{ overflow: 'auto' }}>
-      <div class="navbar"  >
-        <div class="navbar-item">
-          <a  onClick={() => setShowAbout(0)}>Home</a>
-          <a  onClick={() => setShowAbout(1)}>About</a>
-          <a  onClick={() => setShowAbout(2)}>Projects</a>
-          <a  onClick={() => setShowAbout(3)}>Blogs</a>
-          <a  onClick={() => setShowAbout(4)}>Apps</a>
-
+      <div className="navbar"  >
+        <div className="navbar-item">
+          <a href="#" onClick={() => setShowAbout(0)}>Home</a>
+          <a href="#" onClick={() => setShowAbout(1)}>About</a>
+          <a href="#" onClick={() => setShowAbout(2)}>Projects</a>
+          <a href="#" onClick={() => setShowAbout(3)}>Blogs</a>
+          <a href="#" onClick={() => setShowAbout(4)}>Apps</a>
+          <a href="Jonathan_White_CV.PDF" target="_blank">CV</a>        
         </div>
       </div>
       <div className="component-container">

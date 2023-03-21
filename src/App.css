@@ -128,16 +128,16 @@ input[type="text"] {
 }
 
 .geometric-background {
-  background:  linear-gradient(to left top,  #12c2e9
+  background:  linear-gradient(to left top,  #5433FF
 ,
-  #c471ed
+#20BDFF
 ,
-  #f64f59 );
+#4dde8c );
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background-size: 800% 800%;
-  animation: animateGradient 120s ease infinite;
+  background-size: 100% 100%;
+  animation: animateGradient 50s ease infinite;
 }
 
 @keyframes animateGradient {

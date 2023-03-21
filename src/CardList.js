@@ -21,6 +21,11 @@ const cards = [
     id: 4,
     title: "Hex Converter",
     url: "apps/typeConv.html"
+  },
+  {
+    id:5,
+    title: "Commit Message Formatter",
+    url: "apps/commitMessage.html"
   }
 ];
 

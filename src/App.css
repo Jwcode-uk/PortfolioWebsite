@@ -184,7 +184,21 @@ input[type="text"] {
   background: inherit;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
+.back-btn {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  outline: none;
+}
 
+.back-btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
 h1 {
   background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
   background-size: 400% 400%;

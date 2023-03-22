@@ -1,5 +1,6 @@
 import '../App.css';
 import React, { useRef } from 'react'
+import { Link } from 'react-router-dom';
 
 function BlogChatgpt() {
 
@@ -13,6 +14,13 @@ function BlogChatgpt() {
 
     return (
         <div ref={homeOnClickRef}>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+            <Link to="/blogs" >
+            <button class="back-btn">
+            <i class="fa fa-arrow-left"></i>
+            </button></Link>
+
+            
             <div style={{ backgroundColor: '#f6f6f6', width: "50%", margin: "10% auto", borderRadius: "8px", boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.18)" }} >
 
 

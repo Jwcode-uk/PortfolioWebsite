@@ -1,8 +1,10 @@
 import './App.css';
 import Card from './components/Card';
+import Nav from './components/Nav.js';
 
 function Projects() {
-    return (
+    return (    <>
+      <Nav />
             <div class="card-container">
   <div class="card-box" >
     <a href='https://github.com/Jwcode-uk/Visual-Studio-Cobol-Tagger-Extension' style={{ textDecoration: 'none' }}>
@@ -20,7 +22,7 @@ function Projects() {
   <Card image={"./img/web.jpg"} title="Portfolio Site" text="The code for this website. (it's my first big react project don't judge to hard)">
     </Card></a>
   </div>
-</div>
+</div></>
     );
 }
 

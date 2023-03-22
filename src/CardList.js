@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./SearchableCardList.css";
+import Nav from './components/Nav.js';
 
 const cards = [
   {
@@ -95,6 +96,8 @@ const SearchableCardList = () => {
   };
 
   return (
+    <>
+    <Nav />
     <div className="card-list">
       <input
         type="text"
@@ -113,7 +116,7 @@ const SearchableCardList = () => {
           isSelected={index === selectedIndex}
         />
       ))}
-    </div>
+    </div></>
   );
 };
 

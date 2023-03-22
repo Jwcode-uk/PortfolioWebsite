@@ -1,6 +1,8 @@
 import './App.css';
 import Terminal from './components/Terminal.js';
 import React, { useState, useEffect } from 'react';
+import Nav from './components/Nav.js';
+
 function Home({setShowAbout}) {
 
   const [isHidden, setIsHidden] = useState(false);
@@ -23,7 +25,9 @@ function Home({setShowAbout}) {
     };
   }, []);
 
-  return (
+  return (    
+  <>
+    <Nav />
         <div class="container" style={{ overflow:'auto'}}>
           <div class="container" >
             <p>
@@ -35,6 +39,7 @@ function Home({setShowAbout}) {
             {!isHidden &&<Terminal setShowAbout={setShowAbout} ></Terminal>}
           </div>
         </div>
+        </>
   );
 }
 

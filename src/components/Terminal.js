@@ -5,15 +5,27 @@ const Terminal = ({setShowAbout})  => {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState([]);
   const terminalRef = useRef(null);
-
   const [currentDirectory, setCurrentDirectory] = useState("C:/>");
+  const [isVisible, setIsVisible] = useState(true);
+  const [isMinimize, setIsMinimize] = useState(false);
 
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
   const [suggestionIndex, setSuggestionIndex] = useState(-1);
   const [orginal, setOrginal] = useState(-1);
 
+  const handleRedClick = () => {
+    setIsVisible(!isVisible);
+  };
+  const minimizedStyle = {
+    backgroundColor: 'transparent',
+  };
+  const handleYellowClick = () => {
+    setIsMinimize(!isMinimize);
+  };
 
-
+  const handleGreenClick = () => {
+    setIsMinimize(false);
+  };
   
 
 
@@ -172,42 +184,58 @@ const Terminal = ({setShowAbout})  => {
   };
 
   return (
-    <div className="terminal">
-      <div className="header-bar">
-      <div className="status-indicator green" ></div>
-      <div className="status-indicator yellow" ></div>
-      <div className="status-indicator red" ></div> </div>
-      <div className="terminal-output" >
-        
-        {output.map((out, index) => (
-          <div key={index} style={{ textAlign: "left" }}>
-            {out}
-          </div>
-        ))}
-      </div>
-      <div className="input-line">
-        <div style={{textAlign: "left", padding: 0, width: `${10 + ((currentDirectory.length-1) * 8)}px`, marginRight: "5px" }}>
-          {currentDirectory} 
+    isVisible && (
+      <div className="terminal"  style={isMinimize ? minimizedStyle : {}}>
+        <div className="header-bar">
+          <div className="status-indicator green" onClick={handleGreenClick}></div>
+          <div className="status-indicator yellow" onClick={handleYellowClick}></div>
+          <div className="status-indicator red" onClick={handleRedClick}></div>
         </div>
-        <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={handleKeyDown}
-          style={{
-            border: "none",
-            backgroundColor: "#000",
-            color: "#FFF",
-            width: `calc(100% - ${30 + (currentDirectory.length * 9)}px)`, padding: "0"
-          }}
-          autoFocus
-        />
+  
+        {!isMinimize && (
+          <>
+            <div className="terminal-output">
+              {output.map((out, index) => (
+                <div key={index} style={{ textAlign: 'left' }}>
+                  {out}
+                </div>
+              ))}
+            </div>
+            <div className="input-line">
+              <div
+                style={{
+                  textAlign: 'left',
+                  padding: 0,
+                  width: `${10 + (currentDirectory.length - 1) * 8}px`,
+                  marginRight: '5px',
+                }}
+              >
+                {currentDirectory}
+              </div>
+              <input
+                type="text"
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={handleKeyDown}
+                style={{
+                  border: 'none',
+                  backgroundColor: '#000',
+                  color: '#FFF',
+                  width: `calc(100% - ${30 + currentDirectory.length * 9}px)`,
+                  padding: '0',
+                }}
+                autoFocus
+              />
+            </div>
+  
+            <div
+              style={{ height: '50px', float: 'left', clear: 'both' }}
+              ref={terminalRef}
+            ></div>
+          </>
+        )}
       </div>
-        
-      <div style={{ height: "50px",float:"left", clear: "both" }}
-             ref={terminalRef}>
-        </div>
-    </div>
+    )
   );
 };
 

@@ -49,20 +49,20 @@ function App() {
           
           <div class="card-container">
           <div class="card" >
-          <a href='jwcode.uk/img/ai.jpg'>
+          <a href='#'>
         
-          <Card image="img\drone.jpg" title="CI pipelines with Github" text="Work I did investigating drone usage in search and rescue through modelling">
+          <Card image={"./img/git.jpg"} title="CI pipelines with Github" text="22/03/2023 (TODO)">
             </Card></a>
           </div>
           <div class="card" >
             <a href="#" onClick={() => setShowAbout(5)}>
-          <Card image="%PUBLIC_URL%/img/ai.jpg" title="The Risks of Chatgpt" text="25/02/23">
+          <Card image={"./img/ai.jpg"} title="The Risks of Chatgpt" text="25/02/2023">
             </Card></a>
           </div>
           <div class="card" >
-          <a href='https://github.com/Jwcode-uk/Drone-Research'>
+          <a href='#'>
         
-          <Card image="https://upload.wikimedia.org/wikipedia/commons/5/52/Parrot_AR.Drone_2.JPG" title="Importance of Legacy" text="Work I did investigating drone usage in search and rescue through modelling">
+          <Card image={"./img/dino.jpg"} title="Importance of Legacy" text="16/12/2022 (TODO)">
             </Card></a>
           </div>
 

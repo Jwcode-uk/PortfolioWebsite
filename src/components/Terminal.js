@@ -48,14 +48,6 @@ const Terminal = ({setShowAbout})  => {
       case "history":
         setOutput([...output, `${currentDirectory} ${input}\nCommand history: ${output.map((item) => item.replace(currentDirectory, '')).join(', ')}`]);
         break;
-      case "calc":
-        try {
-          const result = eval(args.join(" "));
-          setOutput([...output, `${currentDirectory} ${input}\nResult: ${result}`]);
-        } catch (error) {
-          setOutput([...output, `${currentDirectory} ${input}\nError: Invalid expression.`]);
-        }
-        break;
       case "reverse":
         const reversedInput = args.join(" ").split("").reverse().join("");
         setOutput([...output, `${currentDirectory} ${input}\nReversed: ${reversedInput}`]);

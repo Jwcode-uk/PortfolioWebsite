@@ -7,7 +7,6 @@ import Projects from './Projects.js';
 import Apps from './Apps.js';
 import BlogChatgpt from './blogs/Blog-chatgpt'
 import Card from './components/Card';
-import Snake from './components/Snake'
 
 function App() {
   const [showAbout, setShowAbout] = useState(0);

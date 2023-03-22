@@ -285,55 +285,86 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+
   }
   
-  .card {
+  .card-box {
     width: calc(33.33% - 20px);
     margin: 10px;
     box-sizing: border-box;
+    
   }
   
   @media (max-width: 1200px) {
-    .card {
+    .card-box {
       width: calc(50% - 20px);
     }
   }
   
   @media (max-width: 800px) {
-    .card {
+    .card-box {
       width: calc(100% - 20px);
     }
   }
   @media (max-width: 500px) {
-    .card {
+    .card-box {
       width: 100%;
       box-sizing: border-box;
       margin: 0 auto;
       padding: 40px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 0px;
     }
   }
 
   .card-list {
-    width: 1000px;
+    width: 500px;
+    padding: 20px;
   }
   .Lcard {
     width: 50%;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+
     padding: 5px;
     margin: 10px;
     text-align: center;
     text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+
   }
+
+  .Lcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 7.5px 7.5px rgba(0, 0, 0, 0.15);
+  }
+
   .listSearchbar
   {
     width:100px;
     color: white;
     background-color: grey;
+  }
+  .search-input {
+    border-radius: 20px;
+    border: none;
+    background-color: #f5f5f5!important;
+    padding: 10px!important;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    color: grey!important;
+  }
+  
+  @media (max-width: 800px) 
+  {
+    .listSearchbar
+    {
+      width: 300px!important;
+    }
+    .search-input { width: 300px!important;}
   }
   
   .Lcard p {
@@ -342,5 +373,85 @@ h1 {
     color: #6b6b6b; fontSize: 1.3rem; lineHeight: 1.6; textAlign: left;
   }
 
+  .mainText {
+    font-size: 3rem;
+    font-Family: "Montserrat";
+  }
+  @media (max-width: 800px) 
+  {
+    .mainText {
+      font-size: 2rem;
+    }
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+  }
+
+  @media (max-width: 500px) 
+  {
+    .card {
+    width: calc(100% - 20px);
+    margin:10px;
+    }
+
+    .card-title {
+      text-decoration: none!important;
+      text-align: left;
+      margin: 0;
+      font-size: 1.5rem!important;
+    }
+    
+    .card-text {
+      text-decoration: none!important;
+      text-align: left;
+      margin: 0;
+      font-size: 1.25rem!important;
+    }
+  }
+  
+  .card-image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin:0px;
+    padding: 0px;
+  }
+  
+  .card-text-section {
+    flex: 1;
+    flex-direction: column;
+    color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+  }
+  
+  .card-title {
+    text-align: left;
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .card-text {
+    text-align: left;
+    margin: 0;
+    font-size: 1.5rem;
+  }
 
   

@@ -6,11 +6,12 @@ function App() {
 <div style={{ backgroundColor: "white", borderRadius: "10px", padding: "20px", marginLeft: "10%", marginRight: "10%", marginTop: "10%", maxWidth: "400px"}}>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-    <div className="circle-shape" style={{marginBottom: "0px"}}></div>
+    <div className="circle-shape" style={{margin: "0px"}}></div>
     <div style={{ fontFamily: "Montserrat, sans-serif",  alignitems: "center", color: "black" }}>
         <h2 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1.3rem", color: "black"  }}>
-            👋 Hi, I'm Jonathan a tech enthusiast currently working at OpenText.
+            👋 Hi, I'm Jonathan a tech enthusiast currently working at OpenText.        </h2>
 
+            <h2 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1.3rem", color: "black"  }}>
             Feel free to reach out! 
             
         </h2>

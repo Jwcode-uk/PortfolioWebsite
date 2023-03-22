@@ -25,13 +25,13 @@ const Terminal = ({setShowAbout})  => {
         handleCdCommand(args, command);
         break
       case "hello":
-        setOutput([...output, `${currentDirectory}  ${input}\nHello! How can I help you today?`]);
+        setOutput([...output, `${currentDirectory} ${input}\nHello! How can I help you today?`]);
         break
       case "time":
-        setOutput([...output, `${currentDirectory}  ${input}\nThe current time is: ${new Date().toLocaleTimeString()}`]);
+        setOutput([...output, `${currentDirectory} ${input}\nThe current time is: ${new Date().toLocaleTimeString()}`]);
         break;
       case "date":
-        setOutput([...output, `${currentDirectory}  ${input}\nThe current date is: ${new Date().toLocaleDateString()}`]);
+        setOutput([...output, `${currentDirectory} ${input}\nThe current date is: ${new Date().toLocaleDateString()}`]);
         break;
       case "help":
         setOutput([...output, `${currentDirectory} ${input}\nAvailable commands:\ncd, hello, time, date, clear, clr, dir, ls, help, pwd, whoami, calc,echo, history, reverse`]);
@@ -62,16 +62,16 @@ const Terminal = ({setShowAbout})  => {
         switch (currentDirectory)
         {
           case "C:/Blog>":
-            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──AI \n     └──Legacy `]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──AI \n     └──Legacy `]);
             break;
           case "C:/Games>":
-            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──Snake - WIP `]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Snake - WIP `]);
             break;
           case "C:/Projects>":
-            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──VSIX Extension \n     └──Drone Research \n     └──Web`]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──VSIX Extension \n     └──Drone Research \n     └──Web`]);
             break;
           default:
-            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──Blog \n └──Projects \n └──Games \n └──CV.PDF`]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Blog \n └──Projects \n └──Games \n └──CV.PDF`]);
         }
         break;
       case "ai":
@@ -140,7 +140,7 @@ const Terminal = ({setShowAbout})  => {
         ))}
       </div>
       <div className="input-line">
-        <div style={{textAlign: "left", padding: 0, width: `${10 + ((currentDirectory.length-1) * 8)}px`, marginRight: "10px" }}>
+        <div style={{textAlign: "left", padding: 0, width: `${10 + ((currentDirectory.length-1) * 8)}px`, marginRight: "5px" }}>
           {currentDirectory} 
         </div>
         <input

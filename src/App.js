@@ -50,19 +50,19 @@ function App() {
 
           
           <div class="card-container">
-          <div class="card" >
-          <a href='#'>
+          <div class="card-box" >
+          <a href='#' style={{ textDecoration: 'none' }}>
         
           <Card image={"jwcode.uk/img/git.jpg"} title="CI pipelines with Github" text="22/03/2023 (TODO)">
             </Card></a>
           </div>
-          <div class="card" >
-            <a href="#" onClick={() => setShowAbout(5)}>
+          <div class="card-box" >
+            <a href="#" style={{ textDecoration: 'none' }}onClick={() => setShowAbout(5)}>
           <Card image={"./img/ai.jpg"} title="The Risks of Chatgpt" text="25/02/2023">
             </Card></a>
           </div>
-          <div class="card" >
-          <a href='#'>
+          <div class="card-box" >
+          <a href='#' style={{ textDecoration: 'none' }}>
         
           <Card image={"./img/dino.jpg"} title="Importance of Legacy" text="16/12/2022 (TODO)">
             </Card></a>

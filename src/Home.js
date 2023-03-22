@@ -25,11 +25,13 @@ function Home({setShowAbout}) {
 
   return (
         <div class="container" style={{ overflow:'auto'}}>
-          <div class="container" style={{ padding:"5rem"}}>
-            <h1 style={{ fontFamily: "Montserrat, sans-serif" }}>Welcome to my portfolio<h1 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "3rem", float:'bottom' }}> Feel free to <span style={{ fontFamily: "Fira Mono" }}>cd</span> around</h1></h1>
-
+          <div class="container" >
+            <p>
+            <p class="mainText" style={{ fontFamily: "Montserrat, sans-serif" }}>Welcome to my portfolio</p>
+            <p class="mainText" style={{ fontFamily: "Montserrat, sans-serif", float:'bottom' }}> Feel free to <span style={{ fontFamily: "Fira Mono" }}>cd</span> around</p>
+            </p>
           </div>
-          <div style={{alignContent: "center" }}>
+          <div style={{alignContent: "center", padding:"5rem" }}>
             {!isHidden &&<Terminal setShowAbout={setShowAbout} ></Terminal>}
           </div>
         </div>

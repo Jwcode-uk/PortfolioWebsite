@@ -31,7 +31,8 @@ const cards = [
 
 const Card = ({ title, url, isSelected }) => {
   return (
-    <a href={url}>
+    
+    <a href={url} style={{ textDecoration: 'none' }}>
       <div
         className="Lcard"
 
@@ -101,16 +102,7 @@ const SearchableCardList = () => {
         value={query}
         onChange={handleInputChange}
         ref={inputRef}
-        style={{
-          borderRadius: "20px",
-          border: "none",
-          backgroundColor: "#f5f5f5",
-          padding: "10px",
-          width: "100%",
-          maxWidth: "400px",
-          margin: "0 auto",
-          color: "grey"
-        }}
+        className="search-input"
       />
 
       {filteredCards.map((card, index) => (

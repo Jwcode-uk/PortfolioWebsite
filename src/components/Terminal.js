@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Terminal.css";
 
 const Terminal = ({setShowAbout})  => {
@@ -8,10 +8,56 @@ const Terminal = ({setShowAbout})  => {
 
   const [currentDirectory, setCurrentDirectory] = useState("C:/>");
 
+  const [filteredSuggestions, setFilteredSuggestions] = useState([]);
+  const [suggestionIndex, setSuggestionIndex] = useState(-1);
+  const [orginal, setOrginal] = useState(-1);
+
+
+
+  
+
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
       runCommand();
+    }
+    else if (e.key === "Tab") {
+      e.preventDefault(); // Prevent the default behavior of the "Tab" key
+      autocomplete();
+    }
+    else
+    {
+      setSuggestionIndex(-1);
+      setFilteredSuggestions([]);
+    }
+  };
+  
+  const Suggestions = ['cd Blog', 'cd Games', 'cd Projects', 'cd ..', 'Suggestion 4',"hello","time","date","help","pwd","whoami","echo","history","reverse","clear","clr","dir","ls"];
+  
+  const autocomplete = () => {
+    const currentInput = input.trim().toLowerCase();
+    if (suggestionIndex === -1) {
+      setOrginal(currentInput)
+      const matchingSuggestions = Suggestions.filter((suggestion) =>
+        suggestion.toLowerCase().startsWith(currentInput)
+      );
+  
+      if (matchingSuggestions.length > 0) {
+        setInput(matchingSuggestions[0]);
+        setSuggestionIndex(1);
+        setFilteredSuggestions(matchingSuggestions);
+      }
+    } else {
+      if(suggestionIndex>=filteredSuggestions.length)
+      {
+        setInput(orginal);
+        setSuggestionIndex(-1);
+      }
+      else
+      {
+        setSuggestionIndex(suggestionIndex + 1)
+        setInput(filteredSuggestions[suggestionIndex]);
+      }
     }
   };
 
@@ -91,7 +137,7 @@ const Terminal = ({setShowAbout})  => {
         break
       case "cv":
       case "cv.pdf":
-        window.open('https://example.com', '_blank');
+        window.open('https://jwcode.uk/Jonathan_White_CV.pdf', '_blank');
         break;
       default:
         setOutput([...output, `${currentDirectory} ${input}\nError invalid command. Type help for help.`]);

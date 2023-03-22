@@ -49,8 +49,14 @@ function App() {
           
           <div class="card-container">
           <div class="card" >
+          <a href='jwcode.uk/img/ai.jpg'>
+        
+          <Card image="img\drone.jpg" title="CI pipelines with Github" text="Work I did investigating drone usage in search and rescue through modelling">
+            </Card></a>
+          </div>
+          <div class="card" >
             <a href="#" onClick={() => setShowAbout(5)}>
-          <Card image="https://upload.wikimedia.org/wikipedia/commons/8/81/Artificial_Intelligence_%26_AI_%26_Machine_Learning_-_30212411048.jpg" title="The Risks of Chatgpt" text="25/02/23">
+          <Card image="%PUBLIC_URL%/img/ai.jpg" title="The Risks of Chatgpt" text="25/02/23">
             </Card></a>
           </div>
           <div class="card" >
@@ -59,6 +65,7 @@ function App() {
           <Card image="https://upload.wikimedia.org/wikipedia/commons/5/52/Parrot_AR.Drone_2.JPG" title="Importance of Legacy" text="Work I did investigating drone usage in search and rescue through modelling">
             </Card></a>
           </div>
+
         </div>: null}
         {showAbout === 4 ? <Apps /> : null}
         {showAbout === 5 ? <><BlogChatgpt /></> : null}

@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./Terminal.css";
 
-const Terminal = () => {
+const Terminal = ({setShowAbout})  => {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState([]);
   const terminalRef = useRef(null);
@@ -24,13 +24,41 @@ const Terminal = () => {
         handleCdCommand(args, command);
         break
       case "hello":
-        setOutput([...output, `${currentDirectory} $  hello\nHello! How can I help you today?`]);
+        setOutput([...output, `${currentDirectory}  ${input}\nHello! How can I help you today?`]);
         break
       case "time":
-        setOutput([...output, `${currentDirectory} $  time\nThe current time is: ${new Date().toLocaleTimeString()}`]);
+        setOutput([...output, `${currentDirectory}  ${input}\nThe current time is: ${new Date().toLocaleTimeString()}`]);
         break;
       case "date":
-        setOutput([...output, `${currentDirectory} $  date\nThe current date is: ${new Date().toLocaleDateString()}`]);
+        setOutput([...output, `${currentDirectory}  ${input}\nThe current date is: ${new Date().toLocaleDateString()}`]);
+        break;
+      case "help":
+        setOutput([...output, `${currentDirectory} ${input}\nAvailable commands:\ncd, hello, time, date, clear, clr, dir, ls, help, pwd, whoami, calc,echo, history, reverse`]);
+        break;
+      case "pwd":
+        setOutput([...output, `${currentDirectory} ${input}\nCurrent directory: ${currentDirectory}`]);
+        break;
+      case "whoami":
+        setOutput([...output, `${currentDirectory} ${input}\nI don't know lol... do you?`]);
+        break;
+      case "echo":
+        const echoOutput = args.join(" ");
+        setOutput([...output, `${currentDirectory} ${input}\n${echoOutput}`]);
+        break;
+      case "history":
+        setOutput([...output, `${currentDirectory} ${input}\nCommand history: ${output.map((item) => item.replace(currentDirectory, '')).join(', ')}`]);
+        break;
+      case "calc":
+        try {
+          const result = eval(args.join(" "));
+          setOutput([...output, `${currentDirectory} ${input}\nResult: ${result}`]);
+        } catch (error) {
+          setOutput([...output, `${currentDirectory} ${input}\nError: Invalid expression.`]);
+        }
+        break;
+      case "reverse":
+        const reversedInput = args.join(" ").split("").reverse().join("");
+        setOutput([...output, `${currentDirectory} ${input}\nReversed: ${reversedInput}`]);
         break;
       case "clear":
       case "clr":
@@ -41,20 +69,36 @@ const Terminal = () => {
         switch (currentDirectory)
         {
           case "C:/Blog>":
-            setOutput([...output, `${currentDirectory} ls\nC Drive\n └──AI \n     └──Legacy `]);
+            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──AI \n     └──Legacy `]);
             break;
           case "C:/Games>":
-            setOutput([...output, `${currentDirectory} ls\nC Drive\n └──Snake - WIP `]);
+            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──Snake - WIP `]);
             break;
           case "C:/Projects>":
-            setOutput([...output, `${currentDirectory} ls\nC Drive\n └──VSIX Extension \n     └──Project 1 \n     └──Project 2`]);
+            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──VSIX Extension \n     └──Drone Research \n     └──Web`]);
             break;
           default:
-            setOutput([...output, `${currentDirectory} ls\nC Drive\n └──Blog \n └──Projects \n └──Games \n └──CV.PDF`]);
+            setOutput([...output, `${currentDirectory}  ${input}\nC Drive\n └──Blog \n └──Projects \n └──Games \n └──CV.PDF`]);
         }
         break;
+      case "ai":
+        setShowAbout(5);
+        break
+      case "legacy":
+        setShowAbout(5);
+        break
+      case "VSIX Extension":
+        setShowAbout(5);
+        break
+      case "Web":
+        setShowAbout(5);
+        break
+      case "cv":
+      case "cv.pdf":
+        setOutput([]);
+        break;
       default:
-        setOutput([...output, `${currentDirectory} ${input}\nSorry, I don't understand that command.`]);
+        setOutput([...output, `${currentDirectory} ${input}\nError invalid command. Type help for help.`]);
     }
         setInput("");
     terminalRef.current.scrollIntoView({ behavior: "smooth" });
@@ -74,10 +118,10 @@ const Terminal = () => {
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
       setCurrentDirectory("C:/"+args[0]+">");
 
-    } else if (args[0] === "games") {
+    } else if (args[0] === "Games") {
 
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
-      setCurrentDirectory("C:/"+args[0]+">");
+      setCurrentDirectory("C:/Games>");
 
     } else if (args[0] === "cv") {
 

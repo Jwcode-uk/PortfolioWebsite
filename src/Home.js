@@ -1,6 +1,28 @@
 import './App.css';
 import Terminal from './components/Terminal.js';
-function Home() {
+import React, { useState, useEffect } from 'react';
+function Home({setShowAbout}) {
+
+  const [isHidden, setIsHidden] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1200) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+    };
+
+    handleResize(); // Initial check for hiding the element
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
         <div class="container" style={{ overflow:'auto'}}>
           <div class="container" style={{ padding:"5rem"}}>
@@ -8,7 +30,7 @@ function Home() {
 
           </div>
           <div style={{alignContent: "center" }}>
-            <Terminal></Terminal>
+            {!isHidden &&<Terminal setShowAbout={setShowAbout} ></Terminal>}
           </div>
         </div>
   );

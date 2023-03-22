@@ -184,41 +184,84 @@ h1 {
   font-family: 'Open Sans', sans-serif;  }
 
   .navbar {
-    background-color: transparent;
-    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 1rem;
-    margin-bottom: 10rem;
+    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
-    font-size: 20px;
   }
   
-  .navbar a {
+  .navbar-item a {
     color: white;
     text-decoration: none;
     margin: 0 1rem;
+    font-size: 1.5rem;
   }
   
-  .navbar .navbar-item {
-    display: flex;
-    align-items: center;
+  .hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
   }
   
-  .navbar .navbar-item + .navbar-item::before {
-    content: "";
+  .hamburger-line {
     display: block;
-    width: 1px;
-    height: 1.5rem;
+    width: 25px;
+    height: 3px;
     background-color: white;
-    margin: 0 1rem;
+    margin: 4px 0;
   }
-
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-item {
+    display: flex;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      text-align: left;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-item {
+      flex-direction: column;
+    }
+  
+    .navbar-item a {
+      color: black;
+      padding: 0.5rem 1rem;
+      display: block;
+      border-bottom: 1px solid #eee;
+    }
+  
+    .navbar-item a:last-child {
+      border-bottom: none;
+    }
+  }
   .circle-shape {
     width: 200px;
     height: 200px;
@@ -232,16 +275,35 @@ h1 {
   .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .card {
     width: calc(33.33% - 20px);
     margin: 10px;
+    box-sizing: border-box;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .card {
+      width: calc(100% - 20px);
+    }
+  }
+  @media (max-width: 500px) {
     .card {
       width: 100%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 40px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
   }
 

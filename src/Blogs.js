@@ -1,6 +1,5 @@
 import './App.css';
 import BlogChatgpt from './blogs/Blog-chatgpt'
-import Card from './components/Card';
 import React, { useState, useRef } from 'react';
 
 function Projects() {
@@ -12,5 +11,4 @@ function Projects() {
     </> 
   );
 }
-
 export default Projects;

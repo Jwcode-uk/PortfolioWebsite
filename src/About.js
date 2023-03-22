@@ -4,10 +4,6 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
   const [load, setload] = useState(false);
-  const style = {
-    transform: load ? 'rotate(-180deg)' : '',
-    transition: 'transform 1500ms ease', // smooth transition
-  };
 
   useEffect(() => {
     setload(true);

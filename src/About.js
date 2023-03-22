@@ -3,11 +3,7 @@ import Nav from './components/Nav.js';
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  const [load, setload] = useState(false);
 
-  useEffect(() => {
-    setload(true);
-  }, []);
 
   return (
     <>

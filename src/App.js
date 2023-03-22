@@ -21,6 +21,8 @@ function App() {
     setShowMenu(false);
   };
 
+  
+
   return (
     <div style={{ overflow: 'auto' }}>
       <div className="navbar">
@@ -51,7 +53,7 @@ function App() {
           <div class="card" >
           <a href='#'>
         
-          <Card image={"./img/git.jpg"} title="CI pipelines with Github" text="22/03/2023 (TODO)">
+          <Card image={"jwcode.uk/img/git.jpg"} title="CI pipelines with Github" text="22/03/2023 (TODO)">
             </Card></a>
           </div>
           <div class="card" >

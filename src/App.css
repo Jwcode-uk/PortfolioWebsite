@@ -196,6 +196,15 @@ h1 {
     z-index: 1;
   }
   
+
+  .hamburger.visible {
+    display: block;
+  }
+  
+  .navbar-links.desktop {
+    display: flex;
+  }
+
   .navbar-item a {
     color: white;
     text-decoration: none;
@@ -318,6 +327,7 @@ h1 {
     padding: 5px;
     margin: 10px;
     text-align: center;
+    text-decoration: none;
   }
   .listSearchbar
   {

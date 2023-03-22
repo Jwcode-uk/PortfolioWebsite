@@ -19,7 +19,8 @@ const Terminal = ({setShowAbout})  => {
     const inputArray = input.split(" ");
     const command = inputArray[0];
     const args = inputArray.slice(1);
-    switch (command) {
+    const commandLower = command.toLowerCase();
+    switch (commandLower) {
       case "cd":
         handleCdCommand(args, command);
         break
@@ -79,15 +80,18 @@ const Terminal = ({setShowAbout})  => {
       case "legacy":
         setShowAbout(5);
         break
-      case "VSIX Extension":
-        setShowAbout(5);
+      case "vsix":
+        window.open('https://github.com/Jwcode-uk/Visual-Studio-Cobol-Tagger-Extension', '_blank');
         break
-      case "Web":
-        setShowAbout(5);
+      case "web":
+        window.open('https://github.com/Jwcode-uk/PortfolioWebsite', '_blank');
+        break
+      case "drone":
+        window.open('https://github.com/Jwcode-uk/Drone-Research', '_blank');
         break
       case "cv":
       case "cv.pdf":
-        setOutput([]);
+        window.open('https://example.com', '_blank');
         break;
       default:
         setOutput([...output, `${currentDirectory} ${input}\nError invalid command. Type help for help.`]);
@@ -100,27 +104,22 @@ const Terminal = ({setShowAbout})  => {
     if (args.length === 0 || args[0] === "~" || args[0] === "..") {
       setCurrentDirectory("C:/>");
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}`]);
-    } else if (args[0] === "blog") {
+    } else if (args[0].toLowerCase() === "blog") {
 
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
       setCurrentDirectory("C:/"+args[0]+">");
 
-    }else if (args[0] === "Projects" || args[0] === "Proj") {
+    }else if (args[0].toLowerCase() === "projects" || args[0] === "proj") {
 
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
       setCurrentDirectory("C:/"+args[0]+">");
 
-    } else if (args[0] === "Games") {
+    } else if (args[0].toLowerCase() === "games") {
 
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
       setCurrentDirectory("C:/Games>");
 
-    } else if (args[0] === "cv") {
-
-      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
-      setCurrentDirectory("C:/"+args[0]+">");
-
-    }
+    } 
     else {
       setOutput([...output, `$ cd ${args[0]}\nSorry, the directory "${args[0]}" does not exist.`]);
     }

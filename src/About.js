@@ -8,9 +8,11 @@ function App() {
 
     <div className="circle-shape" style={{marginBottom: "0px"}}></div>
     <div style={{ fontFamily: "Montserrat, sans-serif",  alignitems: "center", color: "black" }}>
-        <h2 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1rem", color: "black"  }}>
-            👋 Hi, I'm Jonathan a tech enthusiast currently working at OpenText, where I work on Mainframe Emulation in the Cloud. 
-            I'm passion for coding, I love to spend my spare time tinkering with code and experimenting with new technologies. feel free to reach out!
+        <h2 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1.3rem", color: "black"  }}>
+            👋 Hi, I'm Jonathan a tech enthusiast currently working at OpenText.
+
+            Feel free to reach out! 
+            
         </h2>
         <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
             <a href="https://www.linkedin.com/in/jwcode/" target="_blank" rel="noopener noreferrer" style={{ margin: "0px 10px" }}><i className="fa fa-linkedin-square fa-3x" style={{ color: "#0077B5"}}></i></a>

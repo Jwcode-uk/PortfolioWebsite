@@ -95,34 +95,35 @@ function Converter() {
   }
 
   return (
-    <div >
-    <h1>Hex, Decimal, Binary, Base64, and ASCII Converter</h1>
-  
-    <div className="input-container">
-      <label htmlFor="hex-input">Hex</label>
-      <input id="hex-input" type="text" value={hexValue} onChange={handleHexInputChange} />
+    <div>
+      <h1>Hex, Decimal, Binary, Base64, and ASCII Converter</h1>
+
+      <div className="input-container">
+        <label htmlFor="hex-input">Hex</label>
+        <input id="hex-input" type="text" value={hexValue} onChange={handleHexInputChange} />
+      </div>
+
+      <div className="input-container">
+        <label htmlFor="decimal-input">Decimal</label>
+        <input id="decimal-input" type="text" value={decimalValue} onChange={handleDecimalInputChange} />
+      </div>
+
+      <div className="input-container">
+        <label htmlFor="binary-input">Binary</label>
+        <input id="binary-input" type="text" value={binaryValue} onChange={handleBinaryInputChange} />
+      </div>
+
+      <div className="input-container">
+        <label htmlFor="base64-input">Base64</label>
+        <input id="base64-input" type="text" value={base64Value} onChange={handleBase64InputChange} />
+      </div>
+
+      <div className="input-container">
+        <label htmlFor="ascii-input">ASCII</label>
+        <input id="ascii-input" type="text" value={asciiValue} onChange={handleAsciiInputChange} />
+      </div>
     </div>
-  
-    <div className="input-container">
-      <label htmlFor="decimal-input">Decimal</label>
-      <input id="decimal-input" type="text" value={decimalValue} onChange={handleDecimalInputChange} />
-    </div>
-  
-    <div className="input-container">
-      <label htmlFor="binary-input">Binary</label>
-      <input id="binary-input" type="text" value={binaryValue} onChange={handleBinaryInputChange} />
-    </div>
-  
-    <div className="input-container">
-      <label htmlFor="base64-input">Base64</label>
-      <input id="base64-input" type="text" value={base64Value} onChange={handleBase64InputChange} />
-    </div>
-  
-    <div className="input-container">
-      <label htmlFor="ascii-input">ASCII</label>
-      <input id="ascii-input" type="text" value={asciiValue} onChange={handleAsciiInputChange} />
-    </div>
-  </div>);
+  );
 }
 
 export default Converter;

@@ -1,10 +1,8 @@
 import './App.css';
-import Nav from './components/Nav.js';
 import React from 'react';
+import Nav from './components/Nav.jsx';
 
 function App() {
-
-
   return (
     <>
       <Nav />
@@ -24,7 +22,7 @@ function App() {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
 
-        <div className="circle-shape" style={{ margin: '0px' }}></div>
+        <div className="circle-shape" style={{ margin: '0px' }} />
         <div
           style={{
             fontFamily: 'Montserrat, sans-serif',
@@ -39,7 +37,9 @@ function App() {
               color: 'black',
             }}
           >
-            <p className='wave'>👋</p> Hi, I'm Jonathan a tech enthusiast currently working at OpenText.
+            <p className="wave">👋</p>
+            {' '}
+            Hi, I'm Jonathan a tech enthusiast currently working at OpenText.
           </h2>
 
           <h2
@@ -67,7 +67,7 @@ function App() {
               <i
                 className="fa fa-linkedin-square fa-3x"
                 style={{ color: '#0077B5' }}
-              ></i>
+              />
             </a>
             <a
               href="https://github.com/Jwcode-uk"
@@ -78,7 +78,7 @@ function App() {
               <i
                 className="fa fa-github-square fa-3x"
                 style={{ color: '#333' }}
-              ></i>
+              />
             </a>
             <a
               href="mailto:Jonathan@jwcode.uk"
@@ -89,7 +89,7 @@ function App() {
               <i
                 className="fa fa-envelope-square fa-3x"
                 style={{ color: '#C9302C' }}
-              ></i>
+              />
             </a>
           </div>
         </div>

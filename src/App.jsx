@@ -3,10 +3,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './About';
 import Home from './Home';
-import Projects from './Projects.js';
-import Apps from './Apps.js';
-import Blogs from './blogs/Blogs.js';
-import BlogsChatgpt from './blogs/Blog-chatgpt.js';
+import Projects from './Projects';
+import Apps from './Apps';
+import Blogs from './blogs/Blogs';
+import BlogsChatgpt from './blogs/Blog-chatgpt';
 import BlogsCI from './blogs/Blog-CI';
 
 function App() {

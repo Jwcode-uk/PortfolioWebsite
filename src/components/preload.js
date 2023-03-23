@@ -1,14 +1,14 @@
 // Home.js
-export const preloadHome = () => import("../Home");
+export const preloadHome = () => import('../Home');
 
 // About.js
-export const preloadAbout = () => import("../About");
+export const preloadAbout = () => import('../About');
 
 // Apps.js
-export const preloadApps = () => import("../Apps");
+export const preloadApps = () => import('../Apps');
 
 // Blogs.js
-export const preloadBlogs = () => import("../blogs/Blogs");
+export const preloadBlogs = () => import('../blogs/Blogs');
 
 // Projects.js
-export const preloadProjects = () => import("../Projects");
+export const preloadProjects = () => import('../Projects');

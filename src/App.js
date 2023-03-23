@@ -7,10 +7,12 @@ import Projects from './Projects.js';
 import Apps from './Apps.js';
 import Blogs from './blogs/Blogs.js';
 import BlogsChatgpt from './blogs/Blog-chatgpt.js';
+import BlogsCI from './blogs/Blog-CI';
 
 function App() {
   return (
     <div style={{ overflow: 'auto' }}>
+
       <Router>
         <div className="component-container">
           <Routes>
@@ -20,7 +22,7 @@ function App() {
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/blogs/The-Risks-of-Chatgpt" element={<BlogsChatgpt />} />
-            <Route path="/blogs/Github-Action-CI" element={<BlogsChatgpt />} />
+            <Route path="/blogs/Github-Action-CI" element={<BlogsCI />} />
             <Route path="/blogs/Importance-of-Legacy" element={<BlogsChatgpt />} />
           </Routes>
         </div>

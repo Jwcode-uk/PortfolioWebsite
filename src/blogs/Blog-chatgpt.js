@@ -1,8 +1,9 @@
+import './Blog.css';
 import '../App.css';
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom';
 
-function BlogChatgpt() {
+function BlogsChatgpt() {
 
     const homeOnClickRef = useRef(null);
     const scrollEffect = (targetRef) => {
@@ -14,27 +15,54 @@ function BlogChatgpt() {
 
     return (
         <div ref={homeOnClickRef}>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-            <Link to="/blogs" >
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          />
+          <Link to="/blogs">
             <button class="back-btn">
-            <i class="fa fa-arrow-left"></i>
-            </button></Link>
-
-            
-            <div style={{ backgroundColor: '#f6f6f6', width: "50%", margin: "10% auto", borderRadius: "8px", boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.18)" }} >
-
-
-                <div style={{ padding: "30px" }}>
-                    <h2 style={{ color: '#333333', fontSize: "2.5rem", lineHeight: "1.2", textAlign: "left", marginBottom: "0", marginTop: "10" }}>The Rise of ChatGPT: Benefits and Privacy Risks</h2>
-                    <p style={{ color: '#333333', fontSize: "1rem", lineHeight: "1", textAlign: "left", marginTop: "5px", marginLeft: "10px" }}>By Jonathan White  25/02/2023</p>
-                    <hr style={{ border: "1px solid #6b6b6b", opacity: "0.5" }} />
-                    <p style={{ color: '#6b6b6b', fontSize: "1.3rem", lineHeight: "1.6", textAlign: "left" }}>In just two months of its release, ChatGPT, a conversational AI tool developed by OpenAI, has become a phenomenon. With 100 million active users, it's the fastest-growing consumer application in history. However, with this growth comes privacy concerns that are not being discussed enough.</p>
-                    <p style={{ color: '#6b6b6b', fontSize: "1.3rem", lineHeight: "1.6", textAlign: "left" }}>ChatGPT is powered by a large language model that has been trained on massive amounts of data, including 300 billion words scraped from the internet, including books, articles, websites, and posts. This data includes personal information that was obtained without consent, which means if you've ever written a blog post, product review, or commented on an article online, it's likely that your information was consumed by ChatGPT.</p>
-                    <p style={{ color: '#6b6b6b', fontSize: "1.3rem", lineHeight: "1.6", textAlign: "left" }}>This data collection process poses several privacy risks. Firstly, none of us were asked for permission for OpenAI to use our data, which is a clear violation of privacy, especially when data is sensitive and can be used to identify us, our family members, or our location. Secondly, the use of publicly available data can also breach what's known as contextual integrity, which requires that individuals' information is not revealed outside of the context in which it was originally produced.</p>
-                    <p style={{ color: '#6b6b6b', fontSize: "1.3rem", lineHeight: "1.6", textAlign: "left" }}>Moreover, OpenAI offers no procedures for individuals to check whether the company stores their personal information, or to request it be deleted. This right to be forgotten is particularly important in cases where the information is inaccurate or misleading, which seems to be a regular occurrence with ChatGPT. The scraped data ChatGPT was trained on can also be proprietary or copyrighted, which means the tool may not necessarily consider copyright protection when generating outputs. Finally, OpenAI did not pay for the data it scraped from the internet, and the individuals, website owners, and companies that produced it were not compensated.</p>
-                    <p style={{ color: '#6b6b6b', fontSize: "1.3rem", lineHeight: "1.6", textAlign: "left" }}>Another privacy risk involves the data provided to ChatGPT in the form of user prompts. When users ask the tool to answer questions or perform tasks, they may inadvertently hand over sensitive information, and put it in the public domain. For example, a lawyer may prompt the tool to review a draft divorce agreement, or a programmer may ask it to check a piece of code. This means that these agreements and codes, in addition to the outputs produced, are now part of ChatGPT's database, and can be used to further train the tool, and be included in responses to other people's prompts.</p>
-                    <p style={{ color: '#6b6b6b', fontSize: "1.3rem", lineHeight: "1.6", textAlign: "left" }}>OpenAI also gathers a broad scope of other user information, including IP addresses, browser types, and settings, as well as data on users' interactions with the site. The company may also share users' personal information with third parties to meet its business objectives, without informing users.</p>
-                    <p style={{ color: '#6b6b6b', fontSize: "1.3rem", lineHeight: "1.6", textAlign: "left" }}>In conclusion, while ChatGPT's potential benefits are undeniable, its privacy risks cannot be ignored. As consumers of a growing number of AI technologies, we should be extremely careful about what information we share with such tools. It's time to rein in the privacy concerns that come with the rise of ChatGPT, and ensure that these tools align with greater societal needs.</p>
+              <i class="fa fa-arrow-left"></i> Back
+            </button>
+          </Link>
+    
+          <div className="blog-container">
+            <div className="blog-content">
+            <h2 class="blog-title">The Emerging Cybersecurity Threats in the Age of AI: The Hidden Dangers of ChatGPT, Generative AI, and AI-Generated Code</h2>
+    <p class="blog-author">By Jonathan White</p>
+    <hr class="blog-divider"/>
+      <p class="blog-body">As artificial intelligence (AI) continues to make strides in the digital landscape, providers like ChatGPT are becoming increasingly attractive targets for nation-state cyber threat actors and sophisticated cyber mercenaries. These threat actors are capable of intercepting company or user-specific input to intelligent chatbots, which can disclose a wealth of confidential information ranging from personal data to trade secrets. They can also manipulate and provide backdoored answers to specific users or organizations with the intent to cause harm. Additionally, AI-generated code may introduce cybersecurity vulnerabilities that can be exploited by malicious actors. In this blog post, we'll explore the potential cybersecurity threats that arise with the widespread use of AI like ChatGPT, generative AI technologies, and AI-generated code.</p>
+      <p class="blog-body">Generative AI, which includes tools like ChatGPT, may deceptively obtain and hide data usage by incorporating clauses in their Terms of Service that authorize them to use your data for AI training purposes. For instance, if a contract is uploaded for signature through a SaaS document management platform or sent via a cloud mail provider, its entire content might be exploited in ways you never anticipated.</p>
+      <p class="blog-body">Moreover, AI-generated code, which is becoming increasingly popular for software development, may inadvertently introduce vulnerabilities that cyber threat actors can exploit, potentially compromising the security and functionality of applications.</p>
+      <p class="blog-body">This deceptive data usage and AI-generated code can lead to several cybersecurity risks:</p>
+      <ul>
+        <li>Unauthorized access to sensitive information:
+          <ul>
+            <li>Theoretical example: A threat actor intercepts a company's proprietary algorithm shared through an AI chatbot, leading to the theft of intellectual property and competitive advantage.</li>
+          </ul>
+        </li>
+        <li>Manipulation of AI-generated responses:
+          <ul>
+            <li>Theoretical example: A cybercriminal compromises an AI-based customer support chatbot and modifies its responses to trick customers into divulging their credit card information.</li>
+          </ul>
+        </li>
+        <li>Erosion of trust in AI systems:
+          <ul>
+            <li>Theoretical example: A high-profile data breach involving AI-generated content undermines public confidence in AI technologies, causing businesses to delay or cancel AI adoption.</li>
+          </ul>
+        </li>
+        <li>Introduction of vulnerabilities through AI-generated code:
+          <ul>
+            <li>Theoretical example: An AI-generated code snippet contains a hidden security flaw that allows hackers to gain unauthorized access to a company's database, resulting in a data breach and loss of sensitive information.</li>
+          </ul>
+        </li>
+      </ul>
+      <p class="blog-body">To mitigate these risks, companies and individuals should adopt the following best practices:</p>
+      <ul>
+        <li>Review AI providers' Terms of Service: Before using an AI service, carefully review their Terms of Service to understand how your data will be used and protected. Be cautious of any clauses that allow for the use of your data for AI training purposes without your explicit consent.</li>
+        <li>Implement robust cybersecurity measures: Employ strong encryption, multi-factor authentication, and regular security audits to protect your sensitive data and communications from unauthorized access.</li>
+        <li>Monitor AI-generated outputs: Regularly review AI-generated content and code for signs of manipulation or unusual behavior that may indicate a security breach.</li>
+<li>Stay informed about emerging threats: Keep up-to-date with the latest cybersecurity news and trends, and ensure your organization's security policies and procedures evolve to address new risks.</li>
+</ul>
                     <button onClick={() => scrollEffect(homeOnClickRef)}>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -52,4 +80,4 @@ function BlogChatgpt() {
     );
 }
 
-export default BlogChatgpt;
+export default BlogsChatgpt;

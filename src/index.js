@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <div className="App App-header geometric-background">
+    <div className="App App-header geometric-background"  >
       <App />
     </div>
   </React.StrictMode>

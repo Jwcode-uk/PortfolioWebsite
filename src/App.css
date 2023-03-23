@@ -10,19 +10,21 @@
 }
 @keyframes wave {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
   }
   25% {
-    transform: rotate(-20deg);
+    transform: rotate(-20deg) scale(1.1);
+
+
   }
   50% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.2);
   }
   75% {
-    transform: rotate(20deg);
+    transform: rotate(20deg) scale(1.1);
   }
   100%{
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
   }}
 
 
@@ -38,6 +40,7 @@
 }
 .component-container {
   transition: opacity 0.5s ease-in-out;
+  
 }
 
 .fade-enter {
@@ -281,6 +284,7 @@ h1 {
       top: 100%;
       left: 0;
       background-color: white;
+      opacity: 0.95;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       width: 100%;
       text-align: left;
@@ -291,6 +295,7 @@ h1 {
     }
   
     .navbar-item {
+      
       flex-direction: column;
     }
 
@@ -320,7 +325,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    overflow-y:   auto;
 
   }
   
@@ -347,7 +352,7 @@ h1 {
       width: 100%;
       box-sizing: border-box;
       margin: 0 auto;
-      padding: 40px;
+      padding: 10px;
       border-radius: 0px;
     }
   }

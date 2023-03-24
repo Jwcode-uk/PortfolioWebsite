@@ -1,29 +1,18 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './About';
-import Home from './Home';
-import Projects from './Projects';
-import Apps from './Apps';
-import Blogs from './blogs/Blogs';
-import BlogsChatgpt from './blogs/Blog-chatgpt';
-import BlogsCI from './blogs/Blog-CI';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import routes from './routes';
 
 function App() {
   return (
     <div style={{ overflow: 'auto' }}>
-
       <Router>
         <div className="component-container">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/apps" element={<Apps />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/blogs/The-Risks-of-Chatgpt" element={<BlogsChatgpt />} />
-            <Route path="/blogs/Github-Action-CI" element={<BlogsCI />} />
-            <Route path="/blogs/Importance-of-Legacy" element={<BlogsChatgpt />} />
+            {routes.map((route, index) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <Route key={index} path={route.path} element={route.element} />
+            ))}
           </Routes>
         </div>
       </Router>

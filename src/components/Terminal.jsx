@@ -16,9 +16,11 @@ function Terminal() {
   const topCommands = ['cd Blog', 'cd Games', 'cd Projects'];
   const blogsCommands = ['cd ..', 'The-Risks-of-Chatgpt', 'cd The-Risks-of-Chatgpt', 'Github-Action-CI', 'cd Github-Action-CI'];
   const gamesCommands = ['cd ..'];
+  const appsCommands = ['cd ..', 'Fuel-Calc', 'Json-Validator', 'Text-Converter', 'Hex-Converter', 'Commit-Formatter'];
   const projectsCommands = ['cd ..', 'VSIX-Tagger', 'cd VSIX-Tagger', 'Drone-SAR-Research', 'cd Drone-SAR-Research', 'Portfolio-Site', 'cd Portfolio-Site'];
   // holds commands default + location
-  const [Suggestions, setSuggestions] = useState([defaultCommands.concat(topCommands)]);
+  const [Suggestions, setSuggestions] = useState(['cd Blog', 'cd Games', 'cd Projects', 'hello', 'time', 'date', 'help', 'pwd', 'whoami', 'echo', 'history', 'reverse', 'clear', 'clr', 'dir', 'ls']);
+
   // store the commands after being filtered by user input
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
   // tracks location in filtered sugestions arr
@@ -78,6 +80,10 @@ function Terminal() {
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
       setCurrentDirectory('C:/Games>');
       setSuggestions(defaultCommands.concat(gamesCommands));
+    } else if (args[0].toLowerCase() === 'apps') {
+      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
+      setCurrentDirectory('C:/Apps>');
+      setSuggestions(defaultCommands.concat(appsCommands));
     } else {
       setOutput([...output, `$ cd ${args[0]}\nSorry, the directory "${args[0]}" does not exist.`]);
     }
@@ -88,7 +94,50 @@ function Terminal() {
     const command = inputArray[0];
     const args = inputArray.slice(1);
     const commandLower = command.toLowerCase();
-    let work;
+    let work = true;
+    switch (currentDirectory) {
+      case 'C:/Blog>':
+        if (commandLower.startsWith('the')) {
+          window.open('', '_blank');
+        } else if (commandLower.startsWith('git')) {
+          window.open('', '_blank');
+        } else {
+          work = false;
+        }
+        break;
+      case 'C:/Games>':
+
+        break;
+      case 'C:/Projects>':
+        if (commandLower.startsWith('drone')) {
+          window.open('https://github.com/Jwcode-uk/Drone-Research', '_blank');
+        } else if (commandLower.startsWith('vsix')) {
+          window.open('https://github.com/Jwcode-uk/Visual-Studio-Cobol-Tagger-Extension', '_blank');
+        } else if (commandLower.startsWith('web')) {
+          window.open('https://github.com/Jwcode-uk/PortfolioWebsite', '_blank');
+        } else {
+          work = false;
+        }
+        break;
+      case 'C:/Apps>':
+        if (commandLower.startsWith('fuel')) {
+          window.open('./apps/milage.html', '_blank');
+        } else if (commandLower.startsWith('json')) {
+          window.open('./apps/json.html', '_blank');
+        } else if (commandLower.startsWith('text')) {
+          window.open('./apps/toLowercase.html', '_blank');
+        } else if (commandLower.startsWith('hex')) {
+          window.open('./apps/typeConv.html', '_blank');
+        } else if (commandLower.startsWith('com')) {
+          window.open('./apps/commitMessage.html', '_blank');
+        } else {
+          work = false;
+        }
+        break;
+      default:
+        work = false;
+        break;
+    }
     switch (commandLower) {
       case 'cd':
         handleCdCommand(args, command);
@@ -130,37 +179,29 @@ function Terminal() {
       case 'ls':
         switch (currentDirectory) {
           case 'C:/Blog>':
-            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──AI \n     └──Legacy `]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Blogs \n     └──The-Risks-of-Chatgpt \n     └──Github-Action-CI `]);
             break;
           case 'C:/Games>':
-            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Snake - WIP `]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──None Yet Sorry `]);
             break;
           case 'C:/Projects>':
-            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──VSIX Extension \n     └──Drone Research \n     └──Web`]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Projects \n     └──VSIX Extension\n     └──Drone Research \n     └──Web`]);
+            break;
+          case 'C:/Apps>':
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Apps\n     └──Fuel-Calc  \n     └──Json-Validator \n     └──Text-Converter\n     └──Hex-Converter\n     └──Commit-Formatter`]);
             break;
           default:
-            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Blog \n └──Projects \n └──Games \n └──CV.PDF`]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Apps \n └──Blog \n └──Projects \n └──Games \n └──CV.PDF`]);
         }
-        break;
-      case 'ai':
-        break;
-      case 'legacy':
-        break;
-      case 'vsix':
-        window.open('https://github.com/Jwcode-uk/Visual-Studio-Cobol-Tagger-Extension', '_blank');
-        break;
-      case 'web':
-        window.open('https://github.com/Jwcode-uk/PortfolioWebsite', '_blank');
-        break;
-      case 'drone':
-        window.open('https://github.com/Jwcode-uk/Drone-Research', '_blank');
         break;
       case 'cv':
       case 'cv.pdf':
         window.open('https://jwcode.uk/Jonathan_White_CV.pdf', '_blank');
         break;
       default:
-        setOutput([...output, `${currentDirectory} ${input}\nError invalid command. Type help for help.`]);
+        if (!work) {
+          setOutput([...output, `${currentDirectory} ${input}\nError invalid command. Type help for help.`]);
+        }
     }
     setInput('');
     terminalRef.current.scrollIntoView({ behavior: 'smooth' });

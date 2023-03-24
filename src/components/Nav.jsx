@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // eslint-disable-next-line import/no-cycle
-import {
-  preloadHome, preloadAbout, preloadApps, preloadBlogs, preloadProjects,
-} from './preload.js'; // Assuming you've imported the functions from a separate file
 
 function Nav() {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
-  };
-
-  const preloadComponent = (preloadFunction) => {
-    preloadFunction();
   };
 
   return (
@@ -25,19 +18,19 @@ function Nav() {
       </button>
       <div className={`navbar-links ${showMenu ? 'active' : ''}`}>
         <div className="navbar-item">
-          <Link to="/" onMouseEnter={() => preloadComponent(preloadHome)}>
+          <Link to="/">
             Home
           </Link>
-          <Link to="/about" onMouseEnter={() => preloadComponent(preloadAbout)}>
+          <Link to="/about">
             About
           </Link>
-          <Link to="/projects" onMouseEnter={() => preloadComponent(preloadProjects)}>
+          <Link to="/projects">
             Projects
           </Link>
-          <Link to="/blogs" onMouseEnter={() => preloadComponent(preloadBlogs)}>
+          <Link to="/blogs">
             Blogs
           </Link>
-          <Link to="/apps" onMouseEnter={() => preloadComponent(preloadApps)}>
+          <Link to="/apps">
             Apps
           </Link>
           <a href="../Jonathan_White_CV.pdf" target="_blank">

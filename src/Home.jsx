@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Terminal from './components/Terminal';
 import Nav from './components/Nav';
 
-function Home({ setShowAbout }) {
+function Home() {
   const [isHidden, setIsHidden] = useState(false);
 
   useEffect(() => {
@@ -41,7 +41,7 @@ function Home({ setShowAbout }) {
           </p>
         </div>
         <div style={{ alignContent: 'center', padding: '5rem' }}>
-          {!isHidden && <Terminal setShowAbout={setShowAbout} />}
+          {!isHidden && <Terminal />}
         </div>
       </div>
     </>

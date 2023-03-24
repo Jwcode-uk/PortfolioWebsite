@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Nav from './components/Nav.jsx';
+import Nav from './components/Nav';
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
           >
             <p className="wave">👋</p>
             {' '}
-            Hi, I'm Jonathan a tech enthusiast currently working at OpenText.
+            Hi, I&apos;m Jonathan a tech enthusiast currently working at OpenText.
           </h2>
 
           <h2

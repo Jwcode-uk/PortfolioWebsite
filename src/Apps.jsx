@@ -1,14 +1,14 @@
 import './App.css';
-import React from 'react'
+import React from 'react';
 import SearchableCardList from './CardList';
+import Nav from './components/Nav';
 
 function Projects() {
-    return (
-        <div>
-            <SearchableCardList></SearchableCardList>
-        </div>
-
-    );
+  return (
+    <div>
+      <Nav />
+      <SearchableCardList />
+    </div>
+  );
 }
-
 export default Projects;

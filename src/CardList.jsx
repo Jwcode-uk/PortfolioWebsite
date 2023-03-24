@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './SearchableCardList.css';
-import Nav from './components/Nav';
+import PropTypes from 'prop-types';
 
 const cards = [
   {
@@ -36,7 +36,6 @@ function Card({ title, url, isSelected }) {
     <a href={url} style={{ textDecoration: 'none' }}>
       <div
         className="Lcard"
-
         style={{
           width: '300px',
           backgroundColor: isSelected ? '#f5f5f5' : '#f3f3f3',
@@ -50,6 +49,12 @@ function Card({ title, url, isSelected }) {
   );
 }
 
+Card.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  isSelected: PropTypes.bool.isRequired,
+};
+
 function SearchableCardList() {
   const [query, setQuery] = useState('');
   const [selectedIndex, setSelectedIndex] = useState(-1);
@@ -61,11 +66,13 @@ function SearchableCardList() {
       switch (event.key) {
         case 'ArrowUp':
           event.preventDefault();
-          setSelectedIndex((prevIndex) => (prevIndex <= 0 ? filteredCards.length - 1 : prevIndex - 1));
+          setSelectedIndex((prevIndex) => (
+            prevIndex <= 0 ? filteredCards.length - 1 : prevIndex - 1));
           break;
         case 'ArrowDown':
           event.preventDefault();
-          setSelectedIndex((prevIndex) => (prevIndex === filteredCards.length - 1 ? 0 : prevIndex + 1));
+          setSelectedIndex((prevIndex) => (
+            prevIndex === filteredCards.length - 1 ? 0 : prevIndex + 1));
           break;
         case 'Enter':
           if (filteredCards.length > 0) {
@@ -86,35 +93,32 @@ function SearchableCardList() {
     const newQuery = event.target.value;
     setQuery(newQuery);
 
-    const filtered = cards.filter((card) =>
-    (card.title.toLowerCase().includes(newQuery.toLowerCase())));
+    const filtered = cards.filter((card) => (
+      card.title.toLowerCase().includes(newQuery.toLowerCase())));
     setFilteredCards(filtered);
     setSelectedIndex(-1);
   };
 
   return (
-    <>
-      <Nav />
-      <div className="card-list">
-        <input
-          type="text"
-          placeholder="Search"
-          value={query}
-          onChange={handleInputChange}
-          ref={inputRef}
-          className="search-input"
-        />
+    <div className="card-list">
+      <input
+        type="text"
+        placeholder="Search"
+        value={query}
+        onChange={handleInputChange}
+        ref={inputRef}
+        className="search-input"
+      />
 
-        {filteredCards.map((card, index) => (
-          <Card
-            key={card.id}
-            title={card.title}
-            url={card.url}
-            isSelected={index === selectedIndex}
-          />
-        ))}
-      </div>
-    </>
+      {filteredCards.map((card, index) => (
+        <Card
+          key={card.id}
+          title={card.title}
+          url={card.url}
+          isSelected={index === selectedIndex}
+        />
+      ))}
+    </div>
   );
 }
 

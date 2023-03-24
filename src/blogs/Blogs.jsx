@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import React from 'react';
 import Card from '../components/Card';
+// eslint-disable-next-line import/no-cycle
 import Nav from '../components/Nav';
 
 function Projects() {
@@ -24,7 +25,6 @@ function Projects() {
         </div>
         <div className="card-box">
           <Link to="/blogs/Importance-of-Legacy">
-
             <Card image="./img/dino.jpg" title="Importance of Legacy" text="16/12/2022" />
           </Link>
         </div>

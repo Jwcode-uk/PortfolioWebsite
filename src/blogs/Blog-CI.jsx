@@ -31,7 +31,7 @@ function BlogsCI() {
           <h2 className="blog-title">
             Set Up Continuous Integration for a React Website Using GitHub Actions and AWS S3
           </h2>
-          <p className="blog-author">By Jonathan WHite</p>
+          <p className="blog-author">By Jonathan White</p>
           <hr className="blog-divider" />
           <p className="blog-body">
             In this tutorial, we will demonstrate how to set up a Continuous Integration (CI)
@@ -80,18 +80,17 @@ function BlogsCI() {
             <pre>
               <code>
                 {`{
-    "Version": "2022-10-17",
-    "Statement": [
-      {
-        "Effect": "Allow",
-        "Action": "s3:*",
-        "Resource": [
-          "arn:aws:s3:::<your-bucket-name>",
-          "arn:aws:s3:::<your-bucket-name>/*"
-        ]
-      }
-    ]
-  }`}
+  "Version": "2022-10-17",
+  "Statement": [
+{
+  "Effect": "Allow",
+  "Action": "s3:*",
+  "Resource": [
+    "arn:aws:s3:::<bucket-name>",
+    "arn:aws:s3:::<bucket-name>/*"
+  ]
+}
+]}`}
               </code>
             </pre>
 
@@ -166,11 +165,14 @@ jobs:
       - name: Deploy to AWS S3
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --acl public-read --follow-symlinks --delete
+          args: --acl public-read 
+                --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: <your-bucket-name>
-          AWS_ACCESS_KEY_ID: \${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: \${{ secrets.AWS_SECRET_ACCESS_KEY }}`}
+          AWS_S3_BUCKET: <bucket-name>
+          AWS_ACCESS_KEY_ID:
+            \${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: 
+            \${{ secrets.AWS_SECRET_ACCESS_KEY }}`}
               </code>
             </pre>
           </ol>

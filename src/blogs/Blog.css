@@ -8,8 +8,9 @@
     border-radius: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);  }  
 
-  @media (max-width: 400px) {
+  @media (max-width: 900px) {
     .blog-container {
+      max-width: 100%!important;
 
       width: 100%;
 
@@ -79,14 +80,25 @@
   /* Code block styling */
 pre {
     background-color: #f2f2f2;
-    padding: 10px;
     border-radius: 5px;
     font-size: 1.1rem;
     line-height: 1.4;
-    overflow-x: auto;
+    margin: 0%;
   }
   
   code {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 500px) 
+  {
+    pre {
+      overflow-x: scroll;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      width: 300px;
+    }
   }

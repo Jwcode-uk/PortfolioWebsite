@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import Terminal from './components/Terminal';
+// eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';
 
 function Home() {
@@ -33,8 +34,7 @@ function Home() {
             <p className="mainText" style={{ fontFamily: 'Montserrat, sans-serif' }}>Welcome to my portfolio</p>
             <p className="mainText" style={{ fontFamily: 'Montserrat, sans-serif', float: 'bottom' }}>
               {' '}
-              Feel free to
-              <span style={{ fontFamily: 'Fira Mono' }}>cd</span>
+              Feel free to cd
               {' '}
               around
             </p>

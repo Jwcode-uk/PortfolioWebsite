@@ -67,12 +67,12 @@ function SearchableCardList() {
         case 'ArrowUp':
           event.preventDefault();
           setSelectedIndex((prevIndex) => (
-            prevIndex <= 0 ? filteredCards.length - 1 : prevIndex - 1));
+            prevIndex <= -1 ? filteredCards.length - 1 : prevIndex - 1));
           break;
         case 'ArrowDown':
           event.preventDefault();
           setSelectedIndex((prevIndex) => (
-            prevIndex === filteredCards.length - 1 ? 0 : prevIndex + 1));
+            prevIndex === filteredCards.length - 1 ? -1 : prevIndex + 1));
           break;
         case 'Enter':
           if (filteredCards.length > 0) {
@@ -82,6 +82,9 @@ function SearchableCardList() {
           break;
         default:
           break;
+      }
+      if (selectedIndex === -1) {
+        inputRef.current.focus(); // focus on input field
       }
     };
 

@@ -13,7 +13,7 @@ function Terminal() {
   // Auto complete vars
   // List of commands depending on location
   const defaultCommands = ['hello', 'time', 'date', 'help', 'pwd', 'whoami', 'echo', 'history', 'reverse', 'clear', 'clr', 'dir', 'ls'];
-  const topCommands = ['cd Blog', 'cd Games', 'cd Projects'];
+  const topCommands = ['cd Apps', 'cd Blog', 'cd Games', 'cd Projects'];
   const blogsCommands = ['cd ..', 'The-Risks-of-Chatgpt', 'cd The-Risks-of-Chatgpt', 'Github-Action-CI', 'cd Github-Action-CI'];
   const gamesCommands = ['cd ..'];
   const appsCommands = ['cd ..', 'Fuel-Calc', 'Json-Validator', 'Text-Converter', 'Hex-Converter', 'Commit-Formatter'];

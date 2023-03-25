@@ -11,17 +11,17 @@ function Projects() {
       <div className="card-container">
         <div className="card-box">
           <a href="https://github.com/Jwcode-uk/Visual-Studio-Cobol-Tagger-Extension" style={{ textDecoration: 'none' }}>
-            <Card image="./img/git.jpg" title="VSIX Tagger" text="I developed a Visual studio extension to help with a tedacious coding standard" />
+            <Card image="./img/git.jpg" title="VSIX Tagger" text="Created a Visual Studio extension aimed at streamlining a challenging coding standard" />
           </a>
         </div>
         <div className="card-box">
           <a href="https://github.com/Jwcode-uk/Drone-Research" style={{ textDecoration: 'none' }}>
-            <Card image="./img/drone.jpg" title="Drone Research" text="Work I did investigating drone usage in search and rescue through modelling" />
+            <Card image="./img/drone.jpg" title="Drone Research" text="Conducted research on the utilization of drones in search and rescue operations through the development of models" />
           </a>
         </div>
         <div className="card-box">
           <a href="https://github.com/Jwcode-uk/PortfolioWebsite" style={{ textDecoration: 'none' }}>
-            <Card image="./img/web.jpg" title="Portfolio Site" text="The code for this website. (it's my first big react project don't judge to hard)" />
+            <Card image="./img/web.jpg" title="Portfolio Site" text="Developed this React website as a personal learning project, which represents my first major undertaking in React" />
           </a>
         </div>
       </div>

@@ -82,7 +82,7 @@ function App() {
               />
             </a>
             <a
-              href="mailto:Jonathan@jwcode.uk"
+              href="mailto:hello@jwcode.uk"
               target="_blank"
               rel="noopener noreferrer"
               style={{ margin: '0px 10px' }}

@@ -19,7 +19,7 @@ function Terminal() {
   const appsCommands = ['cd ..', 'Fuel-Calc', 'Json-Validator', 'Text-Converter', 'Hex-Converter', 'Commit-Formatter'];
   const projectsCommands = ['cd ..', 'VSIX-Tagger', 'cd VSIX-Tagger', 'Drone-SAR-Research', 'cd Drone-SAR-Research', 'Portfolio-Site', 'cd Portfolio-Site'];
   // holds commands default + location
-  const [Suggestions, setSuggestions] = useState(['cd Blog', 'cd Games', 'cd Projects', 'hello', 'time', 'date', 'help', 'pwd', 'whoami', 'echo', 'history', 'reverse', 'clear', 'clr', 'dir', 'ls']);
+  const [Suggestions, setSuggestions] = useState(['cd Apps', 'cd Blog', 'cd Games', 'cd Projects', 'hello', 'time', 'date', 'help', 'pwd', 'whoami', 'echo', 'history', 'reverse', 'clear', 'clr', 'dir', 'ls']);
 
   // store the commands after being filtered by user input
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
@@ -112,26 +112,26 @@ function Terminal() {
 
         break;
       case 'C:/Projects>':
-        if (commandLower.startsWith('drone')) {
+        if (commandLower.includes('drone')) {
           window.open('https://github.com/Jwcode-uk/Drone-Research', '_blank');
-        } else if (commandLower.startsWith('vsix')) {
+        } else if (commandLower.includes('vsix')) {
           window.open('https://github.com/Jwcode-uk/Visual-Studio-Cobol-Tagger-Extension', '_blank');
-        } else if (commandLower.startsWith('web')) {
+        } else if (commandLower.includes('web')) {
           window.open('https://github.com/Jwcode-uk/PortfolioWebsite', '_blank');
         } else {
           work = false;
         }
         break;
       case 'C:/Apps>':
-        if (commandLower.startsWith('fuel')) {
+        if (commandLower.includes('fuel')) {
           window.open('./apps/milage.html', '_blank');
-        } else if (commandLower.startsWith('json')) {
+        } else if (commandLower.includes('json')) {
           window.open('./apps/json.html', '_blank');
-        } else if (commandLower.startsWith('text')) {
+        } else if (commandLower.includes('text')) {
           window.open('./apps/toLowercase.html', '_blank');
-        } else if (commandLower.startsWith('hex')) {
+        } else if (commandLower.includes('hex')) {
           window.open('./apps/typeConv.html', '_blank');
-        } else if (commandLower.startsWith('com')) {
+        } else if (commandLower.includes('com')) {
           window.open('./apps/commitMessage.html', '_blank');
         } else {
           work = false;
@@ -188,7 +188,7 @@ function Terminal() {
             setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──None Yet Sorry `]);
             break;
           case 'C:/Projects>':
-            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Projects \n     └──VSIX Extension\n     └──Drone Research \n     └──Web`]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Projects \n     └──VSIX Extension\n     └──Drone Research \n     └──Website`]);
             break;
           case 'C:/Apps>':
             setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Apps\n     └──Fuel-Calc  \n     └──Json-Validator \n     └──Text-Converter\n     └──Hex-Converter\n     └──Commit-Formatter`]);

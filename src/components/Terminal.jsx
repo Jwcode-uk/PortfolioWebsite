@@ -64,7 +64,10 @@ function Terminal() {
   };
 
   const handleCdCommand = (args, command) => {
-    if (args.length === 0 || args[0] === '~' || args[0] === '..') {
+    if (args[0] === undefined) {
+      setOutput([...output, `${currentDirectory} cd \nSorry, you need to supply a directory`]);
+      setCurrentDirectory(currentDirectory);
+    } else if (args[0] === '~' || args[0] === '..') {
       setCurrentDirectory('C:/>');
       setOutput([...output, `${currentDirectory} ${command} ${args[0]}`]);
       setSuggestions(defaultCommands.concat(topCommands));

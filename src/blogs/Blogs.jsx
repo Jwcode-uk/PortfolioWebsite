@@ -13,19 +13,19 @@ function Projects() {
       <div className="card-container">
         <div className="card-box">
           <Link to="/blogs/Github-Action-CI">
-            <Card image="./img/git.jpg" title="CI pipelines with Github" text="22/03/2023" />
+            <Card image="./img/git.jpg" title="CI pipelines with Github" text="" />
           </Link>
         </div>
         <div className="card-box">
           <Link to="/blogs/The-Risks-of-Chatgpt">
-            <Card image="./img/ai.jpg" title="The Risks of Chatgpt" text="25/02/2023" />
+            <Card image="./img/ai.jpg" title="The Risks of Chatgpt" text="" />
             {' '}
 
           </Link>
         </div>
         <div className="card-box">
           <Link to="/blogs/Importance-of-Legacy">
-            <Card image="./img/dino.jpg" title="Importance of Legacy" text="16/12/2022" />
+            <Card image="./img/dino.jpg" title="Importance of Legacy" text="" />
           </Link>
         </div>
 

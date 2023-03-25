@@ -23,17 +23,20 @@ function Card(props) {
       onMouseLeave={() => setHover(false)}
       style={{ ...styles.container, ...(hover ? styles.containerHover : {}) }}
     >
-      <div className="card">
-        <div
-          className="card-image-section"
-          style={{ backgroundImage: `url(${image})` }}
-        />
-        <div className="card-text-section">
-          <p className="card-title">{title}</p>
-          <p className="card-text">{text}</p>
+      <div className="card-box">
+        <div className="card">
+          <div
+            className="card-image-section"
+            style={{ backgroundImage: `url(${image})` }}
+          />
+          <div className="card-text-section">
+            <p className="blog-title card-title">{title}</p>
+            <p className="blog-body card-text">{text}</p>
+          </div>
         </div>
       </div>
     </div>
+
   );
 }
 

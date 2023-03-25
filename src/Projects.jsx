@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Card from './components/Card';
+// eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';
 
 function Projects() {
@@ -15,12 +16,11 @@ function Projects() {
         </div>
         <div className="card-box">
           <a href="https://github.com/Jwcode-uk/Drone-Research" style={{ textDecoration: 'none' }}>
-
-            <Card image="./img/drone.jpg" title="Drone SARS Research" text="Work I did investigating drone usage in search and rescue through modelling" />
+            <Card image="./img/drone.jpg" title="Drone Research" text="Work I did investigating drone usage in search and rescue through modelling" />
           </a>
         </div>
         <div className="card-box">
-          <a href="https://github.com/Jwcode-uk/jwcode.uk" style={{ textDecoration: 'none' }}>
+          <a href="https://github.com/Jwcode-uk/PortfolioWebsite" style={{ textDecoration: 'none' }}>
             <Card image="./img/web.jpg" title="Portfolio Site" text="The code for this website. (it's my first big react project don't judge to hard)" />
           </a>
         </div>

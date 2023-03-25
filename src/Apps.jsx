@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import SearchableCardList from './CardList';
+// eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';
 
 function Projects() {

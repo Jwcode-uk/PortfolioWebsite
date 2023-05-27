@@ -1,6 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
+import '../style/Cards.css';
 
 function Card(props) {
   const styles = {

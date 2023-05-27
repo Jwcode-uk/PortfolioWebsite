@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // eslint-disable-next-line import/no-cycle
 import routes from './routes';
+import '../style/Navbar.css';
 
 function Nav() {
   const [showMenu, setShowMenu] = useState(false);

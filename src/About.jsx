@@ -1,4 +1,4 @@
-import './style/App.css';
+import './style/About.css';
 import React from 'react';
 // eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';

@@ -29,6 +29,24 @@
     }
   }
 
+
+  .blog-title.card-title {
+    color: #333333;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 10px;
+    height: 10%;
+    }
+    
+    .blog-body.card-text {
+    color: #6b6b6b;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    }
+
   .blog-container {
     max-width: 50%;
     background-color: #f6f6f6;
@@ -101,4 +119,20 @@ pre {
       line-height: 1.4;
       width: 300px;
     }
+  }
+
+  .back-btn {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .back-btn:hover {
+    color: rgba(255, 255, 255, 0.8);
   }

@@ -1,0 +1,32 @@
+.circle-shape {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(https://media.licdn.com/dms/image/D4E03AQEDEarKxHvCXA/profile-displayphoto-shrink_800_800/0/1685034239258?e=1690416000&v=beta&t=0DdDxMEvh9Why_z0jZyMdb5y2sFOdZgNn-hPfMOp1UA);
+    background-size: cover;
+    align-self: center;
+    display: inline-block;
+  }
+
+  .wave {
+    display: inline-block;
+    transform-origin: 70% 110%;
+    animation: wave 2s ease;
+    margin: 0;
+  }
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    25% {
+      transform: rotate(-20deg) scale(1.1);
+    }
+    50% {
+      transform: rotate(0deg) scale(1.2);
+    }
+    75% {
+      transform: rotate(20deg) scale(1.1);
+    }
+    100%{
+      transform: rotate(0deg) scale(1);
+    }}

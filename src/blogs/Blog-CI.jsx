@@ -1,5 +1,5 @@
-import './Blog.css';
-import '../App.css';
+import '../style/Blog.css';
+import '../style/App.css';
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 

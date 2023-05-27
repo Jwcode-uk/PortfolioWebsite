@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './SearchableCardList.css';
+import './style/SearchableCardList.css';
 import PropTypes from 'prop-types';
 
 const cards = [

@@ -1,5 +1,5 @@
-import './Blog.css';
-import '../App.css';
+import '../style/Blog.css';
+import '../style/App.css';
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -44,10 +44,10 @@ function BlogsCI() {
             Legacy software refers to software that has been utilized for an extended period
             and may have been developed using programming languages or technologies that are
             often viewed as outdated. Many businesses depend on legacy software to operate
-            critical applications and systems, such as a bank's system for managing customer
+            critical applications and systems, such as a bank&apos;s system for managing customer
             accounts and transactions. Replacing such systems can be a high-cost and high-risk
             endeavor. Moreover, new software may struggle to replicate the essential functions
-            that legacy software performs for example banks primarily use cobol due to it's
+            that legacy software performs for example banks primarily use cobol due to it&apos;s
             fixed point number system where all modern programming language utilize floating point.
           </p>
           <p className="blog-body">

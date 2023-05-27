@@ -1,13 +1,13 @@
 import React from 'react';
 // eslint-disable-next-line import/no-cycle
-import About from './About';
-import Home from './Home';
-import Projects from './Projects';
-import Apps from './Apps';
-import Blogs from './blogs/Blogs';
-import BlogsChatgpt from './blogs/Blog-chatgpt';
-import BlogsCI from './blogs/Blog-CI';
-import BlogsLegacy from './blogs/Blog-Legacy';
+import About from '../About';
+import Home from '../Home';
+import Projects from '../Projects';
+import Apps from '../Apps';
+import Blogs from '../blogs/Blogs';
+import BlogsChatgpt from '../blogs/Blog-chatgpt';
+import BlogsCI from '../blogs/Blog-CI';
+import BlogsLegacy from '../blogs/Blog-Legacy';
 
 const routes = [
   {

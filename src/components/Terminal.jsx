@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import './Terminal.css';
+import '../style/Terminal.css';
 
 function Terminal() {
   // terminal vars

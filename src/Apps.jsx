@@ -1,4 +1,4 @@
-import './App.css';
+import './style/App.css';
 import React from 'react';
 import SearchableCardList from './CardList';
 // eslint-disable-next-line import/no-cycle

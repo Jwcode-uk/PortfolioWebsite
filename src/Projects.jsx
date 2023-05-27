@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './style/App.css';
 import Card from './components/Card';
 // eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';

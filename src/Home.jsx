@@ -1,4 +1,4 @@
-import './App.css';
+import './style/App.css';
 import React, { useState, useEffect } from 'react';
 import Terminal from './components/Terminal';
 // eslint-disable-next-line import/no-cycle

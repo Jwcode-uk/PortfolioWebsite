@@ -1,0 +1,362 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carnedd Dafydd",
+                "cmt": "Carnedd Dafydd",
+                "desc": "Carnedd Dafydd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.00084,
+                    53.14774,
+                    1044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carnedd Fach",
+                "cmt": "Carnedd Fach",
+                "desc": "Carnedd Fach",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.00777,
+                    53.14376,
+                    965.09
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carnedd Llewelyn",
+                "cmt": "Carnedd Llewelyn",
+                "desc": "Carnedd Llewelyn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.97033,
+                    53.16017,
+                    1064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Castell y Gwynt",
+                "cmt": "Castell y Gwynt",
+                "desc": "Castell y Gwynt",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.01204,
+                    53.10382,
+                    972
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cefn Ysgolion East Top",
+                "cmt": "Cefn Ysgolion East Top",
+                "desc": "Cefn Ysgolion East Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.98314,
+                    53.14934,
+                    971.61
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cefn Ysgolion West Top (Black Ladders)",
+                "cmt": "Cefn Ysgolion West Top (Black Ladders)",
+                "desc": "Cefn Ysgolion West Top (Black Ladders)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.98859,
+                    53.14752,
+                    970
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crib Goch",
+                "cmt": "Crib Goch",
+                "desc": "Crib Goch",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.05518,
+                    53.07615,
+                    923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crib Goch East Top",
+                "cmt": "Crib Goch East Top",
+                "desc": "Crib Goch East Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.05332,
+                    53.0768,
+                    920.89
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crib y Ddysgl",
+                "cmt": "Crib y Ddysgl",
+                "desc": "Crib y Ddysgl",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.07518,
+                    53.07552,
+                    1065.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Elidir Fawr",
+                "cmt": "Elidir Fawr",
+                "desc": "Elidir Fawr",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.07643,
+                    53.13065,
+                    924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Foel Grach",
+                "cmt": "Foel Grach",
+                "desc": "Foel Grach",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.96323,
+                    53.17408,
+                    975.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Foel-fras",
+                "cmt": "Foel-fras",
+                "desc": "Foel-fras",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.95315,
+                    53.19416,
+                    944.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Garnedd Uchaf (Carnedd Gwenllian)",
+                "cmt": "Garnedd Uchaf (Carnedd Gwenllian)",
+                "desc": "Garnedd Uchaf (Carnedd Gwenllian)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.96634,
+                    53.18298,
+                    925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glyder Fach",
+                "cmt": "Glyder Fach",
+                "desc": "Glyder Fach",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.00841,
+                    53.10482,
+                    994.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glyder Fawr",
+                "cmt": "Glyder Fawr",
+                "desc": "Glyder Fawr",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.02916,
+                    53.10147,
+                    1000.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pen yr Ole Wen",
+                "cmt": "Pen yr Ole Wen",
+                "desc": "Pen yr Ole Wen",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.01066,
+                    53.13767,
+                    978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Snowdon-Yr Wyddfa",
+                "cmt": "Snowdon-Yr Wyddfa",
+                "desc": "Snowdon-Yr Wyddfa",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.07623,
+                    53.0685,
+                    1085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tryfan",
+                "cmt": "Tryfan",
+                "desc": "Tryfan",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.99749,
+                    53.1149,
+                    917.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Y Garn",
+                "cmt": "Y Garn",
+                "desc": "Y Garn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.04708,
+                    53.11569,
+                    947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yr Elen",
+                "cmt": "Yr Elen",
+                "desc": "Yr Elen",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.98522,
+                    53.1666,
+                    962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yr Wyddfa South Top",
+                "cmt": "Yr Wyddfa South Top",
+                "desc": "Yr Wyddfa South Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.08277,
+                    53.06224,
+                    931.23
+                ]
+            }
+        }
+    ]
+}

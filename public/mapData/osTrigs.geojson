@@ -1,0 +1,4885 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "1",
+              "cmt": "ROTTINGTON T1",
+              "desc": "ROTTINGTON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.619738,
+                  54.504804
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "10",
+              "cmt": "DUNNOSE T1",
+              "desc": "DUNNOSE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.198714,
+                  50.618233
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "100",
+              "cmt": "MUSWELL HILL T1",
+              "desc": "MUSWELL HILL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.070749,
+                  51.83256
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "1000",
+              "cmt": "LUNDY LIGHT",
+              "desc": "LUNDY LIGHT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.673415,
+                  51.167155
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "1001",
+              "cmt": "LUNDY NW LIGHT",
+              "desc": "LUNDY NW LIGHT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.677318,
+                  51.201675
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "1003",
+              "cmt": "RAT ISLAND LIGHT",
+              "desc": "RAT ISLAND LIGHT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.655866,
+                  51.161996
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "101",
+              "cmt": "PLYNLIMON",
+              "desc": "PLYNLIMON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.783109,
+                  52.466916
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "102",
+              "cmt": "ARAN FAWDDWY",
+              "desc": "ARAN FAWDDWY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.687898,
+                  52.78697
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "103",
+              "cmt": "CYRN Y BRAIN",
+              "desc": "CYRN Y BRAIN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.174205,
+                  53.038287
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "104",
+              "cmt": "MARROS BEACON",
+              "desc": "MARROS BEACON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.603213,
+                  51.741976
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "105",
+              "cmt": "CADER IDRIS",
+              "desc": "CADER IDRIS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.908864,
+                  52.699581
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "106",
+              "cmt": "GARN FAWR T1",
+              "desc": "GARN FAWR T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.067331,
+                  52.00824
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "107",
+              "cmt": "PRESCELLY",
+              "desc": "PRESCELLY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.774623,
+                  51.946119
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "108",
+              "cmt": "ABERYSTWYTH",
+              "desc": "ABERYSTWYTH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.071602,
+                  52.429853
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "109",
+              "cmt": "YR EIFL",
+              "desc": "YR EIFL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.436623,
+                  52.975052
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "11",
+              "cmt": "CORINGDON T1",
+              "desc": "CORINGDON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.989605,
+                  50.630304
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "110",
+              "cmt": "RHIW C1",
+              "desc": "RHIW C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.631272,
+                  52.832801
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "111",
+              "cmt": "GARNEDD UGAIN",
+              "desc": "GARNEDD UGAIN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.07524,
+                  53.075518
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "112",
+              "cmt": "ST ANNS HILL T1",
+              "desc": "ST ANNS HILL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.168382,
+                  51.693458
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "113",
+              "cmt": "MYNYDD RHOS WEN",
+              "desc": "MYNYDD RHOS WEN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.215755,
+                  51.978805
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "114",
+              "cmt": "CAPEL CYNON",
+              "desc": "CAPEL CYNON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.377816,
+                  52.118806
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "115",
+              "cmt": "GT ORMES HEAD C1",
+              "desc": "GT ORMES HEAD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.852307,
+                  53.33251
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "116",
+              "cmt": "LLANEILIAN",
+              "desc": "LLANEILIAN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.298515,
+                  53.400143
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "117",
+              "cmt": "HOLYHEAD",
+              "desc": "HOLYHEAD",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.675646,
+                  53.313382
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "118",
+              "cmt": "ARENIG",
+              "desc": "ARENIG",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.745995,
+                  52.917079
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "119",
+              "cmt": "CEFN BRYN T1",
+              "desc": "CEFN BRYN T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.140262,
+                  51.579964
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "12",
+              "cmt": "BULBARROW T1",
+              "desc": "BULBARROW T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.317168,
+                  50.849209
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "13",
+              "cmt": "WESTBURY DOWN T1",
+              "desc": "WESTBURY DOWN T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.143107,
+                  51.259234
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "131",
+              "cmt": "CAVE WOLD T1",
+              "desc": "CAVE WOLD T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.560563,
+                  53.7764
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "132",
+              "cmt": "ACRE",
+              "desc": "ACRE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.314802,
+                  53.453043
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "14",
+              "cmt": "BRADLEY",
+              "desc": "BRADLEY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.307306,
+                  51.13765
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "140",
+              "cmt": "PARRACOMBE",
+              "desc": "PARRACOMBE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.861108,
+                  51.17562
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "142",
+              "cmt": "WARDEN LAW",
+              "desc": "WARDEN LAW",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.425417,
+                  54.849043
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "144",
+              "cmt": "WYCK BEACON",
+              "desc": "WYCK BEACON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.708074,
+                  51.885292
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "148",
+              "cmt": "LLYN DU T1",
+              "desc": "LLYN DU T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.796913,
+                  52.229665
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "149",
+              "cmt": "PENDINE T1",
+              "desc": "PENDINE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.559768,
+                  51.755566
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "15",
+              "cmt": "BEACON HILL",
+              "desc": "BEACON HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.3206,
+                  52.714423
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "150",
+              "cmt": "MYNYDD MARGAM",
+              "desc": "MYNYDD MARGAM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.705883,
+                  51.586103
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "151",
+              "cmt": "TALSARN",
+              "desc": "TALSARN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.135312,
+                  52.218074
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "152",
+              "cmt": "UPTON BEACON",
+              "desc": "UPTON BEACON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.284224,
+                  53.619907
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "16",
+              "cmt": "BOULSWORTH",
+              "desc": "BOULSWORTH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.108218,
+                  53.816918
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "163",
+              "cmt": "MOEFRE ISAF T1",
+              "desc": "MOEFRE ISAF T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.572975,
+                  53.246963
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "164",
+              "cmt": "WEETON RESERVOIR T1",
+              "desc": "WEETON RESERVOIR T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.916551,
+                  53.802139
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "165",
+              "cmt": "EASTACOTT HILL",
+              "desc": "EASTACOTT HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.192351,
+                  51.1646
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "166",
+              "cmt": "HENDON MOOR",
+              "desc": "HENDON MOOR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.47716,
+                  50.937325
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "167",
+              "cmt": "RYDERS HILL",
+              "desc": "RYDERS HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.891413,
+                  50.505916
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "168",
+              "cmt": "LITTLE HALDON T1",
+              "desc": "LITTLE HALDON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.530986,
+                  50.566607
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "169",
+              "cmt": "FURLAND",
+              "desc": "FURLAND",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.55558,
+                  50.368083
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "17",
+              "cmt": "WINGREEN T1",
+              "desc": "WINGREEN T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.108157,
+                  50.985098
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "172",
+              "cmt": "BROWN WILLY",
+              "desc": "BROWN WILLY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.602789,
+                  50.590537
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "173",
+              "cmt": "TREVOSE HEAD C1",
+              "desc": "TREVOSE HEAD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.032953,
+                  50.548432
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "174",
+              "cmt": "HENSBARROW",
+              "desc": "HENSBARROW",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.819203,
+                  50.383526
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "175",
+              "cmt": "ST AGNES BEACON T1",
+              "desc": "ST AGNES BEACON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.21736,
+                  50.307244
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "176",
+              "cmt": "DODMAN",
+              "desc": "DODMAN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.80246,
+                  50.220618
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "177",
+              "cmt": "CARNMENELLIS",
+              "desc": "CARNMENELLIS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.229368,
+                  50.182979
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "178",
+              "cmt": "TRENDINE HILL",
+              "desc": "TRENDINE HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.534038,
+                  50.194963
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "179",
+              "cmt": "CARN GALVER",
+              "desc": "CARN GALVER",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.613268,
+                  50.165154
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "18",
+              "cmt": "WATER CRAG T1",
+              "desc": "WATER CRAG T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.111696,
+                  54.436946
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "180",
+              "cmt": "BARTINNEY B1",
+              "desc": "BARTINNEY B1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.645429,
+                  50.106675
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "181",
+              "cmt": "TREGONNING HILL",
+              "desc": "TREGONNING HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.360045,
+                  50.1217
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "182",
+              "cmt": "GOONHILLY DOWN",
+              "desc": "GOONHILLY DOWN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.178502,
+                  50.04648
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "189",
+              "cmt": "SEVERNDROOG CASTLE",
+              "desc": "SEVERNDROOG CASTLE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.059987,
+                  51.466606
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "19",
+              "cmt": "CROSS FELL T1",
+              "desc": "CROSS FELL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.486709,
+                  54.702961
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "190",
+              "cmt": "PADDLESWORTH C1",
+              "desc": "PADDLESWORTH C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.141776,
+                  51.112723
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "191",
+              "cmt": "SHURLAND T1",
+              "desc": "SHURLAND T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.876685,
+                  51.40875
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "192",
+              "cmt": "WROTHAM",
+              "desc": "WROTHAM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.284853,
+                  51.316791
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "193",
+              "cmt": "FAIRLIGHT DOWN C1",
+              "desc": "FAIRLIGHT DOWN C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.618933,
+                  50.877331
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "194",
+              "cmt": "BEACHY HEAD C1",
+              "desc": "BEACHY HEAD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.25261,
+                  50.739877
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "196",
+              "cmt": "CROWBOROUGH",
+              "desc": "CROWBOROUGH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.155638,
+                  51.056236
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "198",
+              "cmt": "BIN DOWN T1",
+              "desc": "BIN DOWN T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.427744,
+                  50.39326
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "199",
+              "cmt": "FIRLE BEACON T1",
+              "desc": "FIRLE BEACON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.10827,
+                  50.833704
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "2",
+              "cmt": "BLACK COMBE T1",
+              "desc": "BLACK COMBE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.328603,
+                  54.257741
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "20",
+              "cmt": "RIVINGTON T1",
+              "desc": "RIVINGTON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.51589,
+                  53.629807
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "202",
+              "cmt": "DUMPDON T1",
+              "desc": "DUMPDON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.1714,
+                  50.829669
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "203",
+              "cmt": "YES TOR",
+              "desc": "YES TOR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.010628,
+                  50.693531
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "204",
+              "cmt": "COOMBE HILL",
+              "desc": "COOMBE HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.710268,
+                  51.781512
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "207",
+              "cmt": "SHIBURN HILL C1",
+              "desc": "SHIBURN HILL C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.955715,
+                  51.651268
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "208",
+              "cmt": "PORTLEMOUTH",
+              "desc": "PORTLEMOUTH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.751787,
+                  50.2301
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "209",
+              "cmt": "THREE BARROWS",
+              "desc": "THREE BARROWS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.898237,
+                  50.447442
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "21",
+              "cmt": "WIRSWALL T1",
+              "desc": "WIRSWALL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.671868,
+                  52.99001
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "210",
+              "cmt": "WEMBURY",
+              "desc": "WEMBURY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.073961,
+                  50.344306
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "22",
+              "cmt": "YORK MINSTER T1",
+              "desc": "YORK MINSTER T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.082069,
+                  53.962203
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "23",
+              "cmt": "COLLIER LAW",
+              "desc": "COLLIER LAW",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.976308,
+                  54.771048
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "235",
+              "cmt": "MAPLESTEAD C1",
+              "desc": "MAPLESTEAD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.66343,
+                  51.97851
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "236",
+              "cmt": "CHEDBURGH",
+              "desc": "CHEDBURGH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.611703,
+                  52.171995
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "24",
+              "cmt": "MARGERY",
+              "desc": "MARGERY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.716665,
+                  53.457662
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "240",
+              "cmt": "NEDGING TYE C1",
+              "desc": "NEDGING TYE C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.948051,
+                  52.108815
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "244",
+              "cmt": "SWILLAND T1",
+              "desc": "SWILLAND T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.187865,
+                  52.139445
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "245",
+              "cmt": "MANNINGTREE",
+              "desc": "MANNINGTREE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.028452,
+                  51.925342
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "246",
+              "cmt": "PUTTOCKS HILL C1",
+              "desc": "PUTTOCKS HILL C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.78195,
+                  52.29154
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "247",
+              "cmt": "WOOLPIT",
+              "desc": "WOOLPIT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.921364,
+                  52.2226
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "248",
+              "cmt": "HELION BUMPSTEAD C1",
+              "desc": "HELION BUMPSTEAD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.368271,
+                  52.049135
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "25",
+              "cmt": "ROYAL OAK T1",
+              "desc": "ROYAL OAK T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.685206,
+                  54.619394
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "254",
+              "cmt": "ORFORD CASTLE T1",
+              "desc": "ORFORD CASTLE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.530795,
+                  52.094262
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "258",
+              "cmt": "METFIELD",
+              "desc": "METFIELD",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.395506,
+                  52.369253
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "259",
+              "cmt": "SALLE",
+              "desc": "SALLE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.453524,
+                  52.243878
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "26",
+              "cmt": "HOLME MOSS",
+              "desc": "HOLME MOSS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.883539,
+                  53.538739
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "260",
+              "cmt": "CROWN CORNER",
+              "desc": "CROWN CORNER",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.304865,
+                  52.283332
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "261",
+              "cmt": "FRAMLINGHAM",
+              "desc": "FRAMLINGHAM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.337427,
+                  52.574509
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "262",
+              "cmt": "FROG HILL",
+              "desc": "FROG HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.75559,
+                  52.48557
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "263",
+              "cmt": "PIGGS GRAVE",
+              "desc": "PIGGS GRAVE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.008608,
+                  52.856295
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "265",
+              "cmt": "DEXTHORPE",
+              "desc": "DEXTHORPE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.106103,
+                  53.235551
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "266",
+              "cmt": "COLD HARBOUR T1",
+              "desc": "COLD HARBOUR T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.101288,
+                  53.312721
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "27",
+              "cmt": "THE EDGE",
+              "desc": "THE EDGE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.88569,
+                  53.401089
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "272",
+              "cmt": "MASSINGHAM C1",
+              "desc": "MASSINGHAM C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.657834,
+                  52.74903
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "28",
+              "cmt": "BOTTON HEAD T1",
+              "desc": "BOTTON HEAD T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.085889,
+                  54.406352
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "29",
+              "cmt": "BLAKE MERE T1",
+              "desc": "BLAKE MERE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.939654,
+                  53.146104
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "3",
+              "cmt": "SKIDDAW",
+              "desc": "SKIDDAW",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.147794,
+                  54.651445
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "30",
+              "cmt": "DELAMERE",
+              "desc": "DELAMERE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.685628,
+                  53.221696
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "301",
+              "cmt": "MERRICK",
+              "desc": "MERRICK",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.468459,
+                  55.139288
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "302",
+              "cmt": "BEN MACDHUI",
+              "desc": "BEN MACDHUI",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.669135,
+                  57.070448
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "303",
+              "cmt": "SLIABH GAOIL",
+              "desc": "SLIABH GAOIL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.491757,
+                  55.911607
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "304",
+              "cmt": "MOUNT BATTOCK T1",
+              "desc": "MOUNT BATTOCK T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.741963,
+                  56.949338
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "305",
+              "cmt": "MEALL DEARG T1",
+              "desc": "MEALL DEARG T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.81282,
+                  56.552254
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "306",
+              "cmt": "TRUSTA",
+              "desc": "TRUSTA",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.360793,
+                  56.972291
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "307",
+              "cmt": "BEN CLEUGH",
+              "desc": "BEN CLEUGH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.769524,
+                  56.185747
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "308",
+              "cmt": "CHEVIOT",
+              "desc": "CHEVIOT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.145443,
+                  55.478489
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "309",
+              "cmt": "GOAT FELL",
+              "desc": "GOAT FELL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.192027,
+                  55.625863
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "31",
+              "cmt": "HINDHEAD C1",
+              "desc": "HINDHEAD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.715802,
+                  51.115365
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "310",
+              "cmt": "KINGS SEAT",
+              "desc": "KINGS SEAT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.25087,
+                  56.482897
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "311",
+              "cmt": "CAIRN TABLE T1",
+              "desc": "CAIRN TABLE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.020931,
+                  55.495156
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "312",
+              "cmt": "WEST HILLS",
+              "desc": "WEST HILLS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.758434,
+                  56.592285
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "313",
+              "cmt": "DUNRIG T1",
+              "desc": "DUNRIG T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.185143,
+                  55.572245
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "314",
+              "cmt": "BEN CRUACHAN",
+              "desc": "BEN CRUACHAN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.131856,
+                  56.426902
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "315",
+              "cmt": "BEN LAWERS",
+              "desc": "BEN LAWERS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.220929,
+                  56.544983
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "316",
+              "cmt": "BROMMOND",
+              "desc": "BROMMOND",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.238622,
+                  57.1724
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "317",
+              "cmt": "WISP HILL T1",
+              "desc": "WISP HILL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.967537,
+                  55.284451
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "318",
+              "cmt": "TINTO",
+              "desc": "TINTO",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.663234,
+                  55.591719
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "319",
+              "cmt": "HILL OF STAKE",
+              "desc": "HILL OF STAKE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.757988,
+                  55.829347
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "32",
+              "cmt": "DITCHLING T1",
+              "desc": "DITCHLING T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.107608,
+                  50.901629
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "320",
+              "cmt": "HART FELL",
+              "desc": "HART FELL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.401444,
+                  55.408088
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "321",
+              "cmt": "KELLIE LAW T1",
+              "desc": "KELLIE LAW T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.780312,
+                  56.248229
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "322",
+              "cmt": "GLAS MAOL",
+              "desc": "GLAS MAOL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.368256,
+                  56.873139
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "323",
+              "cmt": "BEN NEVIS",
+              "desc": "BEN NEVIS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.003597,
+                  56.796937
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "324",
+              "cmt": "LUMSDAINE C1",
+              "desc": "LUMSDAINE C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.205783,
+                  55.907992
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "325",
+              "cmt": "CARN NAN TRI TIGHEARNAN",
+              "desc": "CARN NAN TRI TIGHEARNAN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.961579,
+                  57.426447
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "327",
+              "cmt": "EARLS SEAT",
+              "desc": "EARLS SEAT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.296394,
+                  56.025741
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "328",
+              "cmt": "CAIRNSMORE OF DEUGH",
+              "desc": "CAIRNSMORE OF DEUGH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.213114,
+                  55.256028
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "329",
+              "cmt": "CORSE HILL",
+              "desc": "CORSE HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.231369,
+                  55.69141
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "33",
+              "cmt": "INKPEN C1",
+              "desc": "INKPEN C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.46511,
+                  51.352426
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "330",
+              "cmt": "BEINN BHEULA T1",
+              "desc": "BEINN BHEULA T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.971551,
+                  56.141894
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "331",
+              "cmt": "CARN AN FHREICEADAIN",
+              "desc": "CARN AN FHREICEADAIN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.107411,
+                  57.137426
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "332",
+              "cmt": "CARN GOWER",
+              "desc": "CARN GOWER",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.689173,
+                  56.838833
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "333",
+              "cmt": "SAYERS LAW T1",
+              "desc": "SAYERS LAW T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.670407,
+                  55.847072
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "334",
+              "cmt": "WEST LOMOND T1",
+              "desc": "WEST LOMOND T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.296874,
+                  56.245502
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "335",
+              "cmt": "BEN ALDER",
+              "desc": "BEN ALDER",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.465144,
+                  56.813884
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "336",
+              "cmt": "BEN LOMOND",
+              "desc": "BEN LOMOND",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.633144,
+                  56.19038
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "338",
+              "cmt": "MORMOND",
+              "desc": "MORMOND",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.032977,
+                  57.602686
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "339",
+              "cmt": "KNOCK",
+              "desc": "KNOCK",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.775612,
+                  57.584231
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "34",
+              "cmt": "WHITE HORSE T1",
+              "desc": "WHITE HORSE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.567304,
+                  51.575394
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "340",
+              "cmt": "FINDLAYS SEAT",
+              "desc": "FINDLAYS SEAT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.242214,
+                  57.578241
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "341",
+              "cmt": "BENNACHIE",
+              "desc": "BENNACHIE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.528774,
+                  57.291089
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "342",
+              "cmt": "CORRYHABBIE",
+              "desc": "CORRYHABBIE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.196431,
+                  57.344697
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "343",
+              "cmt": "CAIRNSMORE OF FLEET",
+              "desc": "CAIRNSMORE OF FLEET",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.342764,
+                  54.975711
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "344",
+              "cmt": "GREENSHEEN HILL T1",
+              "desc": "GREENSHEEN HILL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.912152,
+                  55.615421
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "345",
+              "cmt": "SCALD LAW T1",
+              "desc": "SCALD LAW T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.292207,
+                  55.836227
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "346",
+              "cmt": "BROWN CARRICK",
+              "desc": "BROWN CARRICK",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.712689,
+                  55.407401
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "347",
+              "cmt": "CUTTIES HILLOCK",
+              "desc": "CUTTIES HILLOCK",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.375197,
+                  57.65486
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "348",
+              "cmt": "BEN AIGAN",
+              "desc": "BEN AIGAN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.153671,
+                  57.518686
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "349",
+              "cmt": "BIN OF CULLEN",
+              "desc": "BIN OF CULLEN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.87329,
+                  57.665312
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "35",
+              "cmt": "LIDDINGTON CASTLE T1",
+              "desc": "LIDDINGTON CASTLE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.699025,
+                  51.516264
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "350",
+              "cmt": "LOSSIEMOUTH BASE EAST",
+              "desc": "LOSSIEMOUTH BASE EAST",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.181837,
+                  57.682183
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "351",
+              "cmt": "LOSSIEMOUTH BASE WEST",
+              "desc": "LOSSIEMOUTH BASE WEST",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.288403,
+                  57.712018
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "352",
+              "cmt": "BLACK MOUNT",
+              "desc": "BLACK MOUNT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.465456,
+                  55.698449
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "353",
+              "cmt": "CRAIGOWL",
+              "desc": "CRAIGOWL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.01496,
+                  56.547825
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "354",
+              "cmt": "WUDDY LAW C1",
+              "desc": "WUDDY LAW C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.60528,
+                  56.661413
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "356",
+              "cmt": "BEINN BHREAC MHOR",
+              "desc": "BEINN BHREAC MHOR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.19268,
+                  57.250336
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "357",
+              "cmt": "CUTTIES HILLOCK EAST",
+              "desc": "CUTTIES HILLOCK EAST",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.367024,
+                  57.652343
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "358",
+              "cmt": "COL BHEINN",
+              "desc": "COL BHEINN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.892953,
+                  58.074089
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "359",
+              "cmt": "CNOC AN T SABHAIL T1",
+              "desc": "CNOC AN T SABHAIL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.153015,
+                  57.80681
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "36",
+              "cmt": "PILSDON",
+              "desc": "PILSDON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.83371,
+                  50.806787
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "360",
+              "cmt": "CAIRN PAT",
+              "desc": "CAIRN PAT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.048972,
+                  54.863628
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "361",
+              "cmt": "INSHANKS",
+              "desc": "INSHANKS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.926959,
+                  54.679385
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "362",
+              "cmt": "CARLETON FELL",
+              "desc": "CARLETON FELL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.481544,
+                  54.710664
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "363",
+              "cmt": "BENERAIRD",
+              "desc": "BENERAIRD",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.921561,
+                  55.066034
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "365",
+              "cmt": "CNOC MOY T1",
+              "desc": "CNOC MOY T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.77151,
+                  55.372819
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "368",
+              "cmt": "BEN HYNISH",
+              "desc": "BEN HYNISH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.923535,
+                  56.455386
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "369",
+              "cmt": "BEN HOGH",
+              "desc": "BEN HOGH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.598324,
+                  56.629434
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "37",
+              "cmt": "GORE HILL T1",
+              "desc": "GORE HILL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.516317,
+                  50.833075
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "371",
+              "cmt": "SGURR NA CICHE",
+              "desc": "SGURR NA CICHE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.457026,
+                  57.013528
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "372",
+              "cmt": "CREACH BHEINN",
+              "desc": "CREACH BHEINN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.47629,
+                  56.662067
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "373",
+              "cmt": "AN CUAIDH B1",
+              "desc": "AN CUAIDH B1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.766706,
+                  57.835744
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "374",
+              "cmt": "ASKIVAL",
+              "desc": "ASKIVAL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.291631,
+                  56.974527
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "375",
+              "cmt": "BEINN NA CAILLICH",
+              "desc": "BEINN NA CAILLICH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.976606,
+                  57.237487
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "376",
+              "cmt": "BAD MOR",
+              "desc": "BAD MOR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.718767,
+                  58.472312
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "377",
+              "cmt": "BEN MORE (MULL)",
+              "desc": "BEN MORE (MULL)",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.014137,
+                  56.424906
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "378",
+              "cmt": "BEN HUTIG",
+              "desc": "BEN HUTIG",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.513114,
+                  58.551133
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "379",
+              "cmt": "BEN WYVIS",
+              "desc": "BEN WYVIS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.579306,
+                  57.679003
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "38",
+              "cmt": "LINCH BALL C1",
+              "desc": "LINCH BALL C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.794123,
+                  50.949491
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "380",
+              "cmt": "BEINN A BHA ACH ARD",
+              "desc": "BEINN A BHA ACH ARD",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.733963,
+                  57.452042
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "381",
+              "cmt": "BEN KLIBRECK",
+              "desc": "BEN KLIBRECK",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.411218,
+                  58.235269
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "382",
+              "cmt": "BEINN BHAN",
+              "desc": "BEINN BHAN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.66178,
+                  57.442453
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "383",
+              "cmt": "BEINN TART A MHILL",
+              "desc": "BEINN TART A MHILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.444283,
+                  55.725763
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "384",
+              "cmt": "CONIVAL",
+              "desc": "CONIVAL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.883507,
+                  58.135806
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "385",
+              "cmt": "CARRA DUAGH",
+              "desc": "CARRA DUAGH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.401964,
+                  56.238194
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "386",
+              "cmt": "CARN EIGE",
+              "desc": "CARN EIGE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.115217,
+                  57.287799
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "387",
+              "cmt": "CREAG RIABHACH",
+              "desc": "CREAG RIABHACH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.957669,
+                  58.528315
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "388",
+              "cmt": "DUNNET HEAD C1",
+              "desc": "DUNNET HEAD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.371936,
+                  58.669207
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "389",
+              "cmt": "ANTEALLACH",
+              "desc": "ANTEALLACH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.251746,
+                  57.807242
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "39",
+              "cmt": "BIGNOR BEACON",
+              "desc": "BIGNOR BEACON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.627429,
+                  50.909376
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "390",
+              "cmt": "HEALAVAL BEG",
+              "desc": "HEALAVAL BEG",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.619698,
+                  57.385525
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "391",
+              "cmt": "HIL OF YARROWS",
+              "desc": "HIL OF YARROWS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.20485,
+                  58.368055
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "392",
+              "cmt": "JURA",
+              "desc": "JURA",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.004271,
+                  55.902454
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "393",
+              "cmt": "MEALL NAN CON T1",
+              "desc": "MEALL NAN CON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.083317,
+                  56.737931
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "394",
+              "cmt": "POINT OF STOER T1",
+              "desc": "POINT OF STOER T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.380541,
+                  58.255388
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "396",
+              "cmt": "STORR",
+              "desc": "STORR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.183173,
+                  57.507202
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "397",
+              "cmt": "SCARABEN",
+              "desc": "SCARABEN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.591533,
+                  58.220471
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "398",
+              "cmt": "SPITAL HILL",
+              "desc": "SPITAL HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.428878,
+                  58.481133
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "399",
+              "cmt": "WARTH HILL",
+              "desc": "WARTH HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.084068,
+                  58.61225
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "4",
+              "cmt": "MALLOWDALE PIKE T1",
+              "desc": "MALLOWDALE PIKE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.62347,
+                  54.022945
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "41",
+              "cmt": "BLAGDON",
+              "desc": "BLAGDON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.740865,
+                  51.312099
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "424",
+              "cmt": "CRIMPLESHAM C1",
+              "desc": "CRIMPLESHAM C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.433163,
+                  52.61116
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "425",
+              "cmt": "SWAFFHAM",
+              "desc": "SWAFFHAM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.717309,
+                  52.649789
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "426",
+              "cmt": "FRANSHAM",
+              "desc": "FRANSHAM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.84488,
+                  52.65727
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "427",
+              "cmt": "WALPOLE ST PETERS",
+              "desc": "WALPOLE ST PETERS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.222793,
+                  52.726361
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "429",
+              "cmt": "HARROWBY",
+              "desc": "HARROWBY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.594389,
+                  52.910986
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "430",
+              "cmt": "ELY CATHEDRAL",
+              "desc": "ELY CATHEDRAL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.262811,
+                  52.398787
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "431",
+              "cmt": "COLLYWESTON",
+              "desc": "COLLYWESTON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.523192,
+                  52.617319
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "432",
+              "cmt": "FAYWAY",
+              "desc": "FAYWAY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.433657,
+                  52.394038
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "433",
+              "cmt": "BOLNHURST",
+              "desc": "BOLNHURST",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.451276,
+                  52.225999
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "437",
+              "cmt": "DUNMOW",
+              "desc": "DUNMOW",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.393905,
+                  51.875298
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "44",
+              "cmt": "LOOSE HOWE",
+              "desc": "LOOSE HOWE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.92043,
+                  54.401355
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "441",
+              "cmt": "THERFIELD",
+              "desc": "THERFIELD",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.060564,
+                  52.017582
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "442",
+              "cmt": "UPPINGHAM",
+              "desc": "UPPINGHAM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.745194,
+                  52.581112
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "443",
+              "cmt": "FAXTON C1",
+              "desc": "FAXTON C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.817704,
+                  52.370812
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "447",
+              "cmt": "PETERBOROUGH CATHEDRAL",
+              "desc": "PETERBOROUGH CATHEDRAL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.239182,
+                  52.572501
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "452",
+              "cmt": "DIMLINGTON",
+              "desc": "DIMLINGTON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.111321,
+                  53.663952
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "455",
+              "cmt": "BALTA",
+              "desc": "BALTA",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.786414,
+                  60.751371
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "456",
+              "cmt": "BRASSA",
+              "desc": "BRASSA",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.096632,
+                  60.130082
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "457",
+              "cmt": "DEERNESS",
+              "desc": "DEERNESS",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.750997,
+                  58.951629
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "458",
+              "cmt": "FAIR ISLE",
+              "desc": "FAIR ISLE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.633178,
+                  59.546114
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "459",
+              "cmt": "FETLAR",
+              "desc": "FETLAR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.864743,
+                  60.620368
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "46",
+              "cmt": "BLACKDOWN",
+              "desc": "BLACKDOWN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.54925,
+                  50.686701
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "460",
+              "cmt": "FITTY HILL",
+              "desc": "FITTY HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.002589,
+                  59.286561
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "461",
+              "cmt": "FOULA",
+              "desc": "FOULA",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.095744,
+                  60.140185
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "462",
+              "cmt": "RONAS HILL",
+              "desc": "RONAS HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.44546,
+                  60.533935
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "463",
+              "cmt": "SAXAVORD",
+              "desc": "SAXAVORD",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.841,
+                  60.827601
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "464",
+              "cmt": "SOUTH RONALDSAY",
+              "desc": "SOUTH RONALDSAY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.943657,
+                  58.782076
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "465",
+              "cmt": "STRONSAY",
+              "desc": "STRONSAY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.544857,
+                  59.094179
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "466",
+              "cmt": "WARD HILL",
+              "desc": "WARD HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.340291,
+                  58.90071
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "467",
+              "cmt": "YELL",
+              "desc": "YELL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.088696,
+                  60.546433
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "468",
+              "cmt": "SNAEFELL",
+              "desc": "SNAEFELL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.461679,
+                  54.263278
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "469",
+              "cmt": "SOUTH BARRULE",
+              "desc": "SOUTH BARRULE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4.669362,
+                  54.149476
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "47",
+              "cmt": "SELSEY",
+              "desc": "SELSEY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.770454,
+                  50.75476
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "472",
+              "cmt": "CLISHAM",
+              "desc": "CLISHAM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.812618,
+                  57.96383
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "473",
+              "cmt": "MEALISVAL",
+              "desc": "MEALISVAL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -7.061282,
+                  58.131733
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "474",
+              "cmt": "MUIRNAG",
+              "desc": "MUIRNAG",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.31026,
+                  58.356273
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "475",
+              "cmt": "HEAVAL T1",
+              "desc": "HEAVAL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -7.468341,
+                  56.966229
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "476",
+              "cmt": "BEINN MHOR",
+              "desc": "BEINN MHOR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -7.2951,
+                  57.258801
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "477",
+              "cmt": "MARRIVAL",
+              "desc": "MARRIVAL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -7.345662,
+                  57.607061
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "478",
+              "cmt": "HILLHEAD FARM",
+              "desc": "HILLHEAD FARM",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.242325,
+                  58.552309
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "479",
+              "cmt": "AILSA CRAIG",
+              "desc": "AILSA CRAIG",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -5.118334,
+                  55.252769
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "481",
+              "cmt": "HERSTMONCEUX C1",
+              "desc": "HERSTMONCEUX C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  0.344466,
+                  50.865874
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "482",
+              "cmt": "GREENWICH OBSERVATORY",
+              "desc": "GREENWICH OBSERVATORY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.001477,
+                  51.477824
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "484",
+              "cmt": "NORTH TOLSTA",
+              "desc": "NORTH TOLSTA",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -6.224978,
+                  58.344895
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "486",
+              "cmt": "ST KILDA",
+              "desc": "ST KILDA",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -8.573251,
+                  57.819207
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "49",
+              "cmt": "BAGBOROUGH T1",
+              "desc": "BAGBOROUGH T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.193733,
+                  51.109534
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "5",
+              "cmt": "HIGH STREET T1",
+              "desc": "HIGH STREET T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.86489,
+                  54.491682
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "50",
+              "cmt": "LEITH HILL TOWER",
+              "desc": "LEITH HILL TOWER",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.371273,
+                  51.17629
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "51",
+              "cmt": "WEAVER HILL",
+              "desc": "WEAVER HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.860539,
+                  53.014705
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "52",
+              "cmt": "HARLAND SOUTH T1",
+              "desc": "HARLAND SOUTH T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.550946,
+                  53.209617
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "53",
+              "cmt": "CLIFTON",
+              "desc": "CLIFTON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.219935,
+                  53.457671
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "54",
+              "cmt": "LOATH HILL T1",
+              "desc": "LOATH HILL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.053599,
+                  53.076897
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "55",
+              "cmt": "EASINGTON",
+              "desc": "EASINGTON",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.841639,
+                  54.564956
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "56",
+              "cmt": "ALPORT HEIGHTS T1",
+              "desc": "ALPORT HEIGHTS T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.545454,
+                  53.060608
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "57",
+              "cmt": "CHARNWOOD C1",
+              "desc": "CHARNWOOD C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.247184,
+                  52.728498
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "58",
+              "cmt": "BARDON HILL",
+              "desc": "BARDON HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.320614,
+                  52.714432
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "6",
+              "cmt": "LIT WHERNSIDE T1",
+              "desc": "LIT WHERNSIDE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.402641,
+                  54.227774
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "60",
+              "cmt": "CASTLE RING T1",
+              "desc": "CASTLE RING T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.937618,
+                  52.713557
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "61",
+              "cmt": "WALTON HILL",
+              "desc": "WALTON HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.085834,
+                  52.416089
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "62",
+              "cmt": "TITTERSTONE CLEE",
+              "desc": "TITTERSTONE CLEE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.601993,
+                  52.398001
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "63",
+              "cmt": "WREKIN T1",
+              "desc": "WREKIN T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.551471,
+                  52.669238
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "64",
+              "cmt": "STIPERSTONES",
+              "desc": "STIPERSTONES",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.934901,
+                  52.581894
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "65",
+              "cmt": "HAMBLETON DOWN",
+              "desc": "HAMBLETON DOWN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.217531,
+                  54.24629
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "66",
+              "cmt": "ROLLRIGHT",
+              "desc": "ROLLRIGHT",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.595644,
+                  51.966481
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "68",
+              "cmt": "MARTINSELL",
+              "desc": "MARTINSELL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.745146,
+                  51.373539
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "69",
+              "cmt": "CLEEVE HILL B1",
+              "desc": "CLEEVE HILL B1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.005872,
+                  51.91982
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "7",
+              "cmt": "GT WHERNSIDE T1",
+              "desc": "GT WHERNSIDE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.998404,
+                  54.16095
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "70",
+              "cmt": "ROMBALDS MOOR T1",
+              "desc": "ROMBALDS MOOR T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.826944,
+                  53.903046
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "71",
+              "cmt": "RADNOR FOREST",
+              "desc": "RADNOR FOREST",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.199885,
+                  52.267095
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "72",
+              "cmt": "GWYNYDD BACH",
+              "desc": "GWYNYDD BACH",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.143386,
+                  51.962641
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "73",
+              "cmt": "MYNYDD MAEN T1",
+              "desc": "MYNYDD MAEN T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.071662,
+                  51.67413
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "74",
+              "cmt": "DUNKERY",
+              "desc": "DUNKERY",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.586823,
+                  51.162702
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "75",
+              "cmt": "TILTON PILE T1",
+              "desc": "TILTON PILE T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.867217,
+                  52.645428
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "76",
+              "cmt": "COLD ASHBY C1",
+              "desc": "COLD ASHBY C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.05492,
+                  52.38352
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "77",
+              "cmt": "PEN HILL T1",
+              "desc": "PEN HILL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.625314,
+                  51.236466
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "78",
+              "cmt": "CHARWELTON T1",
+              "desc": "CHARWELTON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.250146,
+                  52.200944
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "79",
+              "cmt": "MALVERN T1",
+              "desc": "MALVERN T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.338963,
+                  52.10477
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "8",
+              "cmt": "LEAVENING BROW",
+              "desc": "LEAVENING BROW",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.786494,
+                  54.050562
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "80",
+              "cmt": "LINCOLN MINSTER",
+              "desc": "LINCOLN MINSTER",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.536248,
+                  53.234285
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "81",
+              "cmt": "BELVOIR CASTLE",
+              "desc": "BELVOIR CASTLE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.782821,
+                  52.8946
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "85",
+              "cmt": "TRECASTLE",
+              "desc": "TRECASTLE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.708078,
+                  51.882239
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "86",
+              "cmt": "MOEL FAMMAU B1",
+              "desc": "MOEL FAMMAU B1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.255182,
+                  53.154373
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "87",
+              "cmt": "CADER BERWYN",
+              "desc": "CADER BERWYN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.380279,
+                  52.883854
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "88",
+              "cmt": "PEGLERS TUMP",
+              "desc": "PEGLERS TUMP",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.305852,
+                  51.698572
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "89",
+              "cmt": "LLANGEINOR",
+              "desc": "LLANGEINOR",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.572658,
+                  51.641144
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "9",
+              "cmt": "BUTSER C1",
+              "desc": "BUTSER C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.980311,
+                  50.977785
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "90",
+              "cmt": "DRYGARN",
+              "desc": "DRYGARN",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.666637,
+                  52.211787
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "91",
+              "cmt": "BROADWAY TOWER",
+              "desc": "BROADWAY TOWER",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.835745,
+                  52.024216
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "92",
+              "cmt": "SCAFELL",
+              "desc": "SCAFELL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.211698,
+                  54.454271
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "93",
+              "cmt": "WHYTELYNE COMMON T1",
+              "desc": "WHYTELYNE COMMON T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.626551,
+                  55.121105
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "94",
+              "cmt": "DUNSTABLE DOWN C1",
+              "desc": "DUNSTABLE DOWN C1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -0.536354,
+                  51.864187
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "95",
+              "cmt": "TOSSON HILL",
+              "desc": "TOSSON HILL",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -1.993952,
+                  55.278381
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "96",
+              "cmt": "CRIFFELL T1",
+              "desc": "CRIFFELL T1",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -3.62928,
+                  54.940565
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "99",
+              "cmt": "COLD FELL PIKE",
+              "desc": "COLD FELL PIKE",
+              "sym": "Waypoint"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -2.616268,
+                  54.893898
+              ]
+          }
+      }
+  ]
+}

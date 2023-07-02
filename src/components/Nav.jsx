@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import routes from './routes';
 import '../style/Navbar.css';
 
-function Nav() {
+function Nav({ background }) {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -14,8 +14,10 @@ function Nav() {
     route.element.type.preload?.();
   };
 
+  const navbarStyle = background ? { backgroundColor: 'rgba(0, 0, 0, 0.5)' } : {};
+
   return (
-    <div className="navbar">
+    <div className="navbar" style={navbarStyle}>
       <button className="hamburger" onClick={toggleMenu} type="button">
         <span className="hamburger-line" />
         <span className="hamburger-line" />
@@ -53,7 +55,13 @@ function Nav() {
           >
             Apps
           </Link>
-          <a href="../Jonathan_White_CV.pdf" target="_blank">
+          <Link
+            to="/hikes"
+            onMouseEnter={() => preloadRouteComponent(routes.find((r) => r.path === '/hikes'))}
+          >
+            Hikes
+          </Link>
+          <a href="../Jonathan_White_CV.pdf" target="_blank" rel="noopener noreferrer">
             CV
           </a>
         </div>

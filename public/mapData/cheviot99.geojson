@@ -1,0 +1,1671 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "above Breamish Head",
+                "cmt": "above Breamish Head",
+                "desc": "above Breamish Head",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15491,
+                    55.45396,
+                    504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "above Cobden Cleugh",
+                "cmt": "above Cobden Cleugh",
+                "desc": "above Cobden Cleugh",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.02982,
+                    55.42428,
+                    302.78
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ainsey Knowe",
+                "cmt": "Ainsey Knowe",
+                "desc": "Ainsey Knowe",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.13586,
+                    55.43332,
+                    489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Barrow Law",
+                "cmt": "Barrow Law",
+                "desc": "Barrow Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.21589,
+                    55.39886,
+                    418.69
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beefstand Hill",
+                "cmt": "Beefstand Hill",
+                "desc": "Beefstand Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.28419,
+                    55.42293,
+                    562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Birnie Brae",
+                "cmt": "Birnie Brae",
+                "desc": "Birnie Brae",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.20464,
+                    55.47983,
+                    508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Black Hag",
+                "cmt": "Black Hag",
+                "desc": "Black Hag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.22128,
+                    55.50709,
+                    549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blackhaggs Rigg",
+                "cmt": "Blackhaggs Rigg",
+                "desc": "Blackhaggs Rigg",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.19314,
+                    55.51321,
+                    452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bloodybush Edge",
+                "cmt": "Bloodybush Edge",
+                "desc": "Bloodybush Edge",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15601,
+                    55.42292,
+                    609.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Broadhope Hill",
+                "cmt": "Broadhope Hill",
+                "desc": "Broadhope Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.108,
+                    55.50442,
+                    517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Broadside Law",
+                "cmt": "Broadside Law",
+                "desc": "Broadside Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.27021,
+                    55.39543,
+                    444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brownhart Law",
+                "cmt": "Brownhart Law",
+                "desc": "Brownhart Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.33615,
+                    55.37797,
+                    508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Byrness Hill",
+                "cmt": "Byrness Hill",
+                "desc": "Byrness Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.35929,
+                    55.32594,
+                    427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carlcroft Hill",
+                "cmt": "Carlcroft Hill",
+                "desc": "Carlcroft Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.27052,
+                    55.4029,
+                    446.81
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cochrane Pike",
+                "cmt": "Cochrane Pike",
+                "desc": "Cochrane Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.99012,
+                    55.42017,
+                    335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cold Law",
+                "cmt": "Cold Law",
+                "desc": "Cold Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.07481,
+                    55.50871,
+                    452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cold Law",
+                "cmt": "Cold Law",
+                "desc": "Cold Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.07315,
+                    55.37642,
+                    397.58
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Coldburn Hill",
+                "cmt": "Coldburn Hill",
+                "desc": "Coldburn Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15631,
+                    55.5107,
+                    485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Coldsmouth Hill",
+                "cmt": "Coldsmouth Hill",
+                "desc": "Coldsmouth Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.22758,
+                    55.54792,
+                    414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Comb Fell",
+                "cmt": "Comb Fell",
+                "desc": "Comb Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.12152,
+                    55.4624,
+                    652.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cushat Law",
+                "cmt": "Cushat Law",
+                "desc": "Cushat Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.11509,
+                    55.41761,
+                    616.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Deel's Hill",
+                "cmt": "Deel's Hill",
+                "desc": "Deel's Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.31147,
+                    55.38512,
+                    495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dod Hill",
+                "cmt": "Dod Hill",
+                "desc": "Dod Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.02084,
+                    55.48164,
+                    353
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dour Hill",
+                "cmt": "Dour Hill",
+                "desc": "Dour Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.32295,
+                    55.31436,
+                    415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dryhope Hill",
+                "cmt": "Dryhope Hill",
+                "desc": "Dryhope Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.11408,
+                    55.39895,
+                    486.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dunmoor Hill",
+                "cmt": "Dunmoor Hill",
+                "desc": "Dunmoor Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.05318,
+                    55.45804,
+                    569
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Easter Tor",
+                "cmt": "Easter Tor",
+                "desc": "Easter Tor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1353,
+                    55.54634,
+                    438.44
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Echo Crags",
+                "cmt": "Echo Crags",
+                "desc": "Echo Crags",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.40762,
+                    55.33319,
+                    460.19
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ell's Knowe",
+                "cmt": "Ell's Knowe",
+                "desc": "Ell's Knowe",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2038,
+                    55.54408,
+                    319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ewe Hill",
+                "cmt": "Ewe Hill",
+                "desc": "Ewe Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.00123,
+                    55.42929,
+                    315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gains Law",
+                "cmt": "Gains Law",
+                "desc": "Gains Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0715,
+                    55.54695,
+                    319.26
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gills Law",
+                "cmt": "Gills Law",
+                "desc": "Gills Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.08833,
+                    55.37945,
+                    412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Hetha",
+                "cmt": "Great Hetha",
+                "desc": "Great Hetha",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.18275,
+                    55.54034,
+                    343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Moor East Top",
+                "cmt": "Great Moor East Top",
+                "desc": "Great Moor East Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.09351,
+                    55.52812,
+                    353.98
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Green Side",
+                "cmt": "Green Side",
+                "desc": "Green Side",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.14835,
+                    55.36235,
+                    395.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Greyhound Law",
+                "cmt": "Greyhound Law",
+                "desc": "Greyhound Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.37779,
+                    55.34901,
+                    484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Haddon Hill",
+                "cmt": "Haddon Hill",
+                "desc": "Haddon Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.20348,
+                    55.55657,
+                    352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Haddon Hill SW Top",
+                "cmt": "Haddon Hill SW Top",
+                "desc": "Haddon Hill SW Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.21223,
+                    55.55377,
+                    342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hare Law",
+                "cmt": "Hare Law",
+                "desc": "Hare Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15689,
+                    55.53251,
+                    518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hart Heugh",
+                "cmt": "Hart Heugh",
+                "desc": "Hart Heugh",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.05239,
+                    55.52382,
+                    326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hart Law",
+                "cmt": "Hart Law",
+                "desc": "Hart Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.02181,
+                    55.40893,
+                    342.45
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hazely Law",
+                "cmt": "Hazely Law",
+                "desc": "Hazely Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.19586,
+                    55.42335,
+                    499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hedgehope Hill",
+                "cmt": "Hedgehope Hill",
+                "desc": "Hedgehope Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.09035,
+                    55.47191,
+                    714.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Cantle",
+                "cmt": "High Cantle",
+                "desc": "High Cantle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.11651,
+                    55.44015,
+                    481.16
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Knowes",
+                "cmt": "High Knowes",
+                "desc": "High Knowes",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.05079,
+                    55.40911,
+                    395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hogdon Law",
+                "cmt": "Hogdon Law",
+                "desc": "Hogdon Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.08121,
+                    55.40823,
+                    548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Houx Hill",
+                "cmt": "Houx Hill",
+                "desc": "Houx Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.35611,
+                    55.3407,
+                    491.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hungry Law",
+                "cmt": "Hungry Law",
+                "desc": "Hungry Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.40021,
+                    55.34866,
+                    501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Inner Hill",
+                "cmt": "Inner Hill",
+                "desc": "Inner Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.11752,
+                    55.39279,
+                    443
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kilham Hill",
+                "cmt": "Kilham Hill",
+                "desc": "Kilham Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.18324,
+                    55.57388,
+                    338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kings Seat",
+                "cmt": "Kings Seat",
+                "desc": "Kings Seat",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.19284,
+                    55.45031,
+                    531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kyloe Shin",
+                "cmt": "Kyloe Shin",
+                "desc": "Kyloe Shin",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.19501,
+                    55.39549,
+                    433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lamb Hill",
+                "cmt": "Lamb Hill",
+                "desc": "Lamb Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.30071,
+                    55.4136,
+                    511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Langlee Crags",
+                "cmt": "Langlee Crags",
+                "desc": "Langlee Crags",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.05379,
+                    55.49179,
+                    424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Leap Hill",
+                "cmt": "Leap Hill",
+                "desc": "Leap Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.42932,
+                    55.35651,
+                    471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Little Ward Law",
+                "cmt": "Little Ward Law",
+                "desc": "Little Ward Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.21324,
+                    55.42332,
+                    495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Loft Hill",
+                "cmt": "Loft Hill",
+                "desc": "Loft Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.19513,
+                    55.52487,
+                    415.65
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Longknowe Hill",
+                "cmt": "Longknowe Hill",
+                "desc": "Longknowe Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.20021,
+                    55.56483,
+                    346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Longknowe Hill NE Top",
+                "cmt": "Longknowe Hill NE Top",
+                "desc": "Longknowe Hill NE Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.19269,
+                    55.56978,
+                    327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lords Seat",
+                "cmt": "Lords Seat",
+                "desc": "Lords Seat",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.13907,
+                    55.36559,
+                    392.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lumsdon Law",
+                "cmt": "Lumsdon Law",
+                "desc": "Lumsdon Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4324,
+                    55.34238,
+                    475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Madam Law",
+                "cmt": "Madam Law",
+                "desc": "Madam Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2194,
+                    55.53397,
+                    397
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Middleton Crags",
+                "cmt": "Middleton Crags",
+                "desc": "Middleton Crags",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.03851,
+                    55.48771,
+                    404.07
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mozie Law",
+                "cmt": "Mozie Law",
+                "desc": "Mozie Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.27219,
+                    55.42869,
+                    552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nettlehope Hill",
+                "cmt": "Nettlehope Hill",
+                "desc": "Nettlehope Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.17218,
+                    55.39541,
+                    488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Newton Tors",
+                "cmt": "Newton Tors",
+                "desc": "Newton Tors",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1471,
+                    55.53596,
+                    537
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ogre Hill",
+                "cmt": "Ogre Hill",
+                "desc": "Ogre Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.35325,
+                    55.35561,
+                    516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Old Fawdon Hill",
+                "cmt": "Old Fawdon Hill",
+                "desc": "Old Fawdon Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.96594,
+                    55.42122,
+                    315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Preston Hill",
+                "cmt": "Preston Hill",
+                "desc": "Preston Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.12384,
+                    55.50775,
+                    526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ravens Knowe",
+                "cmt": "Ravens Knowe",
+                "desc": "Ravens Knowe",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.34823,
+                    55.34946,
+                    527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Reaveley Hill",
+                "cmt": "Reaveley Hill",
+                "desc": "Reaveley Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.00498,
+                    55.45312,
+                    301.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sandy Pike",
+                "cmt": "Sandy Pike",
+                "desc": "Sandy Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.39723,
+                    55.3375,
+                    476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Saughieside Hill",
+                "cmt": "Saughieside Hill",
+                "desc": "Saughieside Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.20973,
+                    55.51814,
+                    486.89
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Saughy Hill",
+                "cmt": "Saughy Hill",
+                "desc": "Saughy Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.17209,
+                    55.38754,
+                    494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scald Hill",
+                "cmt": "Scald Hill",
+                "desc": "Scald Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.11548,
+                    55.48995,
+                    549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shill Moor",
+                "cmt": "Shill Moor",
+                "desc": "Shill Moor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.09018,
+                    55.43167,
+                    528.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shillhope Law",
+                "cmt": "Shillhope Law",
+                "desc": "Shillhope Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.20182,
+                    55.38092,
+                    501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sinkside Hill",
+                "cmt": "Sinkside Hill",
+                "desc": "Sinkside Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.18534,
+                    55.53017,
+                    333.99
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sneer Hill",
+                "cmt": "Sneer Hill",
+                "desc": "Sneer Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.14925,
+                    55.40012,
+                    452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Swineside Law",
+                "cmt": "Swineside Law",
+                "desc": "Swineside Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.25869,
+                    55.41234,
+                    457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Cheviot",
+                "cmt": "The Cheviot",
+                "desc": "The Cheviot",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.14544,
+                    55.47847,
+                    815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Heart's Toe",
+                "cmt": "The Heart's Toe",
+                "desc": "The Heart's Toe",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.36959,
+                    55.35579,
+                    450.04
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Middle",
+                "cmt": "The Middle",
+                "desc": "The Middle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.20122,
+                    55.41414,
+                    397.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Schil",
+                "cmt": "The Schil",
+                "desc": "The Schil",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.20881,
+                    55.49461,
+                    605.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tom Tallon's Crag",
+                "cmt": "Tom Tallon's Crag",
+                "desc": "Tom Tallon's Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.10766,
+                    55.54644,
+                    352.08
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Uplaw Knowe",
+                "cmt": "Uplaw Knowe",
+                "desc": "Uplaw Knowe",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.14121,
+                    55.37217,
+                    370.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ward Law",
+                "cmt": "Ward Law",
+                "desc": "Ward Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.21535,
+                    55.4164,
+                    484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wedder Hill",
+                "cmt": "Wedder Hill",
+                "desc": "Wedder Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.32108,
+                    55.39935,
+                    454.56
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wether Cairn (Wholhope Hill)",
+                "cmt": "Wether Cairn (Wholhope Hill)",
+                "desc": "Wether Cairn (Wholhope Hill)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.09505,
+                    55.39857,
+                    563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wether Hill",
+                "cmt": "Wether Hill",
+                "desc": "Wether Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.981,
+                    55.42351,
+                    303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "White Law",
+                "cmt": "White Law",
+                "desc": "White Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2282,
+                    55.52883,
+                    430
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "White Law",
+                "cmt": "White Law",
+                "desc": "White Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.09246,
+                    55.55479,
+                    302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wholehope Knowe",
+                "cmt": "Wholehope Knowe",
+                "desc": "Wholehope Knowe",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.16409,
+                    55.38027,
+                    443
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Windy Gyle",
+                "cmt": "Windy Gyle",
+                "desc": "Windy Gyle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.23008,
+                    55.4306,
+                    619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wooplaw Edge",
+                "cmt": "Wooplaw Edge",
+                "desc": "Wooplaw Edge",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.46182,
+                    55.3534,
+                    459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yarnspath Law",
+                "cmt": "Yarnspath Law",
+                "desc": "Yarnspath Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.17985,
+                    55.41571,
+                    540.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yearning Law",
+                "cmt": "Yearning Law",
+                "desc": "Yearning Law",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2899,
+                    55.39999,
+                    477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yeavering Bell",
+                "cmt": "Yeavering Bell",
+                "desc": "Yeavering Bell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.11382,
+                    55.55769,
+                    361
+                ]
+            }
+        }
+    ]
+}

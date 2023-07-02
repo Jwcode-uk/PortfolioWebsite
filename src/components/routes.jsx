@@ -8,6 +8,7 @@ import Blogs from '../blogs/Blogs';
 import BlogsChatgpt from '../blogs/Blog-chatgpt';
 import BlogsCI from '../blogs/Blog-CI';
 import BlogsLegacy from '../blogs/Blog-Legacy';
+import Hikes from '../Hikes';
 
 const routes = [
   {
@@ -29,6 +30,10 @@ const routes = [
   {
     path: '/projects',
     element: <Projects />,
+  },
+  {
+    path: '/hikes',
+    element: <Hikes />,
   },
   {
     path: '/blogs/The-Risks-of-Chatgpt',

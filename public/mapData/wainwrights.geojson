@@ -1,0 +1,3643 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Allen Crags",
+                "cmt": "Allen Crags",
+                "desc": "Allen Crags",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.17918,
+                    54.46637,
+                    785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Angletarn Pikes (Angletarn Pikes North Top)",
+                "cmt": "Angletarn Pikes (Angletarn Pikes North Top)",
+                "desc": "Angletarn Pikes (Angletarn Pikes North Top)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90798,
+                    54.52531,
+                    567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ard Crags",
+                "cmt": "Ard Crags",
+                "desc": "Ard Crags",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.22812,
+                    54.56694,
+                    581
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Armboth Fell",
+                "cmt": "Armboth Fell",
+                "desc": "Armboth Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0897,
+                    54.53203,
+                    475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arnison Crag",
+                "cmt": "Arnison Crag",
+                "desc": "Arnison Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.93852,
+                    54.52636,
+                    433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arthur's Pike",
+                "cmt": "Arthur's Pike",
+                "desc": "Arthur's Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.8358,
+                    54.57843,
+                    533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bakestall",
+                "cmt": "Bakestall",
+                "desc": "Bakestall",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1391,
+                    54.66637,
+                    673.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bannerdale Crags",
+                "cmt": "Bannerdale Crags",
+                "desc": "Bannerdale Crags",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.03173,
+                    54.65195,
+                    684.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Barf",
+                "cmt": "Barf",
+                "desc": "Barf",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21808,
+                    54.62967,
+                    469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Barrow",
+                "cmt": "Barrow",
+                "desc": "Barrow",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.19752,
+                    54.58566,
+                    455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Base Brown",
+                "cmt": "Base Brown",
+                "desc": "Base Brown",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.19776,
+                    54.49258,
+                    646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Baystones (Wansfell)",
+                "cmt": "Baystones (Wansfell)",
+                "desc": "Baystones (Wansfell)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.92175,
+                    54.43819,
+                    486.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beda Fell (Beda Head)",
+                "cmt": "Beda Fell (Beda Head)",
+                "desc": "Beda Fell (Beda Head)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.8844,
+                    54.54649,
+                    509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Binsey",
+                "cmt": "Binsey",
+                "desc": "Binsey",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.20419,
+                    54.7088,
+                    447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Birkhouse Moor",
+                "cmt": "Birkhouse Moor",
+                "desc": "Birkhouse Moor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.98532,
+                    54.53503,
+                    717.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Birks",
+                "cmt": "Birks",
+                "desc": "Birks",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.95905,
+                    54.52071,
+                    624
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Black Fell",
+                "cmt": "Black Fell",
+                "desc": "Black Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01796,
+                    54.4055,
+                    323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blake Fell",
+                "cmt": "Blake Fell",
+                "desc": "Blake Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.3772,
+                    54.56457,
+                    573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blea Rigg",
+                "cmt": "Blea Rigg",
+                "desc": "Blea Rigg",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.07881,
+                    54.46108,
+                    541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bleaberry Fell",
+                "cmt": "Bleaberry Fell",
+                "desc": "Bleaberry Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10618,
+                    54.56637,
+                    590
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blencathra-Hallsfell Top",
+                "cmt": "Blencathra-Hallsfell Top",
+                "desc": "Blencathra-Hallsfell Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.04979,
+                    54.63995,
+                    867.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bonscale Pike",
+                "cmt": "Bonscale Pike",
+                "desc": "Bonscale Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.84694,
+                    54.57303,
+                    524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bowfell",
+                "cmt": "Bowfell",
+                "desc": "Bowfell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.16624,
+                    54.44782,
+                    902.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bowscale Fell",
+                "cmt": "Bowscale Fell",
+                "desc": "Bowscale Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.03504,
+                    54.66554,
+                    702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brae Fell",
+                "cmt": "Brae Fell",
+                "desc": "Brae Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10536,
+                    54.70642,
+                    586
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brandreth",
+                "cmt": "Brandreth",
+                "desc": "Brandreth",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21427,
+                    54.49648,
+                    715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Branstree",
+                "cmt": "Branstree",
+                "desc": "Branstree",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.80758,
+                    54.48267,
+                    711.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brim Fell",
+                "cmt": "Brim Fell",
+                "desc": "Brim Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1242,
+                    54.37728,
+                    795.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brock Crags (Wainwright)",
+                "cmt": "Brock Crags (Wainwright)",
+                "desc": "Brock Crags (Wainwright)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90259,
+                    54.51489,
+                    561.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Broom Fell",
+                "cmt": "Broom Fell",
+                "desc": "Broom Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.2479,
+                    54.63217,
+                    510.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Buckbarrow",
+                "cmt": "Buckbarrow",
+                "desc": "Buckbarrow",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.33428,
+                    54.44317,
+                    423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Burnbank Fell",
+                "cmt": "Burnbank Fell",
+                "desc": "Burnbank Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.37834,
+                    54.57594,
+                    475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Calf Crag",
+                "cmt": "Calf Crag",
+                "desc": "Calf Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.07949,
+                    54.48423,
+                    537
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carl Side",
+                "cmt": "Carl Side",
+                "desc": "Carl Side",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.15598,
+                    54.6424,
+                    746.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carrock Fell",
+                "cmt": "Carrock Fell",
+                "desc": "Carrock Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.02287,
+                    54.69348,
+                    662.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Castle Crag",
+                "cmt": "Castle Crag",
+                "desc": "Castle Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.16161,
+                    54.53318,
+                    290
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cat Bells (Catbells)",
+                "cmt": "Cat Bells (Catbells)",
+                "desc": "Cat Bells (Catbells)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1707,
+                    54.56832,
+                    451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Catstye Cam",
+                "cmt": "Catstye Cam",
+                "desc": "Catstye Cam",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.00894,
+                    54.53347,
+                    889.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Causey Pike",
+                "cmt": "Causey Pike",
+                "desc": "Causey Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21013,
+                    54.57682,
+                    637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Caw Fell",
+                "cmt": "Caw Fell",
+                "desc": "Caw Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.34126,
+                    54.48687,
+                    697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Clough Head",
+                "cmt": "Clough Head",
+                "desc": "Clough Head",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.03236,
+                    54.59366,
+                    726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cold Pike",
+                "cmt": "Cold Pike",
+                "desc": "Cold Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.13758,
+                    54.4226,
+                    700.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crag Fell",
+                "cmt": "Crag Fell",
+                "desc": "Crag Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.39607,
+                    54.51672,
+                    523
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crag Hill (Eel Crag)",
+                "cmt": "Crag Hill (Eel Crag)",
+                "desc": "Crag Hill (Eel Crag)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.25023,
+                    54.57176,
+                    839.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crinkle Crags-Long Top (Second Crinkle)",
+                "cmt": "Crinkle Crags-Long Top (Second Crinkle)",
+                "desc": "Crinkle Crags-Long Top (Second Crinkle)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.15981,
+                    54.4337,
+                    859
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dale Head",
+                "cmt": "Dale Head",
+                "desc": "Dale Head",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.20228,
+                    54.52724,
+                    753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dodd (Skiddaw)",
+                "cmt": "Dodd (Skiddaw)",
+                "desc": "Dodd (Skiddaw)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.17212,
+                    54.63561,
+                    502
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dollywaggon Pike",
+                "cmt": "Dollywaggon Pike",
+                "desc": "Dollywaggon Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01118,
+                    54.50869,
+                    858.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dove Crag",
+                "cmt": "Dove Crag",
+                "desc": "Dove Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.96693,
+                    54.4854,
+                    792
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dow Crag",
+                "cmt": "Dow Crag",
+                "desc": "Dow Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.13666,
+                    54.3703,
+                    778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Eagle Crag",
+                "cmt": "Eagle Crag",
+                "desc": "Eagle Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12048,
+                    54.49906,
+                    525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Esk Pike",
+                "cmt": "Esk Pike",
+                "desc": "Esk Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.17922,
+                    54.45717,
+                    885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fairfield",
+                "cmt": "Fairfield",
+                "desc": "Fairfield",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.99165,
+                    54.49705,
+                    873.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fellbarrow-Mosser Fell",
+                "cmt": "Fellbarrow-Mosser Fell",
+                "desc": "Fellbarrow-Mosser Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.3447,
+                    54.60582,
+                    416
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fleetwith Pike",
+                "cmt": "Fleetwith Pike",
+                "desc": "Fleetwith Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.22818,
+                    54.51656,
+                    648.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Froswick",
+                "cmt": "Froswick",
+                "desc": "Froswick",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87297,
+                    54.46895,
+                    720
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gavel Fell",
+                "cmt": "Gavel Fell",
+                "desc": "Gavel Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.36747,
+                    54.55401,
+                    524.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gibson Knott",
+                "cmt": "Gibson Knott",
+                "desc": "Gibson Knott",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.05583,
+                    54.48107,
+                    420.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glaramara",
+                "cmt": "Glaramara",
+                "desc": "Glaramara",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.16534,
+                    54.48384,
+                    783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glenridding Dodd",
+                "cmt": "Glenridding Dodd",
+                "desc": "Glenridding Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.95925,
+                    54.54947,
+                    442
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gowbarrow Fell (Wainwright summit)",
+                "cmt": "Gowbarrow Fell (Wainwright summit)",
+                "desc": "Gowbarrow Fell (Wainwright summit)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.9182,
+                    54.58811,
+                    481.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grange Fell (Brund Fell)",
+                "cmt": "Grange Fell (Brund Fell)",
+                "desc": "Grange Fell (Brund Fell)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.13796,
+                    54.53641,
+                    417.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grasmoor",
+                "cmt": "Grasmoor",
+                "desc": "Grasmoor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.27791,
+                    54.57164,
+                    851.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gray Crag",
+                "cmt": "Gray Crag",
+                "desc": "Gray Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.88536,
+                    54.49746,
+                    698.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Graystones",
+                "cmt": "Graystones",
+                "desc": "Graystones",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.27764,
+                    54.62799,
+                    450.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Borne",
+                "cmt": "Great Borne",
+                "desc": "Great Borne",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.35544,
+                    54.5349,
+                    616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Calva",
+                "cmt": "Great Calva",
+                "desc": "Great Calva",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10107,
+                    54.67077,
+                    691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Carrs",
+                "cmt": "Great Carrs",
+                "desc": "Great Carrs",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12474,
+                    54.39878,
+                    785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Cockup",
+                "cmt": "Great Cockup",
+                "desc": "Great Cockup",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12877,
+                    54.68968,
+                    526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Crag (Stonethwaite)",
+                "cmt": "Great Crag (Stonethwaite)",
+                "desc": "Great Crag (Stonethwaite)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12933,
+                    54.52219,
+                    449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Dodd",
+                "cmt": "Great Dodd",
+                "desc": "Great Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01938,
+                    54.57569,
+                    857
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great End",
+                "cmt": "Great End",
+                "desc": "Great End",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.19455,
+                    54.46494,
+                    909.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Gable",
+                "cmt": "Great Gable",
+                "desc": "Great Gable",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.2193,
+                    54.48208,
+                    899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Mell Fell",
+                "cmt": "Great Mell Fell",
+                "desc": "Great Mell Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.93564,
+                    54.61985,
+                    537
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Rigg",
+                "cmt": "Great Rigg",
+                "desc": "Great Rigg",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.99569,
+                    54.48491,
+                    766.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Sca Fell",
+                "cmt": "Great Sca Fell",
+                "desc": "Great Sca Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10099,
+                    54.69515,
+                    651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Green Crag",
+                "cmt": "Green Crag",
+                "desc": "Green Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.23283,
+                    54.37371,
+                    488.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Green Gable",
+                "cmt": "Green Gable",
+                "desc": "Green Gable",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21377,
+                    54.4857,
+                    801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grey Crag (Sleddale Fell)",
+                "cmt": "Grey Crag (Sleddale Fell)",
+                "desc": "Grey Crag (Sleddale Fell)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.77719,
+                    54.45787,
+                    638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grey Friar",
+                "cmt": "Grey Friar",
+                "desc": "Grey Friar",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.14105,
+                    54.39334,
+                    773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grey Knotts",
+                "cmt": "Grey Knotts",
+                "desc": "Grey Knotts",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21019,
+                    54.50236,
+                    697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grike",
+                "cmt": "Grike",
+                "desc": "Grike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.41488,
+                    54.51377,
+                    488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grisedale Pike",
+                "cmt": "Grisedale Pike",
+                "desc": "Grisedale Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24207,
+                    54.59175,
+                    791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hallin Fell",
+                "cmt": "Hallin Fell",
+                "desc": "Hallin Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.8785,
+                    54.57041,
+                    388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hard Knott",
+                "cmt": "Hard Knott",
+                "desc": "Hard Knott",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.18503,
+                    54.41103,
+                    549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Harrison Stickle",
+                "cmt": "Harrison Stickle",
+                "desc": "Harrison Stickle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10946,
+                    54.4569,
+                    736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hart Crag",
+                "cmt": "Hart Crag",
+                "desc": "Hart Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.97695,
+                    54.49275,
+                    823.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hart Side",
+                "cmt": "Hart Side",
+                "desc": "Hart Side",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.99294,
+                    54.56872,
+                    756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Harter Fell (Eskdale)",
+                "cmt": "Harter Fell (Eskdale)",
+                "desc": "Harter Fell (Eskdale)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.20452,
+                    54.38692,
+                    653.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Harter Fell (Mardale)",
+                "cmt": "Harter Fell (Mardale)",
+                "desc": "Harter Fell (Mardale)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.83532,
+                    54.47641,
+                    779
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hartsop Above How (Gill Crag-Hartsop Above How)",
+                "cmt": "Hartsop Above How (Gill Crag-Hartsop Above How)",
+                "desc": "Hartsop Above How (Gill Crag-Hartsop Above How)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.95396,
+                    54.4996,
+                    586.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hartsop Dodd",
+                "cmt": "Hartsop Dodd",
+                "desc": "Hartsop Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.91045,
+                    54.49854,
+                    619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Haycock",
+                "cmt": "Haycock",
+                "desc": "Haycock",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.32158,
+                    54.48457,
+                    797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Haystacks (Buttermere)",
+                "cmt": "Haystacks (Buttermere)",
+                "desc": "Haystacks (Buttermere)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24732,
+                    54.50724,
+                    597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Helm Crag",
+                "cmt": "Helm Crag",
+                "desc": "Helm Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.04082,
+                    54.47503,
+                    405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Helvellyn",
+                "cmt": "Helvellyn",
+                "desc": "Helvellyn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01751,
+                    54.527,
+                    949.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hen Comb",
+                "cmt": "Hen Comb",
+                "desc": "Hen Comb",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.34326,
+                    54.55085,
+                    506.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Heron Pike (Rydal)",
+                "cmt": "Heron Pike (Rydal)",
+                "desc": "Heron Pike (Rydal)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.99514,
+                    54.46607,
+                    612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Crag (Buttermere)",
+                "cmt": "High Crag (Buttermere)",
+                "desc": "High Crag (Buttermere)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.26741,
+                    54.51463,
+                    744.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Hartsop Dodd",
+                "cmt": "High Hartsop Dodd",
+                "desc": "High Hartsop Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.93768,
+                    54.48862,
+                    519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Pike (Caldbeck)",
+                "cmt": "High Pike (Caldbeck)",
+                "desc": "High Pike (Caldbeck)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.05874,
+                    54.70542,
+                    658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Pike (Scandale)",
+                "cmt": "High Pike (Scandale)",
+                "desc": "High Pike (Scandale)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.96679,
+                    54.47098,
+                    656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Raise (High Street)",
+                "cmt": "High Raise (High Street)",
+                "desc": "High Raise (High Street)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.85378,
+                    54.51337,
+                    803.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Raise (High White Stones)",
+                "cmt": "High Raise (High White Stones)",
+                "desc": "High Raise (High White Stones)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.11127,
+                    54.47596,
+                    762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Rigg (Naddle Fell)",
+                "cmt": "High Rigg (Naddle Fell)",
+                "desc": "High Rigg (Naddle Fell)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.07157,
+                    54.58843,
+                    355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Seat",
+                "cmt": "High Seat",
+                "desc": "High Seat",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10376,
+                    54.55262,
+                    609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Spy",
+                "cmt": "High Spy",
+                "desc": "High Spy",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.18514,
+                    54.53557,
+                    653.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Stile",
+                "cmt": "High Stile",
+                "desc": "High Stile",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.28767,
+                    54.52158,
+                    806.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Street",
+                "cmt": "High Street",
+                "desc": "High Street",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.86486,
+                    54.49169,
+                    828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Tove",
+                "cmt": "High Tove",
+                "desc": "High Tove",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10021,
+                    54.53886,
+                    515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hindscarth",
+                "cmt": "Hindscarth",
+                "desc": "Hindscarth",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21376,
+                    54.53783,
+                    727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holme Fell",
+                "cmt": "Holme Fell",
+                "desc": "Holme Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.05653,
+                    54.3963,
+                    316
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hopegill Head",
+                "cmt": "Hopegill Head",
+                "desc": "Hopegill Head",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.26168,
+                    54.58808,
+                    769.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ill Bell",
+                "cmt": "Ill Bell",
+                "desc": "Ill Bell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87084,
+                    54.46202,
+                    757
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Illgill Head",
+                "cmt": "Illgill Head",
+                "desc": "Illgill Head",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.28263,
+                    54.43293,
+                    608.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kentmere Pike",
+                "cmt": "Kentmere Pike",
+                "desc": "Kentmere Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.82603,
+                    54.46268,
+                    730.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kidsty Pike",
+                "cmt": "Kidsty Pike",
+                "desc": "Kidsty Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.85496,
+                    54.50551,
+                    781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kirk Fell",
+                "cmt": "Kirk Fell",
+                "desc": "Kirk Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24412,
+                    54.48332,
+                    802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Knott",
+                "cmt": "Knott",
+                "desc": "Knott",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.09332,
+                    54.68698,
+                    710
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Knott Rigg",
+                "cmt": "Knott Rigg",
+                "desc": "Knott Rigg",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24261,
+                    54.5587,
+                    556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lank Rigg",
+                "cmt": "Lank Rigg",
+                "desc": "Lank Rigg",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.40397,
+                    54.49481,
+                    541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Latrigg",
+                "cmt": "Latrigg",
+                "desc": "Latrigg",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.11786,
+                    54.61243,
+                    369
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ling Fell",
+                "cmt": "Ling Fell",
+                "desc": "Ling Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.27233,
+                    54.64525,
+                    374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lingmell",
+                "cmt": "Lingmell",
+                "desc": "Lingmell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.2213,
+                    54.4628,
+                    807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lingmoor Fell (Lingmoor Fell-Brown How)",
+                "cmt": "Lingmoor Fell (Lingmoor Fell-Brown How)",
+                "desc": "Lingmoor Fell (Lingmoor Fell-Brown How)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.07641,
+                    54.43207,
+                    470
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Little Hart Crag (Little Hart Crag-West Top)",
+                "cmt": "Little Hart Crag (Little Hart Crag-West Top)",
+                "desc": "Little Hart Crag (Little Hart Crag-West Top)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.94717,
+                    54.48192,
+                    637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Little Mell Fell",
+                "cmt": "Little Mell Fell",
+                "desc": "Little Mell Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.89447,
+                    54.60802,
+                    505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Loadpot Hill",
+                "cmt": "Loadpot Hill",
+                "desc": "Loadpot Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.84209,
+                    54.55474,
+                    672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Loft Crag",
+                "cmt": "Loft Crag",
+                "desc": "Loft Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.11599,
+                    54.45443,
+                    681.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Long Side",
+                "cmt": "Long Side",
+                "desc": "Long Side",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.16562,
+                    54.64551,
+                    734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Longlands Fell",
+                "cmt": "Longlands Fell",
+                "desc": "Longlands Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12531,
+                    54.70841,
+                    483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lonscale Fell",
+                "cmt": "Lonscale Fell",
+                "desc": "Lonscale Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10852,
+                    54.63436,
+                    715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lord's Seat",
+                "cmt": "Lord's Seat",
+                "desc": "Lord's Seat",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.23398,
+                    54.62782,
+                    552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Loughrigg Fell",
+                "cmt": "Loughrigg Fell",
+                "desc": "Loughrigg Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.00836,
+                    54.43745,
+                    335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Low Fell",
+                "cmt": "Low Fell",
+                "desc": "Low Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.33661,
+                    54.59136,
+                    423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Low Pike",
+                "cmt": "Low Pike",
+                "desc": "Low Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.96799,
+                    54.46206,
+                    508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Maiden Moor",
+                "cmt": "Maiden Moor",
+                "desc": "Maiden Moor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.18159,
+                    54.55317,
+                    575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mardale Ill Bell",
+                "cmt": "Mardale Ill Bell",
+                "desc": "Mardale Ill Bell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.85411,
+                    54.48342,
+                    760
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Meal Fell",
+                "cmt": "Meal Fell",
+                "desc": "Meal Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.11392,
+                    54.6938,
+                    549.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mellbreak (Mellbreak South Top)",
+                "cmt": "Mellbreak (Mellbreak South Top)",
+                "desc": "Mellbreak (Mellbreak South Top)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.31826,
+                    54.55558,
+                    512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Middle Dodd",
+                "cmt": "Middle Dodd",
+                "desc": "Middle Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.93157,
+                    54.47794,
+                    654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Middle Fell",
+                "cmt": "Middle Fell",
+                "desc": "Middle Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.31133,
+                    54.45325,
+                    582
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mungrisdale Common",
+                "cmt": "Mungrisdale Common",
+                "desc": "Mungrisdale Common",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.06836,
+                    54.65323,
+                    631.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nab Scar",
+                "cmt": "Nab Scar",
+                "desc": "Nab Scar",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.99585,
+                    54.45641,
+                    450
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nethermost Pike",
+                "cmt": "Nethermost Pike",
+                "desc": "Nethermost Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01545,
+                    54.51899,
+                    891.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Outerside",
+                "cmt": "Outerside",
+                "desc": "Outerside",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.22216,
+                    54.58217,
+                    568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pavey Ark",
+                "cmt": "Pavey Ark",
+                "desc": "Pavey Ark",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10521,
+                    54.46149,
+                    700
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pike of Blisco",
+                "cmt": "Pike of Blisco",
+                "desc": "Pike of Blisco",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12493,
+                    54.42811,
+                    705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pike of Stickle",
+                "cmt": "Pike of Stickle",
+                "desc": "Pike of Stickle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12138,
+                    54.45639,
+                    708.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pillar",
+                "cmt": "Pillar",
+                "desc": "Pillar",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.28113,
+                    54.49748,
+                    892.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Place Fell",
+                "cmt": "Place Fell",
+                "desc": "Place Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.92073,
+                    54.54427,
+                    657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Raise",
+                "cmt": "Raise",
+                "desc": "Raise",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01747,
+                    54.54772,
+                    882.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rampsgill Head",
+                "cmt": "Rampsgill Head",
+                "desc": "Rampsgill Head",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.86125,
+                    54.50809,
+                    792.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rannerdale Knotts",
+                "cmt": "Rannerdale Knotts",
+                "desc": "Rannerdale Knotts",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.28903,
+                    54.55264,
+                    355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Raven Crag",
+                "cmt": "Raven Crag",
+                "desc": "Raven Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.07872,
+                    54.55923,
+                    461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Red Pike (Buttermere)",
+                "cmt": "Red Pike (Buttermere)",
+                "desc": "Red Pike (Buttermere)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.29855,
+                    54.52744,
+                    755.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Red Pike (Wasdale)",
+                "cmt": "Red Pike (Wasdale)",
+                "desc": "Red Pike (Wasdale)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.28988,
+                    54.48392,
+                    826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Red Screes",
+                "cmt": "Red Screes",
+                "desc": "Red Screes",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.93257,
+                    54.47059,
+                    776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rest Dodd",
+                "cmt": "Rest Dodd",
+                "desc": "Rest Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87803,
+                    54.51494,
+                    696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Robinson",
+                "cmt": "Robinson",
+                "desc": "Robinson",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.23508,
+                    54.5408,
+                    737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rossett Pike",
+                "cmt": "Rossett Pike",
+                "desc": "Rossett Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1598,
+                    54.45794,
+                    651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rosthwaite Fell-Bessyboot",
+                "cmt": "Rosthwaite Fell-Bessyboot",
+                "desc": "Rosthwaite Fell-Bessyboot",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.14685,
+                    54.5022,
+                    551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sail",
+                "cmt": "Sail",
+                "desc": "Sail",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24182,
+                    54.57133,
+                    773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sale Fell",
+                "cmt": "Sale Fell",
+                "desc": "Sale Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.25016,
+                    54.65563,
+                    359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sallows",
+                "cmt": "Sallows",
+                "desc": "Sallows",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87,
+                    54.42812,
+                    516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scafell",
+                "cmt": "Scafell",
+                "desc": "Scafell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.22473,
+                    54.4475,
+                    963.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scafell Pike",
+                "cmt": "Scafell Pike",
+                "desc": "Scafell Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21168,
+                    54.45426,
+                    978.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scar Crags",
+                "cmt": "Scar Crags",
+                "desc": "Scar Crags",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.22595,
+                    54.57497,
+                    672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scoat Fell",
+                "cmt": "Scoat Fell",
+                "desc": "Scoat Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.29924,
+                    54.4909,
+                    841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seat Sandal",
+                "cmt": "Seat Sandal",
+                "desc": "Seat Sandal",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01403,
+                    54.49486,
+                    736.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seatallan",
+                "cmt": "Seatallan",
+                "desc": "Seatallan",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.32827,
+                    54.46406,
+                    692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seathwaite Fell (Wainwright summit)",
+                "cmt": "Seathwaite Fell (Wainwright summit)",
+                "desc": "Seathwaite Fell (Wainwright summit)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.19125,
+                    54.481,
+                    601.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Selside Pike",
+                "cmt": "Selside Pike",
+                "desc": "Selside Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.78793,
+                    54.49308,
+                    655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sergeant Man",
+                "cmt": "Sergeant Man",
+                "desc": "Sergeant Man",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.10255,
+                    54.47036,
+                    736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sergeant's Crag",
+                "cmt": "Sergeant's Crag",
+                "desc": "Sergeant's Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12246,
+                    54.49253,
+                    571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sheffield Pike",
+                "cmt": "Sheffield Pike",
+                "desc": "Sheffield Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.977,
+                    54.55494,
+                    676.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shipman Knotts",
+                "cmt": "Shipman Knotts",
+                "desc": "Shipman Knotts",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.81471,
+                    54.44858,
+                    587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Silver How",
+                "cmt": "Silver How",
+                "desc": "Silver How",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.04289,
+                    54.45069,
+                    393.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Skiddaw",
+                "cmt": "Skiddaw",
+                "desc": "Skiddaw",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.14776,
+                    54.65139,
+                    930.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Skiddaw Little Man",
+                "cmt": "Skiddaw Little Man",
+                "desc": "Skiddaw Little Man",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.13763,
+                    54.63991,
+                    865
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Slight Side",
+                "cmt": "Slight Side",
+                "desc": "Slight Side",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21958,
+                    54.43439,
+                    762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sour Howes",
+                "cmt": "Sour Howes",
+                "desc": "Sour Howes",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.8836,
+                    54.42117,
+                    483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Souther Fell",
+                "cmt": "Souther Fell",
+                "desc": "Souther Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.00166,
+                    54.65324,
+                    522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St Sunday Crag",
+                "cmt": "St Sunday Crag",
+                "desc": "St Sunday Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.97584,
+                    54.51194,
+                    841.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Starling Dodd",
+                "cmt": "Starling Dodd",
+                "desc": "Starling Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.32721,
+                    54.52973,
+                    633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Steel Fell (Dead Pike-Steel Fell)",
+                "cmt": "Steel Fell (Dead Pike-Steel Fell)",
+                "desc": "Steel Fell (Dead Pike-Steel Fell)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.05218,
+                    54.49115,
+                    553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Steel Knotts (Pikeawassa-Steel Knotts)",
+                "cmt": "Steel Knotts (Pikeawassa-Steel Knotts)",
+                "desc": "Steel Knotts (Pikeawassa-Steel Knotts)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.86681,
+                    54.55525,
+                    432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Steeple",
+                "cmt": "Steeple",
+                "desc": "Steeple",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.30217,
+                    54.49339,
+                    819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stone Arthur",
+                "cmt": "Stone Arthur",
+                "desc": "Stone Arthur",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.00837,
+                    54.47428,
+                    504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stony Cove Pike (Caudale Moor)",
+                "cmt": "Stony Cove Pike (Caudale Moor)",
+                "desc": "Stony Cove Pike (Caudale Moor)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90008,
+                    54.48206,
+                    763.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stybarrow Dodd",
+                "cmt": "Stybarrow Dodd",
+                "desc": "Stybarrow Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01741,
+                    54.56113,
+                    843.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Swirl How",
+                "cmt": "Swirl How",
+                "desc": "Swirl How",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12152,
+                    54.39526,
+                    802.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tarn Crag (Easedale)",
+                "cmt": "Tarn Crag (Easedale)",
+                "desc": "Tarn Crag (Easedale)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.07601,
+                    54.4743,
+                    549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tarn Crag (Sleddale)",
+                "cmt": "Tarn Crag (Sleddale)",
+                "desc": "Tarn Crag (Sleddale)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.79066,
+                    54.46346,
+                    664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Knott (High Street)",
+                "cmt": "The Knott (High Street)",
+                "desc": "The Knott (High Street)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87082,
+                    54.50632,
+                    739
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Nab",
+                "cmt": "The Nab",
+                "desc": "The Nab",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87568,
+                    54.52889,
+                    576
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Old Man of Coniston (Coniston Old Man)",
+                "cmt": "The Old Man of Coniston (Coniston Old Man)",
+                "desc": "The Old Man of Coniston (Coniston Old Man)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12145,
+                    54.37066,
+                    802.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Thornthwaite Crag",
+                "cmt": "Thornthwaite Crag",
+                "desc": "Thornthwaite Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87898,
+                    54.48261,
+                    784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Thunacar Knott",
+                "cmt": "Thunacar Knott",
+                "desc": "Thunacar Knott",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.11265,
+                    54.46219,
+                    723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Troutbeck Tongue",
+                "cmt": "Troutbeck Tongue",
+                "desc": "Troutbeck Tongue",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.89231,
+                    54.44995,
+                    364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ullock Pike",
+                "cmt": "Ullock Pike",
+                "desc": "Ullock Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.17249,
+                    54.64826,
+                    690.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ullscarf",
+                "cmt": "Ullscarf",
+                "desc": "Ullscarf",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.09553,
+                    54.49991,
+                    723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Walla Crag",
+                "cmt": "Walla Crag",
+                "desc": "Walla Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12038,
+                    54.58161,
+                    379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wandope",
+                "cmt": "Wandope",
+                "desc": "Wandope",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.25709,
+                    54.56627,
+                    773.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Watson's Dodd",
+                "cmt": "Watson's Dodd",
+                "desc": "Watson's Dodd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.029,
+                    54.56692,
+                    789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wether Hill",
+                "cmt": "Wether Hill",
+                "desc": "Wether Hill",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.84245,
+                    54.54324,
+                    672.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wetherlam",
+                "cmt": "Wetherlam",
+                "desc": "Wetherlam",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.09797,
+                    54.40049,
+                    763
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Whin Rigg (Wasdale)",
+                "cmt": "Whin Rigg (Wasdale)",
+                "desc": "Whin Rigg (Wasdale)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.30992,
+                    54.42016,
+                    537
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Whinlatter (Brown How-Whinlatter)",
+                "cmt": "Whinlatter (Brown How-Whinlatter)",
+                "desc": "Whinlatter (Brown How-Whinlatter)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.25403,
+                    54.61486,
+                    517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "White Side",
+                "cmt": "White Side",
+                "desc": "White Side",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.02506,
+                    54.5409,
+                    863.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Whiteless Pike",
+                "cmt": "Whiteless Pike",
+                "desc": "Whiteless Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.26931,
+                    54.55937,
+                    660
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Whiteside (Whiteside West Top)",
+                "cmt": "Whiteside (Whiteside West Top)",
+                "desc": "Whiteside (Whiteside West Top)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.28516,
+                    54.58591,
+                    707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yewbarrow",
+                "cmt": "Yewbarrow",
+                "desc": "Yewbarrow",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.27686,
+                    54.46489,
+                    628.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yoke",
+                "cmt": "Yoke",
+                "desc": "Yoke",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.86873,
+                    54.45293,
+                    707
+                ]
+            }
+        }
+    ]
+}

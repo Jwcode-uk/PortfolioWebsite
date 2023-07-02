@@ -1,0 +1,1705 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "A' Mhaighdean",
+                "cmt": "A' Mhaighdean",
+                "desc": "A' Mhaighdean",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.34672,
+                    57.71965,
+                    967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "An Teallach-Sgurr Fiona",
+                "cmt": "An Teallach-Sgurr Fiona",
+                "desc": "An Teallach-Sgurr Fiona",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.25944,
+                    57.80073,
+                    1058.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Aran Fawddwy",
+                "cmt": "Aran Fawddwy",
+                "desc": "Aran Fawddwy",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.68786,
+                    52.78702,
+                    905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arenig Fach",
+                "cmt": "Arenig Fach",
+                "desc": "Arenig Fach",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.75769,
+                    52.9587,
+                    689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Askival",
+                "cmt": "Askival",
+                "desc": "Askival",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.2915,
+                    56.97443,
+                    812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beinn Alligin-Sgurr Mor",
+                "cmt": "Beinn Alligin-Sgurr Mor",
+                "desc": "Beinn Alligin-Sgurr Mor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.57277,
+                    57.59083,
+                    986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beinn an Oir",
+                "cmt": "Beinn an Oir",
+                "desc": "Beinn an Oir",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.00414,
+                    55.9024,
+                    785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beinn Dearg Mor",
+                "cmt": "Beinn Dearg Mor",
+                "desc": "Beinn Dearg Mor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.30994,
+                    57.7658,
+                    906.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beinn Eighe-Ruadh-stac Mor",
+                "cmt": "Beinn Eighe-Ruadh-stac Mor",
+                "desc": "Beinn Eighe-Ruadh-stac Mor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.42945,
+                    57.59374,
+                    1010
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Alder",
+                "cmt": "Ben Alder",
+                "desc": "Ben Alder",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.46509,
+                    56.8138,
+                    1148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Cruachan",
+                "cmt": "Ben Cruachan",
+                "desc": "Ben Cruachan",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.1318,
+                    56.42684,
+                    1127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Hope",
+                "cmt": "Ben Hope",
+                "desc": "Ben Hope",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.60786,
+                    58.41311,
+                    927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Lawers",
+                "cmt": "Ben Lawers",
+                "desc": "Ben Lawers",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.22088,
+                    56.54492,
+                    1214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Lomond",
+                "cmt": "Ben Lomond",
+                "desc": "Ben Lomond",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.63301,
+                    56.1903,
+                    973.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Lui (Beinn Laoigh)",
+                "cmt": "Ben Lui (Beinn Laoigh)",
+                "desc": "Ben Lui (Beinn Laoigh)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.81051,
+                    56.397,
+                    1131.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Macdui (Beinn Macduibh)",
+                "cmt": "Ben Macdui (Beinn Macduibh)",
+                "desc": "Ben Macdui (Beinn Macduibh)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6691,
+                    57.07037,
+                    1309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben More",
+                "cmt": "Ben More",
+                "desc": "Ben More",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.54009,
+                    56.38595,
+                    1174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben More",
+                "cmt": "Ben More",
+                "desc": "Ben More",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.01402,
+                    56.42483,
+                    966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ben Nevis (Beinn Nibheis)",
+                "cmt": "Ben Nevis (Beinn Nibheis)",
+                "desc": "Ben Nevis (Beinn Nibheis)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.00368,
+                    56.79689,
+                    1344.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bidean nam Bian",
+                "cmt": "Bidean nam Bian",
+                "desc": "Bidean nam Bian",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.02934,
+                    56.64276,
+                    1149.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blabheinn (Bla Bheinn)",
+                "cmt": "Blabheinn (Bla Bheinn)",
+                "desc": "Blabheinn (Bla Bheinn)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.09321,
+                    57.21957,
+                    929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Black Combe",
+                "cmt": "Black Combe",
+                "desc": "Black Combe",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.32857,
+                    54.25776,
+                    600
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blencathra-Hallsfell Top",
+                "cmt": "Blencathra-Hallsfell Top",
+                "desc": "Blencathra-Hallsfell Top",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.04979,
+                    54.63995,
+                    867.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bowfell",
+                "cmt": "Bowfell",
+                "desc": "Bowfell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.16624,
+                    54.44782,
+                    902.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Braeriach",
+                "cmt": "Braeriach",
+                "desc": "Braeriach",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.72839,
+                    57.07831,
+                    1296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Buachaille Etive Mor-Stob Dearg",
+                "cmt": "Buachaille Etive Mor-Stob Dearg",
+                "desc": "Buachaille Etive Mor-Stob Dearg",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.90038,
+                    56.64623,
+                    1021.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cadair Idris-Penygadair",
+                "cmt": "Cadair Idris-Penygadair",
+                "desc": "Cadair Idris-Penygadair",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.90878,
+                    52.69962,
+                    892.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carnedd Dafydd",
+                "cmt": "Carnedd Dafydd",
+                "desc": "Carnedd Dafydd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.00084,
+                    53.14774,
+                    1044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carnedd Llewelyn",
+                "cmt": "Carnedd Llewelyn",
+                "desc": "Carnedd Llewelyn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.97033,
+                    53.16017,
+                    1064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cat Bells (Catbells)",
+                "cmt": "Cat Bells (Catbells)",
+                "desc": "Cat Bells (Catbells)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1707,
+                    54.56832,
+                    451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cnicht",
+                "cmt": "Cnicht",
+                "desc": "Cnicht",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.01987,
+                    52.99969,
+                    689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crib Goch",
+                "cmt": "Crib Goch",
+                "desc": "Crib Goch",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.05518,
+                    53.07615,
+                    923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cross Fell",
+                "cmt": "Cross Fell",
+                "desc": "Cross Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.48694,
+                    54.70309,
+                    893
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Elidir Fawr",
+                "cmt": "Elidir Fawr",
+                "desc": "Elidir Fawr",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.07643,
+                    53.13065,
+                    924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fairfield",
+                "cmt": "Fairfield",
+                "desc": "Fairfield",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.99165,
+                    54.49705,
+                    873.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fan Brycheiniog-Trig Point",
+                "cmt": "Fan Brycheiniog-Trig Point",
+                "desc": "Fan Brycheiniog-Trig Point",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70804,
+                    51.88229,
+                    801.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Foinaven (Foinne Bhein)-Ganu Mor",
+                "cmt": "Foinaven (Foinne Bhein)-Ganu Mor",
+                "desc": "Foinaven (Foinne Bhein)-Ganu Mor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.8857,
+                    58.41206,
+                    911.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Garbh Bheinn",
+                "cmt": "Garbh Bheinn",
+                "desc": "Garbh Bheinn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.42501,
+                    56.70445,
+                    885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glaramara",
+                "cmt": "Glaramara",
+                "desc": "Glaramara",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.16534,
+                    54.48384,
+                    783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glyder Fach",
+                "cmt": "Glyder Fach",
+                "desc": "Glyder Fach",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.00841,
+                    53.10482,
+                    994.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Goatfell (Goat Fell)",
+                "cmt": "Goatfell (Goat Fell)",
+                "desc": "Goatfell (Goat Fell)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.19188,
+                    55.62585,
+                    875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grasmoor",
+                "cmt": "Grasmoor",
+                "desc": "Grasmoor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.27791,
+                    54.57164,
+                    851.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Gable",
+                "cmt": "Great Gable",
+                "desc": "Great Gable",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.2193,
+                    54.48208,
+                    899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grisedale Pike",
+                "cmt": "Grisedale Pike",
+                "desc": "Grisedale Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24207,
+                    54.59175,
+                    791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Haystacks (Buttermere)",
+                "cmt": "Haystacks (Buttermere)",
+                "desc": "Haystacks (Buttermere)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24732,
+                    54.50724,
+                    597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Helm Crag",
+                "cmt": "Helm Crag",
+                "desc": "Helm Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.04082,
+                    54.47503,
+                    405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Helvellyn",
+                "cmt": "Helvellyn",
+                "desc": "Helvellyn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.01751,
+                    54.527,
+                    949.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Stile (Grey Crag-High Stile)",
+                "cmt": "High Stile (Grey Crag-High Stile)",
+                "desc": "High Stile (Grey Crag-High Stile)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.2837,
+                    54.52184,
+                    806.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "High Street",
+                "cmt": "High Street",
+                "desc": "High Street",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.86486,
+                    54.49169,
+                    828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ill Bell",
+                "cmt": "Ill Bell",
+                "desc": "Ill Bell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.87084,
+                    54.46202,
+                    757
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ingleborough",
+                "cmt": "Ingleborough",
+                "desc": "Ingleborough",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.39782,
+                    54.16643,
+                    724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kinder Scout",
+                "cmt": "Kinder Scout",
+                "desc": "Kinder Scout",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.87391,
+                    53.38481,
+                    636.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ladhar Bheinn",
+                "cmt": "Ladhar Bheinn",
+                "desc": "Ladhar Bheinn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.59175,
+                    57.07527,
+                    1020
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Liathach-Spidean a' Choire Leith",
+                "cmt": "Liathach-Spidean a' Choire Leith",
+                "desc": "Liathach-Spidean a' Choire Leith",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.46361,
+                    57.5642,
+                    1054.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lochnagar-Cac Carn Beag",
+                "cmt": "Lochnagar-Cac Carn Beag",
+                "desc": "Lochnagar-Cac Carn Beag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.24526,
+                    56.96027,
+                    1155.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Maesglase",
+                "cmt": "Maesglase",
+                "desc": "Maesglase",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.75249,
+                    52.72,
+                    678.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Merrick",
+                "cmt": "Merrick",
+                "desc": "Merrick",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.46841,
+                    55.13927,
+                    843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Moel Hebog",
+                "cmt": "Moel Hebog",
+                "desc": "Moel Hebog",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.14009,
+                    53.00051,
+                    783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Moel Siabod",
+                "cmt": "Moel Siabod",
+                "desc": "Moel Siabod",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.93407,
+                    53.07319,
+                    872.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mynydd Drws-y-coed",
+                "cmt": "Mynydd Drws-y-coed",
+                "desc": "Mynydd Drws-y-coed",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.16598,
+                    53.04389,
+                    695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pen y Fan",
+                "cmt": "Pen y Fan",
+                "desc": "Pen y Fan",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.43677,
+                    51.88403,
+                    886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pen yr Ole Wen",
+                "cmt": "Pen yr Ole Wen",
+                "desc": "Pen yr Ole Wen",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.01066,
+                    53.13767,
+                    978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pike of Stickle",
+                "cmt": "Pike of Stickle",
+                "desc": "Pike of Stickle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12138,
+                    54.45639,
+                    708.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pillar",
+                "cmt": "Pillar",
+                "desc": "Pillar",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.28113,
+                    54.49748,
+                    892.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Place Fell",
+                "cmt": "Place Fell",
+                "desc": "Place Fell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.92073,
+                    54.54427,
+                    657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pumlumon Fawr (Plynlimon)",
+                "cmt": "Pumlumon Fawr (Plynlimon)",
+                "desc": "Pumlumon Fawr (Plynlimon)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.78305,
+                    52.46696,
+                    752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Quinag-Sail Gharbh",
+                "cmt": "Quinag-Sail Gharbh",
+                "desc": "Quinag-Sail Gharbh",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.0499,
+                    58.21515,
+                    809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rhinog Fawr",
+                "cmt": "Rhinog Fawr",
+                "desc": "Rhinog Fawr",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.99544,
+                    52.84181,
+                    720
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Roseberry Topping",
+                "cmt": "Roseberry Topping",
+                "desc": "Roseberry Topping",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.10729,
+                    54.50544,
+                    320
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scafell",
+                "cmt": "Scafell",
+                "desc": "Scafell",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.22473,
+                    54.4475,
+                    963.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scafell Pike",
+                "cmt": "Scafell Pike",
+                "desc": "Scafell Pike",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.21168,
+                    54.45426,
+                    978.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Schiehallion",
+                "cmt": "Schiehallion",
+                "desc": "Schiehallion",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.10023,
+                    56.66694,
+                    1083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sgurr a' Mhaim",
+                "cmt": "Sgurr a' Mhaim",
+                "desc": "Sgurr a' Mhaim",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.00369,
+                    56.75592,
+                    1099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sgurr Alasdair",
+                "cmt": "Sgurr Alasdair",
+                "desc": "Sgurr Alasdair",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.22414,
+                    57.20659,
+                    992
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sgurr Dearg-Inaccessible Pinnacle",
+                "cmt": "Sgurr Dearg-Inaccessible Pinnacle",
+                "desc": "Sgurr Dearg-Inaccessible Pinnacle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.23482,
+                    57.21325,
+                    985.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sgurr Fhuaran",
+                "cmt": "Sgurr Fhuaran",
+                "desc": "Sgurr Fhuaran",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.34765,
+                    57.19615,
+                    1068.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sgurr na Ciche",
+                "cmt": "Sgurr na Ciche",
+                "desc": "Sgurr na Ciche",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.45691,
+                    57.01347,
+                    1040.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sgurr nan Gillean",
+                "cmt": "Sgurr nan Gillean",
+                "desc": "Sgurr nan Gillean",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.19316,
+                    57.24822,
+                    966.1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Skiddaw",
+                "cmt": "Skiddaw",
+                "desc": "Skiddaw",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.14776,
+                    54.65139,
+                    930.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Slieve Donard (Sliabh Donairt)",
+                "cmt": "Slieve Donard (Sliabh Donairt)",
+                "desc": "Slieve Donard (Sliabh Donairt)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.92081,
+                    54.18027,
+                    850
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Slioch",
+                "cmt": "Slioch",
+                "desc": "Slioch",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.34706,
+                    57.66715,
+                    981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Snowdon-Yr Wyddfa",
+                "cmt": "Snowdon-Yr Wyddfa",
+                "desc": "Snowdon-Yr Wyddfa",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.07623,
+                    53.0685,
+                    1085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "St Sunday Crag",
+                "cmt": "St Sunday Crag",
+                "desc": "St Sunday Crag",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.97584,
+                    54.51194,
+                    841.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stac Pollaidh",
+                "cmt": "Stac Pollaidh",
+                "desc": "Stac Pollaidh",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.20852,
+                    58.04412,
+                    612.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sugar Loaf",
+                "cmt": "Sugar Loaf",
+                "desc": "Sugar Loaf",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.05787,
+                    51.86271,
+                    596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Suilven",
+                "cmt": "Suilven",
+                "desc": "Suilven",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.13676,
+                    58.11552,
+                    731.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Calf",
+                "cmt": "The Calf",
+                "desc": "The Calf",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.51335,
+                    54.36784,
+                    676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Cheviot",
+                "cmt": "The Cheviot",
+                "desc": "The Cheviot",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.14544,
+                    55.47847,
+                    815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Cobbler (Ben Arthur)",
+                "cmt": "The Cobbler (Ben Arthur)",
+                "desc": "The Cobbler (Ben Arthur)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.80804,
+                    56.21304,
+                    884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Devil's Point",
+                "cmt": "The Devil's Point",
+                "desc": "The Devil's Point",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6888,
+                    57.03571,
+                    1006.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Old Man of Coniston (Coniston Old Man)",
+                "cmt": "The Old Man of Coniston (Coniston Old Man)",
+                "desc": "The Old Man of Coniston (Coniston Old Man)",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.12145,
+                    54.37066,
+                    802.4
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Saddle",
+                "cmt": "The Saddle",
+                "desc": "The Saddle",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.41472,
+                    57.1624,
+                    1011.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tryfan",
+                "cmt": "Tryfan",
+                "desc": "Tryfan",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.99749,
+                    53.1149,
+                    917.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wetherlam",
+                "cmt": "Wetherlam",
+                "desc": "Wetherlam",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.09797,
+                    54.40049,
+                    763
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Y Garn",
+                "cmt": "Y Garn",
+                "desc": "Y Garn",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.04708,
+                    53.11569,
+                    947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Y Lliwedd",
+                "cmt": "Y Lliwedd",
+                "desc": "Y Lliwedd",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.05705,
+                    53.05948,
+                    898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yes Tor",
+                "cmt": "Yes Tor",
+                "desc": "Yes Tor",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.01059,
+                    50.6936,
+                    618.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yewbarrow",
+                "cmt": "Yewbarrow",
+                "desc": "Yewbarrow",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.27686,
+                    54.46489,
+                    628.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yr Aran",
+                "cmt": "Yr Aran",
+                "desc": "Yr Aran",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.08318,
+                    53.04277,
+                    747.2
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yr Eifl",
+                "cmt": "Yr Eifl",
+                "desc": "Yr Eifl",
+                "sym": "filled circle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.43659,
+                    52.97505,
+                    560.7
+                ]
+            }
+        }
+    ]
+}

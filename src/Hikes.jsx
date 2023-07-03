@@ -181,7 +181,7 @@ function Hikes() {
         position: 'absolute',
         zIndex: 1,
         color: 'white',
-        bottom: '30px',
+        bottom: '35px',
         left: '110px',
         borderRadius: '5px',
         fontSize: '12px',

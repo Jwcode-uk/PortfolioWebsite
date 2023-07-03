@@ -127,7 +127,7 @@ function Hikes() {
           margin: '10px',
           zIndex: 1,
           position: 'absolute',
-          bottom: '10px',
+          bottom: '20px',
           left: '10px',
           background: 'rgba(0, 0, 0, 0.5)',
           border: 'none',
@@ -147,7 +147,7 @@ function Hikes() {
             zIndex: 1,
             background: 'rgba(0, 0, 0, 0.5)',
             padding: '10px',
-            bottom: '50px',
+            bottom: '60px',
             left: '10px',
             borderRadius: '5px',
           }}
@@ -181,10 +181,10 @@ function Hikes() {
         position: 'absolute',
         zIndex: 1,
         color: 'white',
-        bottom: '20px',
+        bottom: '30px',
         left: '110px',
         borderRadius: '5px',
-        fontSize: '15px',
+        fontSize: '12px',
 
       }}
       >
@@ -194,7 +194,7 @@ function Hikes() {
         position: 'absolute',
         zIndex: 1,
         background: 'rgba(0, 0, 0, 0.5)',
-        bottom: '20px',
+        bottom: '5px',
         color: 'white',
         right: '20px',
         borderRadius: '5px',

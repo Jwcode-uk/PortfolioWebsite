@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import routes from './routes';
 import '../style/Navbar.css';
 
+// eslint-disable-next-line react/prop-types
 function Nav({ background }) {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {

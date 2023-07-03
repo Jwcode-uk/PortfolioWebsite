@@ -1,6 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react';
-// eslint-disable-next-line import/no-webpack-loader-syntax
-import mapboxgl from '!mapbox-gl';
+import Chart from 'chart.js/auto';
+
+// eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved, no-unused-vars
+import mapboxgl, { Popup } from '!mapbox-gl';
 import './style/App.css';
 // eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';
@@ -10,7 +12,6 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvN
 function Hikes() {
   const mapContainer = useRef(null);
   const [map, setMap] = useState(null);
-
   useEffect(() => {
     const initialMap = new mapboxgl.Map({
       container: mapContainer.current,
@@ -42,7 +43,7 @@ function Hikes() {
         'trail100s',
         'trigpoints',
         'wainwrights',
-        'wales', 'ostrigs',
+        'wales', 'osTrigs',
       ];
 
       layerSources.forEach((source) => {
@@ -71,16 +72,147 @@ function Hikes() {
         id: 'my-layer2',
         type: 'line',
         source: 'hike',
-        paint: { 'line-color': 'red', 'line-width': 2 },
+        paint: {
+          'line-color': 'red',
+          'line-width': 4,
+        },
       });
 
       setMap(initialMap);
+    });
+
+    initialMap.on('click', 'my-layer2', async (e) => {
+      // Extract the description property from the GeoJSON feature
+      // let description = '';
+      // if (e.features.length > 0) {
+      // description = e.features[0].properties.description || 'No description available';
+      // }
+      const { geometry } = e.features[0];
+      console.log(geometry);
+      let description = '';
+      if (e.features.length > 0) {
+        description = e.features[0].properties.description || 'No description available';
+      }
+
+      // eslint-disable-next-line no-use-before-define
+      const altitudes = getAltitudes(geometry.coordinates, initialMap);
+      console.log(altitudes);
+      // Create a container for the chart
+      const popupContent = document.createElement('div');
+      popupContent.style.width = '300px';
+      popupContent.style.height = '150px';
+
+      const canvas = document.createElement('canvas');
+      popupContent.appendChild(canvas);
+
+      new mapboxgl.Popup()
+        .setLngLat(e.lngLat)
+        .setDOMContent(popupContent)
+        .addTo(initialMap);
+
+      // Create chart
+      // eslint-disable-next-line no-new
+      new Chart(canvas.getContext('2d'), {
+        type: 'line',
+        data: {
+          labels: altitudes.map((_, i) => i),
+          datasets: [
+            {
+              label: 'Altitude',
+              data: altitudes,
+              borderColor: 'rgba(255, 255, 255, 1)',
+              borderWidth: 2,
+              pointBackgroundColor: 'rgba(255, 255, 255, 1)',
+              pointRadius: 0,
+              lineTension: 0.97,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              ticks: {
+                beginAtZero: true,
+                color: 'rgba(255, 255, 255, 0.7)',
+                // Adding 'm' unit to y-axis ticks
+                // eslint-disable-next-line no-unused-vars
+                callback(value, index, values) {
+                  return `${value}m`;
+                },
+              },
+              grid: {
+                color: 'rgba(255, 255, 255, 0.1)',
+              },
+            },
+            x: {
+              display: false,
+            },
+          },
+          plugins: {
+            // Adding a title to the chart
+            title: {
+              display: true,
+              text: description,
+              color: 'rgba(255, 255, 255, 1)', // Optional: Color of the title
+            },
+            // Hiding the key (legend)
+            legend: {
+              display: false,
+            },
+          },
+          layout: {
+            padding: {
+              left: 10,
+              right: 10,
+              top: 10,
+              bottom: 10,
+            },
+          },
+        },
+      });
     });
 
     return () => {
       initialMap.remove();
     };
   }, []);
+
+  // Function to get altitudes for an array of coordinates
+  function getAltitudes(coordinates, map_) {
+    const altitudes = [];
+    console.log(coordinates);
+
+    // eslint-disable-next-line no-restricted-syntax
+    for (const coordinate of coordinates) {
+      const altitude = map_.queryTerrainElevation(coordinate);
+      altitudes.push(altitude);
+    }
+    // eslint-disable-next-line no-use-before-define
+    return shrinkArray(altitudes);
+  }
+
+  function shrinkArray(arr) {
+    const n = 1000;
+    if (arr.length <= n) {
+      return arr; // No need to squish if the array is already smaller or equal to n
+    }
+
+    const squishedArray = [];
+    const ratio = Math.ceil(arr.length / n); // Calculate the ratio for squishing
+
+    for (let i = 0; i < arr.length; i += ratio) {
+      const chunk = arr.slice(i, i + ratio); // Get a chunk of the original array
+      const average = chunk.reduce((sum, num) => sum + num, 0) / chunk.length;
+      // Calculate the average of the chunk
+      squishedArray.push(average); // Push the average value to the squished array
+    }
+
+    return squishedArray;
+  }
+
+  // Usage
 
   const toggleLayerVisibility = (layer) => {
     if (map) {
@@ -113,6 +245,7 @@ function Hikes() {
 
   return (
     <>
+      <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css" rel="stylesheet" />
       <Nav background />
       <div
         ref={mapContainer}
@@ -177,19 +310,6 @@ function Hikes() {
 
         </div>
       )}
-      <div style={{
-        position: 'absolute',
-        zIndex: 1,
-        color: 'white',
-        bottom: '35px',
-        left: '110px',
-        borderRadius: '5px',
-        fontSize: '12px',
-
-      }}
-      >
-        <a href="http://mapbox.com/about/maps" className="mapbox-logo" target="_blank" rel="noreferrer"> </a>
-      </div>
       <div style={{
         position: 'absolute',
         zIndex: 1,

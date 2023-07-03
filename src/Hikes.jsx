@@ -82,13 +82,7 @@ function Hikes() {
     });
 
     initialMap.on('click', 'my-layer2', async (e) => {
-      // Extract the description property from the GeoJSON feature
-      // let description = '';
-      // if (e.features.length > 0) {
-      // description = e.features[0].properties.description || 'No description available';
-      // }
       const { geometry } = e.features[0];
-      console.log(geometry);
       let description = '';
       if (e.features.length > 0) {
         description = e.features[0].properties.description || 'No description available';
@@ -96,8 +90,6 @@ function Hikes() {
 
       // eslint-disable-next-line no-use-before-define
       const altitudes = getAltitudes(geometry.coordinates, initialMap);
-      console.log(altitudes);
-      // Create a container for the chart
       const popupContent = document.createElement('div');
       popupContent.style.width = '300px';
       popupContent.style.height = '150px';
@@ -182,8 +174,6 @@ function Hikes() {
   // Function to get altitudes for an array of coordinates
   function getAltitudes(coordinates, map_) {
     const altitudes = [];
-    console.log(coordinates);
-
     // eslint-disable-next-line no-restricted-syntax
     for (const coordinate of coordinates) {
       const altitude = map_.queryTerrainElevation(coordinate);

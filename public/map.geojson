@@ -3514,16 +3514,6 @@
           },
           {
             "type": "Feature",
-           "properties": {"description" : "10"},
-            "geometry": {
-              "coordinates": [
-                
-              ],
-              "type": "LineString"
-            }
-          },
-          {
-            "type": "Feature",
            "properties": {"description" : "Arthurs pike"},
             "geometry": {
               "coordinates": [ [

@@ -36,6 +36,10 @@ const routes = [
     element: <Hikes />,
   },
   {
+    path: '/hikes/:location?',
+    element: <Hikes />,
+  },
+  {
     path: '/blogs/The-Risks-of-Chatgpt',
     element: <BlogsChatgpt />,
   },

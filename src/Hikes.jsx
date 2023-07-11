@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Chart from 'chart.js/auto';
-
+import { useParams } from 'react-router-dom';
 // eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved, no-unused-vars
 import mapboxgl, { Popup } from '!mapbox-gl';
 import './style/App.css';
@@ -10,6 +10,7 @@ import Nav from './components/Nav';
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvNng1ZnV3N3RjIn0.rPcKW9uT3LvaOZ8vHItwzg';
 
 function Hikes() {
+  const { location } = useParams();
   const mapContainer = useRef(null);
   const [map, setMap] = useState(null);
   useEffect(() => {
@@ -30,7 +31,7 @@ function Hikes() {
         tileSize: 512,
         maxzoom: 14,
       });
-      initialMap.setTerrain({ source: 'mapbox-dem', exaggeration: 1.25 });
+      initialMap.setTerrain({ source: 'mapbox-dem', exaggeration: 1 });
 
       const layerSources = [
         'birketts',
@@ -47,7 +48,7 @@ function Hikes() {
       ];
 
       layerSources.forEach((source) => {
-        initialMap.addSource(`d-${source}`, { type: 'geojson', data: `./mapData/${source}.geojson` });
+        initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../mapData/${source}.geojson` });
         initialMap.addLayer({
           id: source,
           type: 'circle',
@@ -63,19 +64,39 @@ function Hikes() {
         });
       });
 
-      initialMap.addSource('hike', {
-        type: 'geojson',
-        data: './map.geojson',
-      });
+      // TODO: Create this from files rather then hardcode
+      let hikeCollections;
+      if (location != null) {
+        hikeCollections = [
+          location,
+        ];
+      } else {
+        hikeCollections = [
+          'Arthurs-Pike',
+          'Blea-water',
+          'Blencathra',
+          'Blencathra2',
+          'Cheviot-Sunrise',
+          'Dodds-wood',
+          'Haweswater',
+          'Helvellyn',
+          'Legburthwaite_infinity_pool',
+          'Whernside',
+        ];
+      }
+      console.log(hikeCollections);
 
-      initialMap.addLayer({
-        id: 'my-layer2',
-        type: 'line',
-        source: 'hike',
-        paint: {
-          'line-color': 'red',
-          'line-width': 4,
-        },
+      hikeCollections.forEach((source) => {
+        initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
+        initialMap.addLayer({
+          id: source,
+          type: 'line',
+          source: `d-${source}`,
+          paint: {
+            'line-color': 'red',
+            'line-width': 4,
+          },
+        });
       });
 
       setMap(initialMap);

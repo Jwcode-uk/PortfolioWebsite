@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Chart from 'chart.js/auto';
 import { useParams } from 'react-router-dom';
-import mapboxgl from 'mapbox-gl';
+import mapboxgl from '!mapbox-gl';
 import './style/App.css';
 // eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';

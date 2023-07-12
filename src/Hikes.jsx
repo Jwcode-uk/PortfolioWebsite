@@ -8,7 +8,25 @@ import './style/App.css';
 import Nav from './components/Nav';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvNng1ZnV3N3RjIn0.rPcKW9uT3LvaOZ8vHItwzg';
+// TODO: Create this from files rather then hardcode
+const hikeCollections = [
+  'Arthurs_Pike',
+  'Blencathra',
+  'Cheviot_Sunrise',
+  'Dodds_wood',
+  'Haweswater',
+  'Helvellyn',
+  'Legburthwaite_infinity_pool',
+  'Whernside',
+  'Ulswater',
+  'Hadrians_wall',
+  'Simonside',
+  'Aysgill_Force',
+  'Hardraw_Force',
+  'Roseberry_Topping',
+  'Ingleborough',
 
+];
 function Hikes() {
   const { location } = useParams();
   const mapContainer = useRef(null);
@@ -64,33 +82,14 @@ function Hikes() {
         });
       });
 
-      // TODO: Create this from files rather then hardcode
-      let hikeCollections;
-      if (location != null) {
-        hikeCollections = [
-          location,
-        ];
-      } else {
-        hikeCollections = [
-          'Arthurs-Pike',
-          'Blea-water',
-          'Blencathra',
-          'Blencathra2',
-          'Cheviot-Sunrise',
-          'Dodds-wood',
-          'Haweswater',
-          'Helvellyn',
-          'Legburthwaite_infinity_pool',
-          'Whernside',
-        ];
-      }
-      console.log(hikeCollections);
-
       hikeCollections.forEach((source) => {
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
         initialMap.addLayer({
           id: source,
           type: 'line',
+          layout: {
+            visibility: !location || location === source ? 'visible' : 'none',
+          },
           source: `d-${source}`,
           paint: {
             'line-color': 'red',
@@ -102,88 +101,89 @@ function Hikes() {
       setMap(initialMap);
     });
 
-    initialMap.on('click', 'my-layer2', async (e) => {
-      const { geometry } = e.features[0];
-      let description = '';
-      if (e.features.length > 0) {
-        description = e.features[0].properties.description || 'No description available';
-      }
+    hikeCollections.forEach((source) => {
+      initialMap.on('click', source, async (e) => {
+        const { geometry } = e.features[0];
+        let name = '';
+        if (e.features.length > 0) {
+          name = e.features.at(-1).properties.name || 'No description available';
+        }
 
-      // eslint-disable-next-line no-use-before-define
-      const altitudes = getAltitudes(geometry.coordinates, initialMap);
-      const popupContent = document.createElement('div');
-      popupContent.style.width = '300px';
-      popupContent.style.height = '150px';
+        // eslint-disable-next-line no-use-before-define
+        const altitudes = getAltitudes(geometry.coordinates, initialMap);
+        const popupContent = document.createElement('div');
+        popupContent.style.width = '300px';
+        popupContent.style.height = '150px';
 
-      const canvas = document.createElement('canvas');
-      popupContent.appendChild(canvas);
+        const canvas = document.createElement('canvas');
+        popupContent.appendChild(canvas);
 
-      new mapboxgl.Popup()
-        .setLngLat(e.lngLat)
-        .setDOMContent(popupContent)
-        .addTo(initialMap);
+        new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setDOMContent(popupContent)
+          .addTo(initialMap);
 
-      // Create chart
-      // eslint-disable-next-line no-new
-      new Chart(canvas.getContext('2d'), {
-        type: 'line',
-        data: {
-          labels: altitudes.map((_, i) => i),
-          datasets: [
-            {
-              label: 'Altitude',
-              data: altitudes,
-              borderColor: 'rgba(255, 255, 255, 1)',
-              borderWidth: 2,
-              pointBackgroundColor: 'rgba(255, 255, 255, 1)',
-              pointRadius: 0,
-              lineTension: 0.97,
-            },
-          ],
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          scales: {
-            y: {
-              ticks: {
-                beginAtZero: true,
-                color: 'rgba(255, 255, 255, 0.7)',
-                // Adding 'm' unit to y-axis ticks
-                // eslint-disable-next-line no-unused-vars
-                callback(value, index, values) {
-                  return `${value}m`;
+        // Create chart
+        // eslint-disable-next-line no-new
+        new Chart(canvas.getContext('2d'), {
+          type: 'line',
+          data: {
+            labels: altitudes.map((_, i) => i),
+            datasets: [
+              {
+                label: 'Altitude',
+                data: altitudes,
+                borderColor: 'rgba(255, 255, 255, 1)',
+                borderWidth: 2,
+                pointBackgroundColor: 'rgba(255, 255, 255, 1)',
+                pointRadius: 0,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              y: {
+                ticks: {
+                  beginAtZero: true,
+                  color: 'rgba(255, 255, 255, 0.7)',
+                  // Adding 'm' unit to y-axis ticks
+                  // eslint-disable-next-line no-unused-vars
+                  callback(value, index, values) {
+                    return `${value}m`;
+                  },
+                },
+                grid: {
+                  color: 'rgba(255, 255, 255, 0.1)',
                 },
               },
-              grid: {
-                color: 'rgba(255, 255, 255, 0.1)',
+              x: {
+                display: false,
               },
             },
-            x: {
-              display: false,
-            },
-          },
-          plugins: {
+            plugins: {
             // Adding a title to the chart
-            title: {
-              display: true,
-              text: description,
-              color: 'rgba(255, 255, 255, 1)', // Optional: Color of the title
+              // title: {
+              //   display: true,
+              //   text: name,
+              //   color: 'rgba(255, 255, 255, 1)', // Optional: Color of the title
+              // },
+              // Hiding the key (legend)
+              legend: {
+                display: false,
+              },
             },
-            // Hiding the key (legend)
-            legend: {
-              display: false,
+            layout: {
+              padding: {
+                left: 10,
+                right: 10,
+                top: 10,
+                bottom: 10,
+              },
             },
           },
-          layout: {
-            padding: {
-              left: 10,
-              right: 10,
-              top: 10,
-              bottom: 10,
-            },
-          },
-        },
+        });
       });
     });
 
@@ -248,10 +248,33 @@ function Hikes() {
     Trail100s: useState(false),
     Cheviot99: useState(false),
   };
+  const layerVisibilityState2 = {
+    Arthurs_Pike: useState(true),
+    Blencathra: useState(true),
+    Cheviot_Sunrise: useState(true),
+    Dodds_wood: useState(true),
+    Haweswater: useState(true),
+    Helvellyn: useState(true),
+    Legburthwaite_infinity_pool: useState(true),
+    Whernside: useState(true),
+    Ulswater: useState(true),
+    Hadrians_wall: useState(true),
+    Simonside: useState(true),
+    Aysgill_Force: useState(true),
+    Hardraw_Force: useState(true),
+    Ingleborough: useState(true),
+    Roseberry_Topping: useState(true),
+
+  };
 
   const [menuVisible, setMenuVisible] = useState(false);
   const toggleMenu = () => {
     setMenuVisible((prevMenuVisible) => !prevMenuVisible);
+  };
+
+  const [menuVisible2, setMenuVisible2] = useState(false);
+  const toggleMenu2 = () => {
+    setMenuVisible2((prevMenuVisible2) => !prevMenuVisible2);
   };
 
   return (
@@ -282,7 +305,30 @@ function Hikes() {
           borderRadius: '5px',
         }}
       >
+        {' '}
         {menuVisible ? 'Hide Menu' : 'Show Menu'}
+      </button>
+
+      <button
+        type="button"
+        onClick={toggleMenu2}
+        style={{
+          margin: '10px',
+          zIndex: 1,
+          position: 'absolute',
+          bottom: '20px',
+          left: '150px',
+          background: 'rgba(0, 0, 0, 0.5)',
+          border: 'none',
+          color: 'white',
+          cursor: 'pointer',
+          textDecoration: 'none',
+          padding: '5px',
+          borderRadius: '5px',
+        }}
+      >
+
+        {menuVisible2 ? 'Hide Hikes' : 'Show Hikes'}
       </button>
       {menuVisible && (
         <div
@@ -321,6 +367,45 @@ function Hikes() {
 
         </div>
       )}
+
+      {menuVisible2 && (
+      <div
+        style={{
+          position: 'absolute',
+          zIndex: 1,
+          background: 'rgba(0, 0, 0, 0.5)',
+          padding: '10px',
+          bottom: '60px',
+          left: '150px',
+          borderRadius: '5px',
+        }}
+      >
+        {Object.entries(layerVisibilityState2).map(([layer, [visible, setVisible]]) => (
+          <button
+            type="button"
+            onClick={() => {
+              setVisible((prevVisible) => !prevVisible);
+              toggleLayerVisibility(layer);
+            }}
+            key={layer}
+            style={{
+              display: 'block',
+              marginBottom: '10px',
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              textDecoration: 'none',
+              color: 'white',
+            }}
+          >
+            {!visible ? (location ? `Hide ${layer}` : `Show ${layer}`) : (location ? `Show ${layer}` : `Hide ${layer}`) }
+          </button>
+
+        ))}
+
+      </div>
+      )}
+
       <div style={{
         position: 'absolute',
         zIndex: 1,

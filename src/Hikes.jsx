@@ -1,14 +1,13 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Chart from 'chart.js/auto';
 import { useParams } from 'react-router-dom';
-// eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved, no-unused-vars
-import mapboxgl, { Popup } from '!mapbox-gl';
+import mapboxgl from 'mapbox-gl';
 import './style/App.css';
 // eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';
-
+// access key - 'fine' being hardcoded as only on free tier and only accepts requests from jwcode.uk
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvNng1ZnV3N3RjIn0.rPcKW9uT3LvaOZ8vHItwzg';
-// TODO: Create this from files rather then hardcode
+// List of hike and hill datasets
 const hikeCollections = [
   'Arthurs_Pike',
   'Blencathra',
@@ -25,19 +24,70 @@ const hikeCollections = [
   'Hardraw_Force',
   'Roseberry_Topping',
   'Ingleborough',
-
 ];
+const layerSources = [
+  'birketts',
+  'cheviot99',
+  'corbetts',
+  'hewitts',
+  'marilyns',
+  'munros',
+  'nuttalls',
+  'trail100s',
+  'trigpoints',
+  'wainwrights',
+  'wales', 'trigs',
+];
+
+const startPos = {
+  Haweswater: [-2.82133, 54.48836],
+};
+
 function Hikes() {
-  const { location } = useParams();
+  const hillCollectionVisiblity = {
+    Trigs: useState(false),
+    Wainwrights: useState(false),
+    Munros: useState(false),
+    Wales: useState(false),
+    Marilyns: useState(false),
+    Corbetts: useState(false),
+    Nuttalls: useState(false),
+    Hewitts: useState(false),
+    Birketts: useState(false),
+    Trail100s: useState(false),
+    Cheviot99: useState(false),
+  };
+  const hikeCollectionVisiblity = {
+    Arthurs_Pike: useState(true),
+    Blencathra: useState(true),
+    Cheviot_Sunrise: useState(true),
+    Dodds_wood: useState(true),
+    Haweswater: useState(true),
+    Helvellyn: useState(true),
+    Legburthwaite_infinity_pool: useState(true),
+    Whernside: useState(true),
+    Ulswater: useState(true),
+    Hadrians_wall: useState(true),
+    Simonside: useState(true),
+    Aysgill_Force: useState(true),
+    Hardraw_Force: useState(true),
+    Ingleborough: useState(true),
+    Roseberry_Topping: useState(true),
+
+  };
+  const { location } = useParams(); // used to get the location from url if specific hike shared
   const mapContainer = useRef(null);
   const [map, setMap] = useState(null);
+  // try to grab m
+
+  // create map
   useEffect(() => {
     const initialMap = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/satellite-streets-v12',
       center: [-3.0886, 54.4609],
       zoom: 10,
-      pitch: 80,
+      pitch: 60,
       bearing: 41,
       attributionControl: false,
     });
@@ -50,20 +100,6 @@ function Hikes() {
         maxzoom: 14,
       });
       initialMap.setTerrain({ source: 'mapbox-dem', exaggeration: 1 });
-
-      const layerSources = [
-        'birketts',
-        'cheviot99',
-        'corbetts',
-        'hewitts',
-        'marilyns',
-        'munros',
-        'nuttalls',
-        'trail100s',
-        'trigpoints',
-        'wainwrights',
-        'wales', 'trigs',
-      ];
 
       layerSources.forEach((source) => {
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../mapData/${source}.geojson` });
@@ -101,13 +137,17 @@ function Hikes() {
       setMap(initialMap);
     });
 
+    if (location) {
+      initialMap.jumpTo({ center: startPos[location] });
+    }
+
     hikeCollections.forEach((source) => {
       initialMap.on('click', source, async (e) => {
         const { geometry } = e.features[0];
-        let name = '';
-        if (e.features.length > 0) {
-          name = e.features.at(-1).properties.name || 'No description available';
-        }
+        // let name = '';
+        // if (e.features.length > 0) {
+        //   name = e.features.at(-1).properties.name || 'No description available';
+        // }
 
         // eslint-disable-next-line no-use-before-define
         const altitudes = getAltitudes(geometry.coordinates, initialMap);
@@ -233,38 +273,6 @@ function Hikes() {
         return prevMap;
       });
     }
-  };
-
-  const hillCollectionVisiblity = {
-    Trigs: useState(false),
-    Wainwrights: useState(false),
-    Munros: useState(false),
-    Wales: useState(false),
-    Marilyns: useState(false),
-    Corbetts: useState(false),
-    Nuttalls: useState(false),
-    Hewitts: useState(false),
-    Birketts: useState(false),
-    Trail100s: useState(false),
-    Cheviot99: useState(false),
-  };
-  const hikeCollectionVisiblity = {
-    Arthurs_Pike: useState(true),
-    Blencathra: useState(true),
-    Cheviot_Sunrise: useState(true),
-    Dodds_wood: useState(true),
-    Haweswater: useState(true),
-    Helvellyn: useState(true),
-    Legburthwaite_infinity_pool: useState(true),
-    Whernside: useState(true),
-    Ulswater: useState(true),
-    Hadrians_wall: useState(true),
-    Simonside: useState(true),
-    Aysgill_Force: useState(true),
-    Hardraw_Force: useState(true),
-    Ingleborough: useState(true),
-    Roseberry_Topping: useState(true),
-
   };
 
   const [menuVisible, setMenuVisible] = useState(false);

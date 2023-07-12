@@ -9,9 +9,8 @@ function App() {
       <Router>
         <div className="component-container">
           <Routes>
-            {routes.map((route, index) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <Route key={index} path={route.path} element={route.element} />
+            {routes.map((route) => (
+              <Route path={route.path} element={route.element} />
             ))}
           </Routes>
         </div>

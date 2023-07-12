@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 // eslint-disable-next-line import/no-cycle
 import routes from './routes';
 import '../style/Navbar.css';
 
-// eslint-disable-next-line react/prop-types
 function Nav({ background }) {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {
@@ -15,10 +15,8 @@ function Nav({ background }) {
     route.element.type.preload?.();
   };
 
-  const navbarStyle = background ? { backgroundColor: 'rgba(0, 0, 0, 0.5)' } : {};
-
   return (
-    <div className="navbar" style={navbarStyle}>
+    <div className="navbar" style={background ? { backgroundColor: 'rgba(0, 0, 0, 0.5)' } : {}}>
       <button className="hamburger" onClick={toggleMenu} type="button">
         <span className="hamburger-line" />
         <span className="hamburger-line" />
@@ -70,4 +68,12 @@ function Nav({ background }) {
     </div>
   );
 }
+
+Nav.propTypes = {
+  background: PropTypes.bool,
+};
+Nav.defaultProps = {
+  background: false,
+};
+
 export default Nav;

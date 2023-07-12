@@ -2,14 +2,23 @@ import React, { useState, useRef } from 'react';
 import '../style/Terminal.css';
 
 function Terminal() {
+  //
+  // the minimize/close buttons functionality
+  //
+  const [isVisible, setIsVisible] = useState(true);
+  const [isMinimize, setIsMinimize] = useState(false);
+  const handleRedClick = () => { setIsVisible(!isVisible); };
+  const minimizedStyle = { backgroundColor: 'transparent' };
+  const handleYellowClick = () => { setIsMinimize(!isMinimize); };
+  const handleGreenClick = () => { setIsMinimize(false); };
+  //
   // terminal vars
+  //
   const [input, setInput] = useState('');
   const [output, setOutput] = useState([]);
   const terminalRef = useRef(null);
   const [currentDirectory, setCurrentDirectory] = useState('C:/>');
-  // Vars used to control terminal buttons
-  const [isVisible, setIsVisible] = useState(true);
-  const [isMinimize, setIsMinimize] = useState(false);
+  //
   // Auto complete vars
   // List of commands depending on location
   const defaultCommands = ['hello', 'time', 'date', 'help', 'pwd', 'whoami', 'echo', 'history', 'reverse', 'clear', 'clr', 'dir', 'ls'];
@@ -18,30 +27,15 @@ function Terminal() {
   const gamesCommands = ['cd ..'];
   const appsCommands = ['cd ..', 'Fuel-Calc', 'Json-Validator', 'Text-Converter', 'Hex-Converter', 'Commit-Formatter'];
   const projectsCommands = ['cd ..', 'VSIX-Tagger', 'cd VSIX-Tagger', 'Drone-SAR-Research', 'cd Drone-SAR-Research', 'Portfolio-Site', 'cd Portfolio-Site'];
-  // holds commands default + location
+  // holds commands defaultCommands + locationCommands to use for autocomplete
   const [Suggestions, setSuggestions] = useState(['cd Apps', 'cd Blog', 'cd Games', 'cd Projects', 'hello', 'time', 'date', 'help', 'pwd', 'whoami', 'echo', 'history', 'reverse', 'clear', 'clr', 'dir', 'ls']);
-
-  // store the commands after being filtered by user input
+  // store the commands after being filtered by user input so they are relevant
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
-  // tracks location in filtered sugestions arr
+  // Index of where user is in suggestion array
   const [suggestionIndex, setSuggestionIndex] = useState(-1);
   // store orginal command used to filter against
   const [orginal, setOrginal] = useState(-1);
-
-  const handleRedClick = () => {
-    setIsVisible(!isVisible);
-  };
-  const minimizedStyle = {
-    backgroundColor: 'transparent',
-  };
-  const handleYellowClick = () => {
-    setIsMinimize(!isMinimize);
-  };
-
-  const handleGreenClick = () => {
-    setIsMinimize(false);
-  };
-
+  // autocomplete function
   const autocomplete = () => {
     const currentInput = input.trim().toLowerCase();
     if (suggestionIndex === -1) {
@@ -62,36 +56,9 @@ function Terminal() {
       setInput(filteredSuggestions[suggestionIndex]);
     }
   };
-
-  const handleCdCommand = (args, command) => {
-    if (args[0] === undefined) {
-      setOutput([...output, `${currentDirectory} cd \nSorry, you need to supply a directory`]);
-      setCurrentDirectory(currentDirectory);
-    } else if (args[0] === '~' || args[0] === '..') {
-      setCurrentDirectory('C:/>');
-      setOutput([...output, `${currentDirectory} ${command} ${args[0]}`]);
-      setSuggestions(defaultCommands.concat(topCommands));
-    } else if (args[0].toLowerCase() === 'blog') {
-      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
-      setCurrentDirectory(`C:/${args[0]}>`);
-      setSuggestions(defaultCommands.concat(blogsCommands));
-    } else if (args[0].toLowerCase() === 'projects' || args[0] === 'proj') {
-      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
-      setCurrentDirectory(`C:/${args[0]}>`);
-      setSuggestions(defaultCommands.concat(projectsCommands));
-    } else if (args[0].toLowerCase() === 'games') {
-      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
-      setCurrentDirectory('C:/Games>');
-      setSuggestions(defaultCommands.concat(gamesCommands));
-    } else if (args[0].toLowerCase() === 'apps') {
-      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
-      setCurrentDirectory('C:/Apps>');
-      setSuggestions(defaultCommands.concat(appsCommands));
-    } else {
-      setOutput([...output, `$ cd ${args[0]}\nSorry, the directory "${args[0]}" does not exist.`]);
-    }
-  };
-
+  //
+  // Terminal Logic
+  // Parse user input and finds approprate output depending on Location
   const runCommand = () => {
     const inputArray = input.split(' ');
     const command = inputArray[0];
@@ -223,6 +190,35 @@ function Terminal() {
     terminalRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handleCdCommand = (args, command) => {
+    if (args[0] === undefined) {
+      setOutput([...output, `${currentDirectory} cd \nSorry, you need to supply a directory`]);
+      setCurrentDirectory(currentDirectory);
+    } else if (args[0] === '~' || args[0] === '..') {
+      setCurrentDirectory('C:/>');
+      setOutput([...output, `${currentDirectory} ${command} ${args[0]}`]);
+      setSuggestions(defaultCommands.concat(topCommands));
+    } else if (args[0].toLowerCase() === 'blog') {
+      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
+      setCurrentDirectory(`C:/${args[0]}>`);
+      setSuggestions(defaultCommands.concat(blogsCommands));
+    } else if (args[0].toLowerCase() === 'projects' || args[0] === 'proj') {
+      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
+      setCurrentDirectory(`C:/${args[0]}>`);
+      setSuggestions(defaultCommands.concat(projectsCommands));
+    } else if (args[0].toLowerCase() === 'games') {
+      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
+      setCurrentDirectory('C:/Games>');
+      setSuggestions(defaultCommands.concat(gamesCommands));
+    } else if (args[0].toLowerCase() === 'apps') {
+      setOutput([...output, `${currentDirectory} ${command} ${args[0]}\n`]);
+      setCurrentDirectory('C:/Apps>');
+      setSuggestions(defaultCommands.concat(appsCommands));
+    } else {
+      setOutput([...output, `$ cd ${args[0]}\nSorry, the directory "${args[0]}" does not exist.`]);
+    }
+  };
+  // handles enter to run commands and tab for autocomplete
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       runCommand();

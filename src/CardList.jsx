@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './style/SearchableCardList.css';
 import PropTypes from 'prop-types';
-
+// the contents of each card and where they link
 const cards = [
   {
     id: 1,
@@ -55,6 +55,7 @@ Card.propTypes = {
   isSelected: PropTypes.bool.isRequired,
 };
 
+// function to make the Cardlist keyboard navigatable
 function SearchableCardList() {
   const [query, setQuery] = useState('');
   const [selectedIndex, setSelectedIndex] = useState(-1);

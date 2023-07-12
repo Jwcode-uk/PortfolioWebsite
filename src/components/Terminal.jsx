@@ -13,7 +13,7 @@ function Terminal() {
   // Auto complete vars
   // List of commands depending on location
   const defaultCommands = ['hello', 'time', 'date', 'help', 'pwd', 'whoami', 'echo', 'history', 'reverse', 'clear', 'clr', 'dir', 'ls'];
-  const topCommands = ['cd Apps', 'cd Blog', 'cd Games', 'cd Projects'];
+  const topCommands = ['cd Apps', 'cd Blog', 'cd Projects', 'Hikes', 'cv.pdf'];
   const blogsCommands = ['cd ..', 'The-Risks-of-Chatgpt', 'cd The-Risks-of-Chatgpt', 'Github-Action-CI', 'cd Github-Action-CI'];
   const gamesCommands = ['cd ..'];
   const appsCommands = ['cd ..', 'Fuel-Calc', 'Json-Validator', 'Text-Converter', 'Hex-Converter', 'Commit-Formatter'];
@@ -99,6 +99,23 @@ function Terminal() {
     const commandLower = command.toLowerCase();
     let work = true;
     switch (currentDirectory) {
+      case 'C:/>':
+        if (commandLower.startsWith('app')) {
+          window.open('https://jwcode.uk/apps', '_blank');
+        } else if (commandLower.startsWith('blog')) {
+          window.open('https://jwcode.uk/blogs', '_blank');
+        } else if (commandLower.startsWith('project')) {
+          window.open('https://jwcode.uk/projects', '_blank');
+        } else if (commandLower.startsWith('game')) {
+          window.open('https://jwcode.uk/games', '_blank');
+        } else if (commandLower.startsWith('hike')) {
+          window.open('https://jwcode.uk/hikes', '_blank');
+        } else if (commandLower.startsWith('cv')) {
+          window.open('https://jwcode.uk/Jonathan_White_CV.pdf', '_blank');
+        } else {
+          work = false;
+        }
+        break;
       case 'C:/Blog>':
         if (commandLower.startsWith('the')) {
           window.open('', '_blank');
@@ -194,12 +211,8 @@ function Terminal() {
             setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Apps\n     └──Fuel-Calc  \n     └──Json-Validator \n     └──Text-Converter\n     └──Hex-Converter\n     └──Commit-Formatter`]);
             break;
           default:
-            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Apps \n └──Blog \n └──Projects \n └──Games \n └──CV.PDF`]);
+            setOutput([...output, `${currentDirectory} ${input}\nC Drive\n └──Apps \n └──Blogs \n └──Projects \n └──Hikes \n └──CV.PDF`]);
         }
-        break;
-      case 'cv':
-      case 'cv.pdf':
-        window.open('https://jwcode.uk/Jonathan_White_CV.pdf', '_blank');
         break;
       default:
         if (!work) {

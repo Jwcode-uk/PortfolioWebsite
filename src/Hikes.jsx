@@ -62,7 +62,7 @@ function Hikes() {
         'trail100s',
         'trigpoints',
         'wainwrights',
-        'wales', 'osTrigs',
+        'wales', 'trigs',
       ];
 
       layerSources.forEach((source) => {
@@ -235,8 +235,8 @@ function Hikes() {
     }
   };
 
-  const layerVisibilityState = {
-    OSTrigs: useState(false),
+  const hillCollectionVisiblity = {
+    Trigs: useState(false),
     Wainwrights: useState(false),
     Munros: useState(false),
     Wales: useState(false),
@@ -248,7 +248,7 @@ function Hikes() {
     Trail100s: useState(false),
     Cheviot99: useState(false),
   };
-  const layerVisibilityState2 = {
+  const hikeCollectionVisiblity = {
     Arthurs_Pike: useState(true),
     Blencathra: useState(true),
     Cheviot_Sunrise: useState(true),
@@ -272,9 +272,9 @@ function Hikes() {
     setMenuVisible((prevMenuVisible) => !prevMenuVisible);
   };
 
-  const [menuVisible2, setMenuVisible2] = useState(false);
-  const toggleMenu2 = () => {
-    setMenuVisible2((prevMenuVisible2) => !prevMenuVisible2);
+  const [menuVisibleHikes, setMenuVisibleHikes] = useState(false);
+  const toggleMenuHikes = () => {
+    setMenuVisibleHikes((prevMenuVisible) => !prevMenuVisible);
   };
 
   return (
@@ -311,7 +311,7 @@ function Hikes() {
 
       <button
         type="button"
-        onClick={toggleMenu2}
+        onClick={toggleMenuHikes}
         style={{
           margin: '10px',
           zIndex: 1,
@@ -328,7 +328,7 @@ function Hikes() {
         }}
       >
 
-        {menuVisible2 ? 'Hide Hikes' : 'Show Hikes'}
+        {menuVisibleHikes ? 'Hide Hikes' : 'Show Hikes'}
       </button>
       {menuVisible && (
         <div
@@ -342,7 +342,7 @@ function Hikes() {
             borderRadius: '5px',
           }}
         >
-          {Object.entries(layerVisibilityState).map(([layer, [visible, setVisible]]) => (
+          {Object.entries(hillCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
             <button
               type="button"
               onClick={() => {
@@ -368,7 +368,7 @@ function Hikes() {
         </div>
       )}
 
-      {menuVisible2 && (
+      {menuVisibleHikes && (
       <div
         style={{
           position: 'absolute',
@@ -380,7 +380,7 @@ function Hikes() {
           borderRadius: '5px',
         }}
       >
-        {Object.entries(layerVisibilityState2).map(([layer, [visible, setVisible]]) => (
+        {Object.entries(hikeCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
           <button
             type="button"
             onClick={() => {

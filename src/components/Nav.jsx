@@ -60,9 +60,6 @@ function Nav({ background }) {
           >
             Hikes
           </Link>
-        // <a href="../Jonathan_White_CV.pdf" target="_blank" rel="noopener noreferrer">
-        //    CV
-        //  </a>
         </div>
       </div>
     </div>

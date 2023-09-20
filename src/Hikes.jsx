@@ -23,7 +23,7 @@ const hikeCollections = [
   'Aysgill_Force',
   'Hardraw_Force',
   'Roseberry_Topping',
-  'Ingleborough',
+  'Ingleborough','Sadgill','High_Street','Branstree','Skidaw','Birk_of_Aberfeldy','The_Cheviot_Circular'
 ];
 const layerSources = [
   'birketts',

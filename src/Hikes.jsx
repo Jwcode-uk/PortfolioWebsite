@@ -130,7 +130,7 @@ function Hikes() {
           },
           source: `d-${source}`,
           paint: {
-            'line-color': 'red',
+            'line-color': randomColor,
             'line-width': 4,
           },
         });
@@ -469,6 +469,19 @@ function Hikes() {
       </div>
     </>
   );
+}
+
+function getRandomBrightColor() {
+  const letters = '0123456789ABCDEF';
+  const baseColor = [255, 165, 0]; // RGB values for a bright color (orange in this case)
+  
+  // Generate slight variations of the base color
+  const randomColor = baseColor.map(component => {
+    const variation = Math.floor(Math.random() * 51) - 25; // Vary each component by up to 25
+    return Math.min(255, Math.max(0, component + variation));
+  });
+
+  return `rgb(${randomColor[0]}, ${randomColor[1]}, ${randomColor[2]})`;
 }
 
 export default Hikes;

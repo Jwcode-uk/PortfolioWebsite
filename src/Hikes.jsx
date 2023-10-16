@@ -135,7 +135,7 @@ function Hikes() {
           },
           source: `d-${source}`,
           paint: {
-            'line-color': randomColor,
+            'line-color': 'red',
             'line-width': 4,
           },
         });

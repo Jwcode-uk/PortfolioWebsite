@@ -121,6 +121,7 @@ function Hikes() {
       });
 
       hikeCollections.forEach((source) => {
+        const randomColor = getRandomColor();
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
         initialMap.addLayer({
           id: source,

@@ -119,9 +119,13 @@ function Hikes() {
           },
         });
       });
-
+      function getRandomColour(colors) {
+        return colors[Math.floor(Math.random() * colors.length)];
+      }
+      const lineColors = ['red', 'blue', 'green', 'orange', 'purple', 'yellow'];
+      
       hikeCollections.forEach((source) => {
-        const randomColor = getRandomColor();
+        const randomColor = getRandomColor(lineColours);
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
         initialMap.addLayer({
           id: source,

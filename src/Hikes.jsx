@@ -119,13 +119,8 @@ function Hikes() {
           },
         });
       });
-      function getRandomColour(colors) {
-        return colors[Math.floor(Math.random() * colors.length)];
-      }
-      const lineColors = ['red', 'blue', 'green', 'orange', 'purple', 'yellow'];
       
       hikeCollections.forEach((source) => {
-        const randomColor = getRandomColor(lineColours);
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
         initialMap.addLayer({
           id: source,
@@ -476,17 +471,5 @@ function Hikes() {
   );
 }
 
-function getRandomBrightColor() {
-  const letters = '0123456789ABCDEF';
-  const baseColor = [255, 165, 0]; // RGB values for a bright color (orange in this case)
-  
-  // Generate slight variations of the base color
-  const randomColor = baseColor.map(component => {
-    const variation = Math.floor(Math.random() * 51) - 25; // Vary each component by up to 25
-    return Math.min(255, Math.max(0, component + variation));
-  });
-
-  return `rgb(${randomColor[0]}, ${randomColor[1]}, ${randomColor[2]})`;
-}
 
 export default Hikes;

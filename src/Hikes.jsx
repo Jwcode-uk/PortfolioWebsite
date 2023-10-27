@@ -23,7 +23,7 @@ const hikeCollections = [
   'Aysgill_Force',
   'Hardraw_Force',
   'Roseberry_Topping',
-  'Ingleborough','Sadgill','High_Street','Branstree','Skidaw','Birk_of_Aberfeldy','The_Cheviot_Circular','Lords_Seat','Winter_Crag'
+  'Ingleborough','Sadgill','High_Street','Branstree','Skidaw','Birk_of_Aberfeldy','The_Cheviot_Circular','Lords_Seat','Winter_Crag','Windy_Gyle',"Hare_Law","Hen_Holes"
 ];
 const layerSources = [
   'birketts',
@@ -75,6 +75,9 @@ function Hikes() {
     Roseberry_Topping: useState(true),
     Lords_Seat: useState(true),
     Winter_Crag: useState(true),
+    Windy_Gyle: useState(true),
+    HareLaw: useState(true),
+    HenHoles: useState(true),
 
   };
   const { location } = useParams(); // used to get the location from url if specific hike shared
@@ -130,7 +133,7 @@ function Hikes() {
           },
           source: `d-${source}`,
           paint: {
-            'line-color': 'red',
+            'line-color': ["get","color"],
             'line-width': 4,
           },
         });

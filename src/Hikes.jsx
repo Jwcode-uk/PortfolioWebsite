@@ -164,9 +164,8 @@ function Hikes() {
     });
 
     if (location) {
-      initialMap.whenReady(function()  {
       initialMap.jumpTo({ center: startPos[location] });
-    })}
+    }
 
     hikeCollections.forEach((source) => {
       initialMap.on('click', source, async (e) => {

@@ -7,6 +7,7 @@ import './style/App.css';
 import Nav from './components/Nav';
 // access key - 'fine' being hardcoded as only on free tier and only accepts requests from jwcode.uk
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvNng1ZnV3N3RjIn0.rPcKW9uT3LvaOZ8vHItwzg';
+
 // List of hike and hill datasets
 const hikeCollections = [
   'Arthurs_Pike',

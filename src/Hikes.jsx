@@ -39,7 +39,7 @@ const hikeCollections = [
   'Kieldar_1',
   'Kieldar_2',
   'Stargazing',
-  'Aira_force', 'High_Seat'
+  'Aira_force', 'High_Seat', 'Simons_Seat', 'Bleaberry_Fell'
 ];
 const layerSources = [
   'birketts',
@@ -100,6 +100,8 @@ function Hikes() {
     Stargazing: useState(true),
     Aira_force: useState(true),
     High_Seat: useState(true),
+    Simons_Seat: useState(true),
+    Bleaberry_Fell: useState(true),
   };
   const { location } = useParams(); // used to get the location from url if specific hike shared
   console.log(location);

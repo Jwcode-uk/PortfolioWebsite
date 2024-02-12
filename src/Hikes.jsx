@@ -149,11 +149,8 @@ function Hikes() {
       });
       
       hikeCollections.forEach((source) => {
-        fetch(`../hikeData/${source}.js`)
-        .then(response => response.json())
-        .then(data => {
-          const matches = data.features.some(feature => 
-            feature.properties.names && feature.properties.names.includes(location)
+        fetch(`../hikeData/${source}.js`).then(response => response.json())then(data => {
+          const matches = data.features.some(feature =>  feature.properties.names && feature.properties.names.includes(location)
           );
 
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
@@ -168,7 +165,7 @@ function Hikes() {
             'line-color': ["get","color"],
             'line-width': 4,
           },
-        });
+        });});
       });
 
       setMap(initialMap);

@@ -149,6 +149,7 @@ function Hikes() {
       });
       
       hikeCollections.forEach((source) => {
+          console.log("!!",["get","name"]);
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
         initialMap.addLayer({
           id: source,

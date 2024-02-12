@@ -149,7 +149,7 @@ function Hikes() {
       });
       
       hikeCollections.forEach((source) => {
-        fetch(`../hikeData/${source}.js`).then(response => response.json())then(data => {
+        fetch(`../hikeData/${source}.js`).then(response => response.json()).then(data => {
           const matches = data.features.some(feature =>  feature.properties.names && feature.properties.names.includes(location)
           );
 

@@ -149,12 +149,19 @@ function Hikes() {
       });
       
       hikeCollections.forEach((source) => {
+        fetch(`../hikeData/${source}.js`)
+        .then(response => response.json())
+        .then(data => {
+          const matches = data.features.some(feature => 
+            feature.properties.names && feature.properties.names.includes(location)
+          );
+
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
         initialMap.addLayer({
           id: source,
           type: 'line',
           layout: {
-            visibility: !location || location === source ? 'visible' : 'none',
+            visibility: !location || location === source || matches ? 'visible' : 'none',
           },
           source: `d-${source}`,
           paint: {

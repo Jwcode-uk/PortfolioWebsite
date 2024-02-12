@@ -60,6 +60,17 @@ const startPos = {
   Haweswater: [-2.82133, 54.48836],
 };
 
+function checkNameInProperties(geojsonData, location) {
+  // Assuming geojsonData is the parsed GeoJSON object
+  let matches = [];
+  geojsonData.features.forEach(feature => {
+    if (feature.properties.names && feature.properties.names.includes(location)) {
+      matches.push(feature);
+    }
+  });
+  return matches;
+}
+
 function Hikes() {
   const hillCollectionVisiblity = {
     Trigs: useState(false),
@@ -149,13 +160,22 @@ function Hikes() {
       });
       
       hikeCollections.forEach((source) => {
-          console.log("!!",["get","name"]);
+        const name = false;
+        fetch(`../hikeData/${source}.js`)
+    .then(response => response.json())
+    .then(data => {
+        console.log(`hunting`);
+      const matches = checkNameInProperties(data, location);
+      if (matches.length > 0) {
+        console.log(`Found matches for ${location}:`, matches);
+        name = true;
+      }});
         initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
         initialMap.addLayer({
           id: source,
           type: 'line',
           layout: {
-            visibility: !location || location === source || ["get","name"] === location ? 'visible' : 'none',
+            visibility: !location || location === source || name ? 'visible' : 'none',
           },
           source: `d-${source}`,
           paint: {

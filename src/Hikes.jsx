@@ -64,6 +64,8 @@ function checkNameInProperties(geojsonData, location) {
   // Assuming geojsonData is the parsed GeoJSON object
   let matches = [];
   geojsonData.features.forEach(feature => {
+    console.log(`1 ${location}:`, feature.properties.names);
+    console.log(`2 ${location}:`, feature.properties.names);
     if (feature.properties.names && feature.properties.names.includes(location)) {
       matches.push(feature);
     }

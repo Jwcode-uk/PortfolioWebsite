@@ -5,7 +5,7 @@ import mapboxgl from '!mapbox-gl';
 import './style/App.css';
 // eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';
-// access key - 'fine' being hardcoded as only on free tier and only accepts requests from jwcode.uk
+// access key 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvNng1ZnV3N3RjIn0.rPcKW9uT3LvaOZ8vHItwzg';
 
 // List of hike and hill datasets

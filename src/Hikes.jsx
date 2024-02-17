@@ -157,8 +157,8 @@ function Hikes() {
               'line-color': ['get', 'color'],
               'line-width': [
                 'interpolate', ['linear'], ['zoom'],
-                10, 2,
-                20, 15,
+                10, 1,
+                15, 4,
               ],
             },
           });
@@ -295,24 +295,7 @@ function Hikes() {
     return altitudes;
   }
 
-  function shrinkArray(arr) {
-    const n = 1000;
-    if (arr.length <= n) {
-      return arr; // No need to squish if the array is already smaller or equal to n
-    }
 
-    const squishedArray = [];
-    const ratio = Math.ceil(arr.length / n); // Calculate the ratio for squishing
-
-    for (let i = 0; i < arr.length; i += ratio) {
-      const chunk = arr.slice(i, i + ratio); // Get a chunk of the original array
-      const average = chunk.reduce((sum, num) => sum + num, 0) / chunk.length;
-      // Calculate the average of the chunk
-      squishedArray.push(average); // Push the average value to the squished array
-    }
-
-    return squishedArray;
-  }
 
   // Usage
 

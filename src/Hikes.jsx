@@ -10,41 +10,41 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvN
 
 // List of hike and hill datasets
 const hikeCollections = [
+  'Aira_Force',
   'Arthurs_Pike',
+  'Aysgill_Force',
+  'Birks_of_Aberfeldy',
+  'Bleaberry_Fell',
   'Blencathra',
+  'Branstree',
   'Cheviot_Sunrise',
   'Dodds_wood',
-  'Haweswater',
-  'Helvellyn',
-  'Legburthwaite_infinity_pool',
-  'Whernside',
-  'Ulswater',
   'Hadrians_wall',
-  'Simonside',
-  'Aysgill_Force',
   'Hardraw_Force',
-  'Roseberry_Topping',
-  'Ingleborough',
-  'Sadgill',
-  'High_Street',
-  'Branstree',
-  'Skidaw',
-  'Birks_of_Aberfeldy',
-  'The_Cheviot_Circular',
-  'Lords_Seat',
-  'Winter_Crag',
-  'Windy_Gyle',
   'Hare_Law',
+  'Haweswater',
+  'Hellvelyn_from_west',
+  'Helvellyn',
   'Hen_Holes',
+  'High_Seat',
+  'High_Street',
+  'Ingleborough',
   'Kieldar_1',
   'Kieldar_2',
-  'Stargazing',
-  'Aira_Force',
-  'High_Seat',
+  'Legburthwaite_infinity_pool',
+  'Lords_Seat',
+  'Roseberry_Topping',
+  'Sadgill',
+  'Simon\'s_Seat',
   'Simons_Seat',
-  'Bleaberry_Fell',
-  'Hellvelyn_from_west',
-  'Branstree'
+  'Simonside',
+  'Skidaw',
+  'Stargazing',
+  'The_Cheviot_Circular',
+  'Ulswater',
+  'Whernside',
+  'Windy_Gyle',
+  'Winter_Crag'
 ];
 const layerSources = [
   'birketts',
@@ -77,6 +77,14 @@ function checkNameInProperties(geojsonData, location) {
   return false;
 }
 
+const generateHikeCollectionVisibility = (hikeCollections) => {
+  const initialState = {};
+  hikeCollections.forEach(hike => {
+    initialState[hike] = useState(true); // This sets up each hike with a visible state
+  });
+  return initialState;
+};
+
 function Hikes() {
   const hillCollectionVisiblity = {
     Trigs: useState(false),
@@ -91,39 +99,7 @@ function Hikes() {
     Trail100s: useState(false),
     Cheviot99: useState(false),
   };
-  const hikeCollectionVisiblity = {
-    Arthurs_Pike: useState(true),
-    Blencathra: useState(true),
-    Cheviot_Sunrise: useState(true),
-    Dodds_wood: useState(true),
-    Haweswater: useState(true),
-    Helvellyn: useState(true),
-    Legburthwaite_infinity_pool: useState(true),
-    Whernside: useState(true),
-    Ulswater: useState(true),
-    Hadrians_wall: useState(true),
-    Simonside: useState(true),
-    Aysgill_Force: useState(true),
-    Hardraw_Force: useState(true),
-    Ingleborough: useState(true),
-    Roseberry_Topping: useState(true),
-    Lords_Seat: useState(true),
-    Winter_Crag: useState(true),
-    Windy_Gyle: useState(true),
-    Hare_Law: useState(true),
-    Hen_Holes: useState(true),
-    Kieldar_1: useState(true),
-    Kieldar_2: useState(true),
-    Stargazing: useState(true),
-    Aira_force: useState(true),
-    High_Street: useState(true),
-    High_Seat: useState(true),
-    Simons_Seat: useState(true),
-    Bleaberry_Fell: useState(true),
-    Hellvelyn_from_west: useState(true), 
-    Birks_of_Aberfeldy: useState(true),
-    Branstree: useState(true)
-  };
+  const hikeCollectionVisiblity = generateHikeCollectionVisibility(hikeCollections);
   const { location } = useParams(); // used to get the location from url if specific hike shared
   console.log(location);
   const mapContainer = useRef(null);
@@ -329,6 +305,18 @@ function Hikes() {
     }
   };
 
+  const toggleAllHikesVisibility = (isVisible) => {
+    if (map) {
+      const visibility = isVisible ? 'visible' : 'none';
+      Object.entries(hikeCollectionVisiblity).forEach(([layer, [_, setter]]) => {
+        map.setLayoutProperty(layer, 'visibility', visibility);
+        setter(isVisible);
+      });
+    }
+  };
+  
+
+
   const [menuVisible, setMenuVisible] = useState(false);
   const toggleMenu = () => {
     setMenuVisible((prevMenuVisible) => !prevMenuVisible);
@@ -402,7 +390,7 @@ function Hikes() {
             bottom: '60px',
             left: '10px',
             borderRadius: '5px',
-          }}
+                    }}
         >
           {Object.entries(hillCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
             <button
@@ -440,8 +428,44 @@ function Hikes() {
           bottom: '60px',
           left: '150px',
           borderRadius: '5px',
+          overflow: 'scroll',
+          height: '600px',
         }}
       >
+            <button
+            type="button"
+            onClick={() => {
+              toggleAllHikesVisibility(false);
+            }}
+            style={{
+              display: 'block',
+              marginBottom: '10px',
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              textDecoration: 'none',
+              color: 'white',
+            }}
+          >
+            Hide All
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              toggleAllHikesVisibility(true);
+            }}
+            style={{
+              display: 'block',
+              marginBottom: '10px',
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              textDecoration: 'none',
+              color: 'white',
+            }}
+          >
+            Show All
+          </button>
         {Object.entries(hikeCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
           <button
             type="button"
@@ -464,6 +488,8 @@ function Hikes() {
           </button>
 
         ))}
+
+
 
       </div>
       )}

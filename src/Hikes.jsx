@@ -185,7 +185,26 @@ function Hikes() {
         // }
 
         // eslint-disable-next-line no-use-before-define
-        const altitudes = getAltitudes(geometry.coordinates, initialMap);
+        let allCoordinates = [];
+        switch (geometry.type) {
+          case 'Point':
+            allCoordinates = [geometry.coordinates]; // Wrap in array for consistency
+            break;
+          case 'LineString':
+          case 'MultiPoint':
+            allCoordinates = geometry.coordinates;
+            break;
+          case 'Polygon':
+          case 'MultiLineString':
+            allCoordinates = geometry.coordinates.flat(1);
+            break;
+          case 'MultiPolygon':
+            allCoordinates = geometry.coordinates.flat(2);
+            break;
+          default:
+            console.warn('Unknown geometry type:', geometry.type);
+        }
+        const altitudes = getAltitudes(allCoordinates, initialMap);
         const popupContent = document.createElement('div');
         popupContent.style.width = '300px';
         popupContent.style.height = '150px';

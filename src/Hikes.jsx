@@ -145,9 +145,6 @@ function Hikes() {
       });
       hikeCollections.forEach((source) => {
         fetch(`../hikeData/${source}.js`).then(response => response.json()).then(data => {
-          console.log(source);
-          console.log(data);
-          console.log(location);
 
           let match = checkNameInProperties(data, location);
       
@@ -161,7 +158,11 @@ function Hikes() {
             source: `d-${source}`,
             paint: {
               'line-color': ["get", "color"],
-              'line-width': 4,
+              'line-width': [
+                "interpolate", ["linear"], ["zoom"],
+                10, 2,
+                20, 15
+              ],
             },
           });
         });
@@ -237,12 +238,11 @@ function Hikes() {
               },
             },
             plugins: {
-            // Adding a title to the chart
-              // title: {
-              //   display: true,
-              //   text: name,
-              //   color: 'rgba(255, 255, 255, 1)', // Optional: Color of the title
-              // },
+              title: {
+                 display: true,
+                 text: "Hike elevation gain at " + source.replace(/_/g, " ") ,
+                 color: 'rgba(255, 255, 255, 1)', // Optional: Color of the title
+               },
               // Hiding the key (legend)
               legend: {
                 display: false,
@@ -472,12 +472,13 @@ function Hikes() {
           </button>
         {Object.entries(hikeCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
           <button
+    
             type="button"
             onClick={() => {
               setVisible((prevVisible) => !prevVisible);
               toggleLayerVisibility(layer);
             }}
-            key={layer}
+            key={layer.replace(/_/g, " ")}
             style={{
               display: 'block',
               marginBottom: '10px',
@@ -488,7 +489,7 @@ function Hikes() {
               color: 'white',
             }}
           >
-            {!visible ? (location ? `Hide ${layer}` : `Show ${layer}`) : (location ? `Show ${layer}` : `Hide ${layer}`) }
+            {!visible ? (location ? `Hide ${layer.replace(/_/g, " ")}` : `Show ${layer.replace(/_/g, " ")}`) : (location ? `Show ${layer.replace(/_/g, " ")}` : `Hide ${layer.replace(/_/g, " ")}`) }
           </button>
 
         ))}

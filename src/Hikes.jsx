@@ -67,8 +67,8 @@ const startPos = {
 
 function checkNameInProperties(geojsonData, location) {
   // Assuming geojsonData is the parsed GeoJSON object
-  let feature = geojsonData.features[0].properties.names || [];
-  console.log(feature);
+  let feature = geojsonData.features[0].properties.names ||geojsonData.features[1].properties.names ||geojsonData.features[2].properties.names || [];
+
   if(feature.includes(location))
   {
     console.log("TRUE");
@@ -145,6 +145,10 @@ function Hikes() {
       });
       hikeCollections.forEach((source) => {
         fetch(`../hikeData/${source}.js`).then(response => response.json()).then(data => {
+          console.log(source);
+          console.log(data);
+          console.log(location);
+
           let match = checkNameInProperties(data, location);
       
           initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });

@@ -5,7 +5,7 @@ import mapboxgl from '!mapbox-gl';
 import './style/App.css';
 // eslint-disable-next-line import/no-cycle
 import Nav from './components/Nav';
-// access key 
+// access key
 mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvNng1ZnV3N3RjIn0.rPcKW9uT3LvaOZ8vHItwzg';
 
 // List of hike and hill datasets
@@ -44,7 +44,7 @@ const hikeCollections = [
   'Ulswater',
   'Whernside',
   'Windy_Gyle',
-  'Winter_Crag'
+  'Winter_Crag',
 ];
 const layerSources = [
   'birketts',
@@ -57,7 +57,7 @@ const layerSources = [
   'trail100s',
   'trigpoints',
   'wainwrights',
-  'wales', 
+  'wales',
   'trigs',
 ];
 
@@ -67,11 +67,13 @@ const startPos = {
 
 function checkNameInProperties(geojsonData, location) {
   // Assuming geojsonData is the parsed GeoJSON object
-  let feature = geojsonData.features[0].properties.names ||geojsonData.features[1].properties.names ||geojsonData.features[2].properties.names || [];
+  const feature = geojsonData.features[0].properties.names
+  || geojsonData.features[1].properties.names
+  || geojsonData.features[2].properties.names
+  || [];
 
-  if(feature.includes(location))
-  {
-    console.log("TRUE");
+  if (feature.includes(location)) {
+    console.log('TRUE');
     return true;
   }
   return false;
@@ -79,7 +81,7 @@ function checkNameInProperties(geojsonData, location) {
 
 const generateHikeCollectionVisibility = (hikeCollections) => {
   const initialState = {};
-  hikeCollections.forEach(hike => {
+  hikeCollections.forEach((hike) => {
     initialState[hike] = useState(true); // This sets up each hike with a visible state
   });
   return initialState;
@@ -144,10 +146,17 @@ function Hikes() {
         });
       });
       hikeCollections.forEach((source) => {
-        fetch(`../hikeData/${source}.js`).then(response => response.json()).then(data => {
+        fetch(`../hikeData/${source}.js`).then((response) => response.json()).then((data) => {
+          if (location) {
+            const match = checkNameInProperties(data, location);
+            if (match) {
+              Object.entries(hikeCollectionVisiblity).forEach(([layer, [_, setter]]) => {
+                map.setLayoutProperty(layer, 'visibility', visibility);
+                setter(isVisible);
+              });
+            }
+          }
 
-          let match = checkNameInProperties(data, location);
-      
           initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
           initialMap.addLayer({
             id: source,
@@ -157,17 +166,16 @@ function Hikes() {
             },
             source: `d-${source}`,
             paint: {
-              'line-color': ["get", "color"],
+              'line-color': ['get', 'color'],
               'line-width': [
-                "interpolate", ["linear"], ["zoom"],
+                'interpolate', ['linear'], ['zoom'],
                 10, 2,
-                20, 15
+                20, 15,
               ],
             },
           });
         });
       });
-      
 
       setMap(initialMap);
     });
@@ -179,11 +187,6 @@ function Hikes() {
     hikeCollections.forEach((source) => {
       initialMap.on('click', source, async (e) => {
         const { geometry } = e.features[0];
-        // let name = '';
-        // if (e.features.length > 0) {
-        //   name = e.features.at(-1).properties.name || 'No description available';
-        // }
-
         // eslint-disable-next-line no-use-before-define
         let allCoordinates = [];
         switch (geometry.type) {
@@ -258,10 +261,10 @@ function Hikes() {
             },
             plugins: {
               title: {
-                 display: true,
-                 text: "Hike elevation gain at " + source.replace(/_/g, " ") ,
-                 color: 'rgba(255, 255, 255, 1)', // Optional: Color of the title
-               },
+                display: true,
+                text: `Hike elevation gain at ${source.replace(/_/g, ' ')}`,
+                color: 'rgba(255, 255, 255, 1)', // Optional: Color of the title
+              },
               // Hiding the key (legend)
               legend: {
                 display: false,
@@ -294,7 +297,7 @@ function Hikes() {
       altitudes.push(altitude);
     }
     // eslint-disable-next-line no-use-before-define
-    return shrinkArray(altitudes);
+    return altitudes;
   }
 
   function shrinkArray(arr) {
@@ -337,8 +340,6 @@ function Hikes() {
       });
     }
   };
-  
-
 
   const [menuVisible, setMenuVisible] = useState(false);
   const toggleMenu = () => {
@@ -413,7 +414,7 @@ function Hikes() {
             bottom: '60px',
             left: '10px',
             borderRadius: '5px',
-                    }}
+          }}
         >
           {Object.entries(hillCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
             <button
@@ -455,49 +456,49 @@ function Hikes() {
           height: '600px',
         }}
       >
-            <button
-            type="button"
-            onClick={() => {
-              toggleAllHikesVisibility(false);
-            }}
-            style={{
-              display: 'block',
-              marginBottom: '10px',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              textDecoration: 'none',
-              color: 'white',
-            }}
-          >
-            Hide All
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              toggleAllHikesVisibility(true);
-            }}
-            style={{
-              display: 'block',
-              marginBottom: '10px',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              textDecoration: 'none',
-              color: 'white',
-            }}
-          >
-            Show All
-          </button>
+        <button
+          type="button"
+          onClick={() => {
+            toggleAllHikesVisibility(false);
+          }}
+          style={{
+            display: 'block',
+            marginBottom: '10px',
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            textDecoration: 'none',
+            color: 'white',
+          }}
+        >
+          Hide All
+        </button>
+        <button
+          type="button"
+          onClick={() => {
+            toggleAllHikesVisibility(true);
+          }}
+          style={{
+            display: 'block',
+            marginBottom: '10px',
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            textDecoration: 'none',
+            color: 'white',
+          }}
+        >
+          Show All
+        </button>
         {Object.entries(hikeCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
           <button
-    
+
             type="button"
             onClick={() => {
               setVisible((prevVisible) => !prevVisible);
               toggleLayerVisibility(layer);
             }}
-            key={layer.replace(/_/g, " ")}
+            key={layer.replace(/_/g, ' ')}
             style={{
               display: 'block',
               marginBottom: '10px',
@@ -508,12 +509,10 @@ function Hikes() {
               color: 'white',
             }}
           >
-            {!visible ? (location ? `Hide ${layer.replace(/_/g, " ")}` : `Show ${layer.replace(/_/g, " ")}`) : (location ? `Show ${layer.replace(/_/g, " ")}` : `Hide ${layer.replace(/_/g, " ")}`) }
+            {!visible ? (location ? `Hide ${layer.replace(/_/g, ' ')}` : `Show ${layer.replace(/_/g, ' ')}`) : (location ? `Show ${layer.replace(/_/g, ' ')}` : `Hide ${layer.replace(/_/g, ' ')}`) }
           </button>
 
         ))}
-
-
 
       </div>
       )}
@@ -572,6 +571,5 @@ function Hikes() {
     </>
   );
 }
-
 
 export default Hikes;

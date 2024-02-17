@@ -29,7 +29,7 @@ const hikeCollections = [
   'High_Street',
   'Branstree',
   'Skidaw',
-  'Birk_of_Aberfeldy',
+  'Birks_of_Aberfeldy',
   'The_Cheviot_Circular',
   'Lords_Seat',
   'Winter_Crag',
@@ -39,7 +39,12 @@ const hikeCollections = [
   'Kieldar_1',
   'Kieldar_2',
   'Stargazing',
-  'Aira_force', 'High_Seat', 'Simons_Seat', 'Bleaberry_Fell', 'Hellvelyn_from_west'
+  'Aira_Force',
+  'High_Seat',
+  'Simons_Seat',
+  'Bleaberry_Fell',
+  'Hellvelyn_from_west',
+  'Branstree'
 ];
 const layerSources = [
   'birketts',
@@ -62,15 +67,14 @@ const startPos = {
 
 function checkNameInProperties(geojsonData, location) {
   // Assuming geojsonData is the parsed GeoJSON object
-  let matches = [];
-  geojsonData.features.forEach(feature => {
-    console.log(`1 ${location}:`, feature.properties.names);
-    console.log(`2 ${location}:`, feature.properties.names);
-    if (feature.properties.names && feature.properties.names.includes(location)) {
-      matches.push(feature);
-    }
-  });
-  return matches;
+  let feature = geojsonData.features[0].properties.names || [];
+  console.log(feature);
+  if(feature.includes(location))
+  {
+    console.log("TRUE");
+    return true;
+  }
+  return false;
 }
 
 function Hikes() {
@@ -112,10 +116,13 @@ function Hikes() {
     Kieldar_2: useState(true),
     Stargazing: useState(true),
     Aira_force: useState(true),
+    High_Street: useState(true),
     High_Seat: useState(true),
     Simons_Seat: useState(true),
     Bleaberry_Fell: useState(true),
-    Hellvelyn_from_west: useState(true)
+    Hellvelyn_from_west: useState(true), 
+    Birks_of_Aberfeldy: useState(true),
+    Branstree: useState(true)
   };
   const { location } = useParams(); // used to get the location from url if specific hike shared
   console.log(location);
@@ -160,32 +167,26 @@ function Hikes() {
           },
         });
       });
-      
       hikeCollections.forEach((source) => {
-        const name = false;
-        fetch(`../hikeData/${source}.js`)
-    .then(response => response.json())
-    .then(data => {
-        console.log(`hunting`);
-      const matches = checkNameInProperties(data, location);
-      if (matches.length > 0) {
-        console.log(`Found matches for ${location}:`, matches);
-        name = true;
-      }});
-        initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
-        initialMap.addLayer({
-          id: source,
-          type: 'line',
-          layout: {
-            visibility: !location || location === source || name ? 'visible' : 'none',
-          },
-          source: `d-${source}`,
-          paint: {
-            'line-color': ["get","color"],
-            'line-width': 4,
-          },
+        fetch(`../hikeData/${source}.js`).then(response => response.json()).then(data => {
+          let match = checkNameInProperties(data, location);
+      
+          initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
+          initialMap.addLayer({
+            id: source,
+            type: 'line',
+            layout: {
+              visibility: !location || location === source || match ? 'visible' : 'none',
+            },
+            source: `d-${source}`,
+            paint: {
+              'line-color': ["get", "color"],
+              'line-width': 4,
+            },
+          });
         });
       });
+      
 
       setMap(initialMap);
     });

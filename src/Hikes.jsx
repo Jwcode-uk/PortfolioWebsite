@@ -67,10 +67,7 @@ const startPos = {
 
 function checkNameInProperties(geojsonData, location) {
   // Assuming geojsonData is the parsed GeoJSON object
-  const feature = geojsonData.features[0].properties.names
-  || geojsonData.features[1].properties.names
-  || geojsonData.features[2].properties.names
-  || [];
+  const feature = geojsonData.features[0].properties.names || geojsonData.features[1].properties.names || geojsonData.features[2].properties.names || [];
 
   if (feature.includes(location)) {
     console.log('TRUE');
@@ -147,16 +144,7 @@ function Hikes() {
       });
       hikeCollections.forEach((source) => {
         fetch(`../hikeData/${source}.js`).then((response) => response.json()).then((data) => {
-          if (location) {
-            const match = checkNameInProperties(data, location);
-            if (match) {
-              Object.entries(hikeCollectionVisiblity).forEach(([layer, [_, setter]]) => {
-                map.setLayoutProperty(layer, 'visibility', visibility);
-                setter(isVisible);
-              });
-            }
-          }
-
+          const match = checkNameInProperties(data, location);
           initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
           initialMap.addLayer({
             id: source,
@@ -186,7 +174,14 @@ function Hikes() {
 
     hikeCollections.forEach((source) => {
       initialMap.on('click', source, async (e) => {
+        console.log(e); // Inspect the event object
         const { geometry } = e.features[0];
+        console.log(geometry); // Inspect the geometry object
+        // let name = '';
+        // if (e.features.length > 0) {
+        //   name = e.features.at(-1).properties.name || 'No description available';
+        // }
+
         // eslint-disable-next-line no-use-before-define
         let allCoordinates = [];
         switch (geometry.type) {

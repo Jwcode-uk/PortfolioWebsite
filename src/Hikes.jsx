@@ -35,7 +35,6 @@ const hikeCollections = [
   'Lords_Seat',
   'Roseberry_Topping',
   'Sadgill',
-  'Simon\'s_Seat',
   'Simons_Seat',
   'Simonside',
   'Skidaw',

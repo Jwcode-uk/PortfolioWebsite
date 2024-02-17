@@ -364,7 +364,7 @@ function Hikes() {
           zIndex: 1,
           position: 'absolute',
           bottom: '20px',
-          left: '10px',
+          left: '0px',
           background: 'rgba(0, 0, 0, 0.5)',
           border: 'none',
           color: 'white',
@@ -445,10 +445,10 @@ function Hikes() {
           background: 'rgba(0, 0, 0, 0.5)',
           padding: '10px',
           bottom: '60px',
-          left: '150px',
+          left: '160px',
           borderRadius: '5px',
           overflow: 'scroll',
-          height: '600px',
+          height: '400px',
         }}
       >
         <button
@@ -487,7 +487,6 @@ function Hikes() {
         </button>
         {Object.entries(hikeCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
           <button
-
             type="button"
             onClick={() => {
               setVisible((prevVisible) => !prevVisible);
@@ -502,6 +501,9 @@ function Hikes() {
               cursor: 'pointer',
               textDecoration: 'none',
               color: 'white',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              whiteSpace: 'nowrap',
             }}
           >
             {!visible ? (location ? `Hide ${layer.replace(/_/g, ' ')}` : `Show ${layer.replace(/_/g, ' ')}`) : (location ? `Show ${layer.replace(/_/g, ' ')}` : `Hide ${layer.replace(/_/g, ' ')}`) }

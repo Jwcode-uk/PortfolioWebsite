@@ -82,8 +82,10 @@ const generateHikeCollectionVisibility = (hikeCollections) => {
   });
   return initialState;
 };
+let found = [];
 
 function Hikes() {
+
   const hillCollectionVisiblity = {
     Trigs: useState(false),
     Wainwrights: useState(false),
@@ -144,6 +146,9 @@ function Hikes() {
       hikeCollections.forEach((source) => {
         fetch(`../hikeData/${source}.js`).then((response) => response.json()).then((data) => {
           const match = checkNameInProperties(data, location);
+          if (match) {
+            found.push(source);
+          }
           initialMap.addSource(`d-${source}`, { type: 'geojson', data: `../hikeData/${source}.js` });
           initialMap.addLayer({
             id: source,
@@ -294,8 +299,6 @@ function Hikes() {
     return altitudes;
   }
 
-
-
   // Usage
 
   const toggleLayerVisibility = (layer) => {
@@ -430,7 +433,7 @@ function Hikes() {
           left: '160px',
           borderRadius: '5px',
           overflow: 'scroll',
-          height: '400px',
+          maxHeight: '400px',
         }}
       >
         <button
@@ -467,31 +470,33 @@ function Hikes() {
         >
           Show All
         </button>
-        {Object.entries(hikeCollectionVisiblity).map(([layer, [visible, setVisible]]) => (
-          <button
-            type="button"
-            onClick={() => {
-              setVisible((prevVisible) => !prevVisible);
-              toggleLayerVisibility(layer);
-            }}
-            key={layer.replace(/_/g, ' ')}
-            style={{
-              display: 'block',
-              marginBottom: '10px',
-              background: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              textDecoration: 'none',
-              color: 'white',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-              whiteSpace: 'nowrap',
-            }}
-          >
-            {!visible ? (location ? `Hide ${layer.replace(/_/g, ' ')}` : `Show ${layer.replace(/_/g, ' ')}`) : (location ? `Show ${layer.replace(/_/g, ' ')}` : `Hide ${layer.replace(/_/g, ' ')}`) }
-          </button>
-
-        ))}
+        {Object.entries(hikeCollectionVisiblity).map(([layer, [visible, setVisible]]) => {
+          const shouldShowButton = found.length === 0 || found.includes(layer);
+          return shouldShowButton ? (
+            <button
+              type="button"
+              onClick={() => {
+                setVisible((prevVisible) => !prevVisible);
+                toggleLayerVisibility(layer);
+              }}
+              key={layer.replace(/_/g, ' ')}
+              style={{
+                display: 'block',
+                marginBottom: '10px',
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                textDecoration: 'none',
+                color: 'white',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {!visible ? (location ? `Hide ${layer.replace(/_/g, ' ')}` : `Show ${layer.replace(/_/g, ' ')}`) : (location ? `Show ${layer.replace(/_/g, ' ')}` : `Hide ${layer.replace(/_/g, ' ')}`) }
+            </button>
+          ) : null;
+        })}
 
       </div>
       )}

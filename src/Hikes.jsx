@@ -82,10 +82,9 @@ const generateHikeCollectionVisibility = (hikeCollections) => {
   });
   return initialState;
 };
-let found = [];
+const found = [];
 
 function Hikes() {
-
   const hillCollectionVisiblity = {
     Trigs: useState(false),
     Wainwrights: useState(false),
@@ -314,9 +313,16 @@ function Hikes() {
   const toggleAllHikesVisibility = (isVisible) => {
     if (map) {
       const visibility = isVisible ? 'visible' : 'none';
+      const ivisibility = !isVisible ? 'visible' : 'none';
       Object.entries(hikeCollectionVisiblity).forEach(([layer, [_, setter]]) => {
-        map.setLayoutProperty(layer, 'visibility', visibility);
-        setter(isVisible);
+        const shouldShowButton = found.length === 0 || found.includes(layer);
+        if (shouldShowButton) {
+          map.setLayoutProperty(layer, 'visibility', visibility);
+          setter(isVisible);
+        } else {
+          map.setLayoutProperty(layer, 'visibility', ivisibility);
+          setter(!isVisible);
+        }
       });
     }
   };

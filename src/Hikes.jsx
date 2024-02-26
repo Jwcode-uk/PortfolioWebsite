@@ -19,6 +19,7 @@ const hikeCollections = [
   'Branstree',
   'Cheviot_Sunrise',
   'Dodds_wood',
+  'Fairfield',
   'Hadrians_wall',
   'Hardraw_Force',
   'Hare_Law',

@@ -43,6 +43,7 @@ const hikeCollections = [
   'The_Cheviot_Circular',
   'Ulswater',
   'Whernside',
+  'Whiteside',
   'Windy_Gyle',
   'Winter_Crag',
 ];

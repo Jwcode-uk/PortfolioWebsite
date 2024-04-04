@@ -40,6 +40,7 @@ const hikeCollections = [
   'Simons_Seat',
   'Simonside',
   'Skidaw',
+  'Stake_Pass',
   'Stargazing',
   'The_Cheviot_Circular',
   'Ulswater',

@@ -35,6 +35,7 @@ const hikeCollections = [
   'Legburthwaite_infinity_pool',
   'Lords_Seat',
   'Roseberry_Topping',
+  'Tarn_Hows_Circular',
   'Sadgill',
   'Simons_Seat',
   'Simonside',

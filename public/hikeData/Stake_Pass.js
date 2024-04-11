@@ -1,10 +1,10 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"coordinates": [
           [
             -3.134693630007604,
             54.5103183253818
@@ -1238,13 +1238,13 @@
             54.46939567178799
           ]
         ],
-        "type": "LineString",
-	"properties": {
+				"type": "LineString"
+			  },
+			"properties": {
 		"name": "Stake Pass",
 		"color": "yellow",
 		"names":["Joe","Me"]
 			}
-      }
-    }
-  ]
+		}
+	]
 }

@@ -3,7 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
       "geometry": {
         "coordinates": [
           [
@@ -1240,10 +1239,10 @@
           ]
         ],
         "type": "LineString",
-			"properties": {
-				"name": "Stake Pass",
-				"color": "yellow",
-				"names":["Joe","Me"]
+	"properties": {
+		"name": "Stake Pass",
+		"color": "yellow",
+		"names":["Joe","Me"]
 			}
       }
     }

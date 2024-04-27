@@ -83,8 +83,9 @@ def plot_wainwrights_on_satellite_map(wainwrights_gdf, all_near_wainwrights):
     return folium_map
 
 if __name__ == "__main__":
-    directory_path = "/home/jonathan/Documents/PortfolioWebsite/public/hikeData/"
-    wainwrights_geojson = load_geojson("/home/jonathan/Documents/PortfolioWebsite/public/mapData/wainwrights.geojson")
+    directory_path ="../public/hikeData/"
+
+    wainwrights_geojson = load_geojson("../public/mapData/wainwrights.geojson")
     all_near_wainwrights = set()
 
     for route_file in glob(os.path.join(directory_path, "*.js")):
@@ -103,4 +104,5 @@ if __name__ == "__main__":
     map.save('./map.html')
     print(f"Total unique Wainwrights within 50m across all hikes: {len(all_near_wainwrights)}")
     print("Unique Wainwrights within 50m:\n", all_near_wainwrights)
+    print(f"Percentage of hill conquered: {round((len(all_near_wainwrights)/214)*100,1)}%")
 

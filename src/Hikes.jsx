@@ -17,6 +17,7 @@ const hikeCollections = [
   'Bleaberry_Fell',
   'Blencathra',
   'Branstree',
+  'Catbells',
   'Cheviot_Sunrise',
   'Dodds_wood',
   'Fairfield',

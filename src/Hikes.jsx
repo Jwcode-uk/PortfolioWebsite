@@ -11,13 +11,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZG9udGNvZGVtZSIsImEiOiJjbGdiYjBiaW4xNzhzM3BvN
 // List of hike and hill datasets
 const hikeCollections = [
   'Aira_Force',
+  'Angle_tarn_camp_day_1',
+  'Angle_tarn_camp_day_2',
   'Arthurs_Pike',
   'Aysgill_Force',
   'Birks_of_Aberfeldy',
   'Bleaberry_Fell',
   'Blencathra',
   'Branstree',
-  'Catbells',
   'Cheviot_Sunrise',
   'Dodds_wood',
   'Fairfield',
@@ -29,6 +30,7 @@ const hikeCollections = [
   'Hellvelyn_from_west',
   'Helvellyn',
   'Hen_Holes',
+  'High_Dodd_attempted_camp',
   'High_Seat',
   'High_Street',
   'Ingleborough',
@@ -43,6 +45,7 @@ const hikeCollections = [
   'Simonside',
   'Skidaw',
   'Skidaw_2024',
+  'Skipton_walk',
   'Stake_Pass',
   'Stargazing',
   'The_Cheviot_Circular',
@@ -51,6 +54,7 @@ const hikeCollections = [
   'Whiteside',
   'Windy_Gyle',
   'Winter_Crag',
+  'Red_pike','Robinson_attempt','Great_Gable_camp','Codale_Tarn_camp_day_1','Codale_Tarn_camp_day_2', 'Catbells', 'Bowness_walk', 'Cathedral_Cavern'
 ];
 const layerSources = [
   'birketts',

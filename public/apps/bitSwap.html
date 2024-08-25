@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modbus Data Swapping</title>
+  <script>
+    function swapBytes(value) {
+      return ((value & 0xFF) << 8) | ((value >> 8) & 0xFF);
+    }
+
+    function swapWords(value) {
+      return ((value & 0xFFFF) << 16) | ((value >> 16) & 0xFFFF);
+    }
+
+    function processData() {
+      var input = document.getElementById('inputText').value;
+      var inputFormat = document.getElementById('inputFormat').value;
+      var swapBytesBool = document.getElementById('swapBytes').checked;
+      var swapWordsBool = document.getElementById('swapWords').checked;
+
+      var uint16Values = input.split(',').map(function(value) {
+        return parseInt(value.trim(), inputFormat === 'hex' ? 16 : 10);
+      });
+
+      if (swapBytesBool) {
+        uint16Values = uint16Values.map(swapBytes);
+      }
+
+      if (swapWordsBool) {
+        for (var i = 0; i < uint16Values.length; i += 2) {
+          if (i + 1 < uint16Values.length) {
+            var temp = uint16Values[i];
+            uint16Values[i] = uint16Values[i + 1];
+            uint16Values[i + 1] = temp;
+          }
+        }
+      }
+
+      var outputFormat = document.getElementById('outputFormat').value;
+      var result = uint16Values.map(function(value) {
+        if (outputFormat === 'hex') {
+          return value.toString(16).padStart(4, '0');
+        } else {
+          return value.toString();
+        }
+      }).join(', ');
+
+      document.getElementById('outputText').value = result;
+    }
+  </script>
+</head>
+<body>
+  <h1>Modbus Data Swapping</h1>
+  <label for="inputFormat">Input Format:</label>
+  <select id="inputFormat">
+    <option value="decimal">Decimal</option>
+    <option value="hex">Hexadecimal</option>
+  </select><br><br>
+  <textarea id="inputText" rows="5" cols="50" placeholder="Enter comma-separated uint16 values"></textarea><br><br>
+  <input type="checkbox" id="swapBytes"> Swap Bytes<br>
+  <input type="checkbox" id="swapWords"> Swap Words<br><br>
+  <label for="outputFormat">Output Format:</label>
+  <select id="outputFormat">
+    <option value="decimal">Decimal</option>
+    <option value="hex">Hexadecimal</option>
+  </select><br><br>
+  <button onclick="processData()">Process Data</button><br><br>
+  <textarea id="outputText" rows="5" cols="50" readonly></textarea>
+</body>
+</html>
